@@ -45,5 +45,8 @@ public class Arifmeticheskie_03 {
         float b1 = b * 100 % 100;
         System.out.println(a1);
         System.out.println(b1);
+
+        float d = (a1 + b1) / 100;
+        System.out.println("Сумма дробных частей двух чисел: " + d); // Сумма дробных частей двух чисел
     }
 }
