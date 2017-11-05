@@ -139,7 +139,7 @@ public class Arifmeticheskie_01 {
         */
         // 13.	Поменять местами значения переменных a и b,
         // сначала с использованием дополнительной третьей переменной, а затем – без.
-        int a = 10;
+        /* int a = 10;
         int b = 20; //Даны значения переменных a, b.
         System.out.println("Дано:   a = " + a);
         System.out.println("        b = " + b);
@@ -149,5 +149,37 @@ public class Arifmeticheskie_01 {
         System.out.println("        a = " + a);
         System.out.println("        b = " + b);
         // Следующая часть задания:
+        */
+
+
+        // Test (practice) немного потренеруемся с примитивными типами данных
+
+        /* byte b = 123;           // 8 bit
+        short sh = 12345;       // 16 bit
+        int i = 12345678;       // 32 bit
+        long l = 1234567890;    // 64 bit
+
+        float f = 123.89f;      // 16 bit
+        double d = 12345.78;    // 32 bit
+
+        boolean t = true, fl = false;
+
+        char ch = 'a';
+
+        System.out.println("Выведем на экран: " + ch);
+        */
+
+        // Test (practice) немного потренеруемся с ссылочными типами данных
+        // Строки
+
+        /* String s1 = "Hello";    // String это по сути класс, s переменная, которая ссылается на экземпляр класса (объект) Hello!
+        // Сложение строк
+        String s2 = " ";
+        String s3 = "John";
+        String s4 = "!";
+
+        System.out.println(s1 + s2 + s3 + s4); // или
+        System.out.println("Hello" + " " + "John" + "!");
+        */
     }
 }

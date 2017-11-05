@@ -1,0 +1,36 @@
+package ru.dvfu.mrcpk.java.proj01;
+
+import java.util.Scanner;
+
+public class Arifmeticheskie_03 {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        // 1.	Марафонец прошел S километров со скоростью V метров в секунду (расстояние и скорость вводятся с клавиатуры).
+        // Определить, сколько времени он был в пути (часов, минут, секунд)?
+
+        System.out.println("Введите с клавиатуры расстояние, пройденное марафонцем (км): ");
+        int S = in.nextInt();   // Переменная, в которую сохраняется введенное значение.
+        System.out.println("Введите с клавиатуры скорость марафонца (м/с): ");
+        int V = in.nextInt();   // Переменная, в которую сохраняется введенное значение.
+        int sec = S * 1000 / V;     // Время в секундах, которое бежал марафонец
+
+        int h = (sec / (60 * 60)) % 24;
+        int m = (sec / 60) % 60;
+        int s = sec % 60;
+
+        /* System.out.println(h); // Предварительный рассчет
+        System.out.println(m); // Предварительный рассчет
+        System.out.println(s); // Предварительный рассчет
+
+        int res = h * 60 * 60 + m * 60 + s * 1;      // Проверка правильности рассчетов
+        System.out.println(res);
+        */
+
+        System.out.println("Марафонец был в пути:");
+        System.out.println("Часов: " + h);
+        System.out.println("ММинут: " + m);
+        System.out.println("Секунд: " + s);
+    }
+}
