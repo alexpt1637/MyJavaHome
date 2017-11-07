@@ -139,7 +139,7 @@ public class Arifmeticheskie_01 {
         */
         // 13.	Поменять местами значения переменных a и b,
         // сначала с использованием дополнительной третьей переменной, а затем – без.
-        /* int a = 10;
+        int a = 10;
         int b = 20; //Даны значения переменных a, b.
         System.out.println("Дано:   a = " + a);
         System.out.println("        b = " + b);
@@ -149,7 +149,6 @@ public class Arifmeticheskie_01 {
         System.out.println("        a = " + a);
         System.out.println("        b = " + b);
         // Следующая часть задания:
-        */
 
 
         // Test (practice) немного потренеруемся с примитивными типами данных
