@@ -94,7 +94,7 @@ public class MyDate {
 
         // set -> сеттеры, т.е. константы
 
-        // Связываем календарь с текущим числом
-        System.out.println(calendar.getTime());         //--> Wed Nov 08 16:47:33 VLAT 2017
+        // Связываем календарь с текущей датой
+        System.out.println(calendar.getTime());         //--> Wed Nov 08 16:47:33 VLAT 2017 (получено из системы)
     }
 }
