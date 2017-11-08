@@ -133,24 +133,18 @@ public class Arifmeticheskie_03 {
 
         // 18. Какая дата будет через N дней? Рекомендуется использование типа GregorianCalendar.
 
-        // Инициализация объекта date
-        Date date = new Date();
+        long curDate = System.currentTimeMillis();
+        Date date = new Date(curDate);
+        // System.out.println(curDate);        // Получаем текущее значение даты и времени в миллисекундах
+        // Задаем значение lond для N-го числа дней
+        System.out.println("Введите с клавиатуры число дней: ");
+        long N = in.nextInt();      // Сохраняем в переменной N введенное пользователем значение
+        long Nms = N * 1000 * 60 * 60 * 24;
+        long msDate = curDate + Nms;
 
-        // Вывод текущей даты и времени с использованием toString()
-        /* System.out.println(date.toString());
-         */
+        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
 
-        // Вывод текущей даты и времени с использованием toString()
-        /* String str = String.format("Текущая дата и время: %tc", date);
-
-        System.out.printf(str);
-        System.out.println();
-        */
-
-        // Вывод текущей даты с использованием toString()
-        System.out.printf("%1$s %2$td %2$tB %2$tY", "Дата:", date);
-
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
-
+        // Проводим преобразование в нужный нам формат даты и времени
+        System.out.println("Через указанное количество дней наступит " + sdf.format(msDate));
     }
 }
