@@ -1,6 +1,13 @@
 package ru.dvfu.mrcpk.java.proj01;
 
+import java.text.SimpleDateFormat;
+import java.time.MonthDay;
+import java.time.YearMonth;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class Arifmeticheskie_03 {
     public static void main(String[] args) {
@@ -90,12 +97,12 @@ public class Arifmeticheskie_03 {
         System.out.println("Секунд: " + s);
         */
 
-        // 6.	Пользователь вводит с клавиатуры расстояние до аэропорта (в километрах, может быть вещественное значение) и время,
+        // 6. Пользователь вводит с клавиатуры расстояние до аэропорта (в километрах, может быть вещественное значение) и время,
         // за которое нужно доехать (в минутах). Вычислить скорость (км/ч), с которой нужно ехать.
 
         // double l = 50, mm = 90;  // Проверочные значения
 
-        System.out.println("Введите с клавиатуры расстояние до аэропорта (в километрах): ");
+        /* System.out.println("Введите с клавиатуры расстояние до аэропорта (в километрах): ");
         double l = in.nextInt();       // Переменная, в которую сохраняется введенное значение.
         System.out.println("Введите с клавиатуры время, за которое нужно доехать (в минутах): ");
         double mm = in.nextInt();       // Переменная, в которую сохраняется введенное значение.
@@ -103,5 +110,47 @@ public class Arifmeticheskie_03 {
         double hh = (mm / 60) % 60, S = l / hh;
 
         System.out.println("Скорость (км/ч), с которой нужно ехать: " + S);
+        */
+
+        // 18. Какая дата будет через N дней? Рекомендуется использование типа GregorianCalendar.
+
+        // Дополнительно вывод дня недели даты на экран
+
+        /* String date = "07.11.2017";
+
+        // Переводим строку в дату
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        Date dayWeek = null;
+        try {
+            dayWeek = format.parse(date);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Вывод дня недели даты на экран
+        System.out.println(new SimpleDateFormat("EEEE").format(dayWeek));
+        */
+
+        // 18. Какая дата будет через N дней? Рекомендуется использование типа GregorianCalendar.
+
+        // Инициализация объекта date
+        Date date = new Date();
+
+        // Вывод текущей даты и времени с использованием toString()
+        /* System.out.println(date.toString());
+         */
+
+        // Вывод текущей даты и времени с использованием toString()
+        /* String str = String.format("Текущая дата и время: %tc", date);
+
+        System.out.printf(str);
+        System.out.println();
+        */
+
+        // Вывод текущей даты с использованием toString()
+        System.out.printf("%1$s %2$td %2$tB %2$tY", "Дата:", date);
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+
     }
 }
