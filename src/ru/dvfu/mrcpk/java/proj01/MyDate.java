@@ -1,6 +1,8 @@
 package ru.dvfu.mrcpk.java.proj01;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class MyDate {
@@ -66,5 +68,33 @@ public class MyDate {
         // Передаем новый шаблон
         sdf.applyPattern("dd-MM-yy HH:mm");
         System.out.println("dd-MM-yy HH:mm " + sdf.format(date));       // dd-MM-yy HH:mm 08-11-17 15:21
+
+        // Вводим строку,содержащую значения даты и времени
+        String dateToParse = "10-11-2017 22:33";
+        // Для исключения ошибки ввода включаем блок:
+        Date parsed = null;     // в данную переменную parsed записываем значение, полученное после преобразования строки в дату
+        // т.к. локальные переменные никогда не имеют значение по умолчанию, то присваиваем ей значение = null, т.е. изначально там ничего не находится
+        try{
+            parsed = sdf.parse(dateToParse);
+        }catch (ParseException ex){
+            System.out.println("Введенное значение на является датой");
+        }
+        System.out.println("parsed data = " + parsed);      //--> parsed data = Fri Nov 10 22:33:00 VLAT 2017
+        // Форматируем значение даты и времени в соответствии с переданным ранее шаблоном "dd-MM-yy HH:mm"
+        System.out.println("formatted data = " + sdf.format(parsed));   //--> formatted data = 10-11-17 22:33
+        // Время внутри программы до всех преобразований в миллисекундах
+
+        // Класс Календарь
+        Calendar calendar = Calendar.getInstance();
+        // вызываем метод calendar.-> (get) и заплняем поле Calendar.-> ()
+        // System.out.println(calendar.get(Calendar.DATE));        //--> '8'
+        // System.out.println(calendar.get(Calendar.MONTH));       //--> '10' вместо 11 т.к. отсчет идет от 0
+        // System.out.println(calendar.get(Calendar.DAY_OF_MONTH));    // день недели отсчет идет от воскресения
+        // System.out.println(calendar.get(Calendar.FEBRUARY));
+
+        // set -> сеттеры, т.е. константы
+
+        // Связываем календарь с текущим числом
+        System.out.println(calendar.getTime());         //--> Wed Nov 08 16:47:33 VLAT 2017
     }
 }
