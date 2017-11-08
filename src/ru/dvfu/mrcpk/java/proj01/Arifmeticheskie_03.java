@@ -138,11 +138,12 @@ public class Arifmeticheskie_03 {
         // System.out.println(curDate);        // Получаем текущее значение даты и времени в миллисекундах
         // Задаем значение lond для N-го числа дней
         System.out.println("Введите с клавиатуры число дней: ");
-        long N = in.nextInt();      // Сохраняем в переменной N введенное пользователем значение
-        long Nms = N * 1000 * 60 * 60 * 24;
-        long msDate = curDate + Nms;
+        long N = in.nextInt();              // Сохраняем в переменной N введенное пользователем значение
+        long Nms = N * 1000 * 60 * 60 * 24; // Переводим введенное количество дней в миллисекунды
+        long msDate = curDate + Nms;        // Добавляем их к текущему значению даты и времени в миллисекундах
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
+        // Класс SimpleDateFormat позволяет форматировать любые пользовательские шаблоны для даты и времени
+        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");      // Задаем шаблон для даты
 
         // Проводим преобразование в нужный нам формат даты и времени
         System.out.println("Через указанное количество дней наступит " + sdf.format(msDate));
