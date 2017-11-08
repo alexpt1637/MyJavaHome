@@ -89,7 +89,7 @@ public class MyDate {
         // вызываем метод calendar.-> (get) и заплняем поле Calendar.-> ()
         // System.out.println(calendar.get(Calendar.DATE));        //--> '8'
         // System.out.println(calendar.get(Calendar.MONTH));       //--> '10' вместо 11 т.к. отсчет идет от 0
-        // System.out.println(calendar.get(Calendar.DAY_OF_MONTH));    // день недели отсчет идет от воскресения
+        // System.out.println(calendar.get(Calendar.DAY_OF_MONTH));    // день недели, отсчет идет от воскресения
         // System.out.println(calendar.get(Calendar.FEBRUARY));
 
         // set -> сеттеры, т.е. константы
