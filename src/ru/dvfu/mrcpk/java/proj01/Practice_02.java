@@ -10,16 +10,21 @@ public class Practice_02 {
         System.out.println("Введите числовое значение переменной и нажмите Enter: ");
         int count = in.nextInt();
 
-        /* if (count > 15){
+        if (count > 5){
             count = count + 1;
             System.out.println("Значение переменной > 5 и увеличено на 1: " + count);
-        }else {
+        }else if (count == 5){
+            count = count + 3;
+            System.out.println("Значение переменной = 5 и увеличено на 3: " + count);
+        }else{
             count = count + 5;
-            System.out.println("Значение переменной <= 5 и увеличено на 5: " + count);
+            System.out.println("Значение переменной < 5 и увеличено на 5: " + count);
         }
+
+        /* count = count > 15?count + 1:count + 5;  // Сокращенная запись условного оператора
+        System.out.println("Результат выполнения сокращенной записи оператора: " + count);
         */
 
-        count = count > 15?count + 1:count + 5;  // Сокращенная запись условного оператора
-        System.out.println("Результат выполнения сокращенной записи оператора: " + count);
+
     }
 }
