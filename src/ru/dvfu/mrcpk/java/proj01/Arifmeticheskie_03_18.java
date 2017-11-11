@@ -9,10 +9,14 @@ public class Arifmeticheskie_03_18 {
 // 18. Какая дата будет через N дней? Рекомендуется использование типа GregorianCalendar.
         Scanner in = new Scanner(System.in);
 
-        Days days1 = new Days();
+        /*Days days1 = new Days();
         System.out.println("Введите с клавиатуры число дней: ");
         days1.N = in.nextInt();              // Сохраняем в переменной N введенное пользователем значение
-        days1.times();
+        days1.times();*/
+
+        Days days2 = new Days();
+        days2.N = 0;
+        days2.times();
     }
 }
 
