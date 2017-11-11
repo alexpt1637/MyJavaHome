@@ -21,6 +21,7 @@ public class Practice_02 {
             System.out.println("Значение переменной < 5 и увеличено на 5: " + count);
         }
 
+
         /* count = count > 15?count + 1:count + 5;  // Сокращенная запись условного оператора
         System.out.println("Результат выполнения сокращенной записи оператора: " + count);
         */
