@@ -86,7 +86,7 @@ class Circumference {
     void площадьКруга(){
         if (R >= 0){
             double S = Pi * R * R;
-            System.out.printf("Площадь круга с радиусом R (см) равна: " + "%.0f\n", S);
+            System.out.printf("Площадь круга с радиусом R (кв.см) равна: " + "%.2f\n", S);
         } else {
             System.out.println("Введите корректное значение");
         }
@@ -95,7 +95,7 @@ class Circumference {
     void диаметр(){
         if (R >= 0){
             double d = 2 * R;
-            System.out.printf("Диаметр круга с радиусом R (см) равен: " + "%.0f\n", d);
+            System.out.printf("Диаметр круга с радиусом R (см) равен: " + "%.2f\n", d);
         } else {
             System.out.println("Введите корректное значение");
         }
@@ -104,7 +104,7 @@ class Circumference {
     void длинаОкружности(){
         if (R >= 0){
             double l = 2 * Pi * R;
-            System.out.printf("Длина окружности с радиусом R (см) равна: " + "%.0f\n", l);
+            System.out.printf("Длина окружности с радиусом R (см) равна: " + "%.2f\n", l);
         } else {
             System.out.println("Введите корректное значение");
         }
@@ -114,7 +114,7 @@ class Circumference {
         if (R >= 0){
             double v = (Pi * R * R * R) * 4 / 3;
             double v1 = (Pi * R * R * R) * 4 / 3 / 1000000;
-            System.out.printf("Объем шара с радиусом R (куб.см) равен: " + "%.0f\n", v);
+            System.out.printf("Объем шара с радиусом R (куб.см) равен: " + "%.2f\n", v);
             System.out.printf("Объем шара с радиусом R (куб.м) равен: " + "%.5f\n", v1);
         } else {
             System.out.println("Введите корректное значение");
