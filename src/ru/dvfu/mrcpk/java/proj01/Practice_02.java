@@ -26,7 +26,19 @@ public class Practice_02 {
         System.out.println("Результат выполнения сокращенной записи оператора: " + count);
         */
 
-        double d = 2e2;         // e2 - степень числа 10, на которую следует умножить данное число
-        System.out.println(d);
+        /*double d = 2e2;         // e2 - степень числа 10, на которую следует умножить данное число
+        System.out.println(d);*/
+
+        System.out.println("Введите числовое значение переменной и нажмите Enter: ");
+        int x = in.nextInt();
+
+        if (x >= 0) {
+            System.out.println("Квадрат числа равен: " + x * x);
+        } else {
+            System.out.println("Введено отрицательное значение переменной");
+        }
+        if (x >= 0) {
+            System.out.println("Куб числа равен: " + x * x * x);
+        }
     }
 }
