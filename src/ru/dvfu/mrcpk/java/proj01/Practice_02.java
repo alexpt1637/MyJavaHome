@@ -29,7 +29,7 @@ public class Practice_02 {
         /*double d = 2e2;         // e2 - степень числа 10, на которую следует умножить данное число
         System.out.println(d);*/
 
-        System.out.println("Введите числовое значение переменной и нажмите Enter: ");
+       /* System.out.println("Введите числовое значение переменной и нажмите Enter: ");
         int x = in.nextInt();
 
         if (x >= 0) {
@@ -39,6 +39,17 @@ public class Practice_02 {
         }
         if (x >= 0) {
             System.out.println("Куб числа равен: " + x * x * x);
-        }
+        }*/
+
+       // Длина гипотенузы прямоугольного треугольника вычисляется по длине его катетов
+        System.out.println("Введите длину катетов (a, b) прямоугольного треугольника и нажмите Enter: ");
+        double a = in.nextInt();
+        double b = in.nextInt();
+
+        // Динамическая инициализация переменной с
+        double c = Math.sqrt(a * a + b * b);
+        System.out.println(c);
+
+
     }
 }
