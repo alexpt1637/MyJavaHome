@@ -53,8 +53,6 @@ abstract class Rectangle{
     int b;          // сторона b
     String color = "выбираем цвет фигуры";
 
-
-
     public Rectangle(int a, int b, String color) {  // Создан конструктор с помощью генератора на основе имеемых параметров
         this.a = a;                                 // 'Alt' + 'Ins'
         this.b = b;
