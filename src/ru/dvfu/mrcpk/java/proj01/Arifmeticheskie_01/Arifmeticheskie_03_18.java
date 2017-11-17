@@ -1,4 +1,4 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.Arifmeticheskie_01;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

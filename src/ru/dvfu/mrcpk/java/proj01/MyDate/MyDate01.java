@@ -1,11 +1,11 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.MyDate;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class MyDate {
+public class MyDate01 {
     public static void main(String[] args) {
         /* Date date = new Date();         // Объявлен и создан класс Date (конструктор по умолчанию)
         System.out.println(date);       // Вывод текущего значения в формате 'Wed Nov 08 12:53:54 VLAT 2017' - вывод метки времени когда объект был создан

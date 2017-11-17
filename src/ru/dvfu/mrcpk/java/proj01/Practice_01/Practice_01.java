@@ -1,4 +1,4 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.Practice_01;
 
 import java.util.Scanner;
 

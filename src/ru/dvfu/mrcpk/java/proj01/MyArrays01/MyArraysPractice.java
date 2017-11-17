@@ -1,9 +1,9 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.MyArrays01;
 
 public class MyArraysPractice {
 
     public static void main(String[] args) {
-        double[] myList = {1.2, 2.3, 3.4, 4.5, 5.6};
+        /*double[] myList = {1.2, 2.3, 3.4, 4.5, 5.6};
 
         // Вывести на экран все элементы массива
         for (int i = 0; i < myList.length; i++) {
@@ -50,7 +50,24 @@ public class MyArraysPractice {
             System.out.print(element + " ");
         }
         System.out.println();   // добавим пустую строку
-        System.out.println("Количество элементов в массиве: " + myList.length);
+        System.out.println("Количество элементов в массиве: " + myList.length);*/
+
+        /*int twoD[][] = new int [5][10];
+        int i, j, k = 1;
+
+        for (i = 0; i < 5; i++)
+            for (j = 0; j < 10; j++){
+                twoD[i][j] = k;
+                k++;
+            }
+
+        for (i = 0; i < 5; i++){
+            for (j = 0; j < 10; j++)
+                System.out.print(twoD[i][j] + " ");
+            System.out.println();
+        }*/
+
+
 
 
     }

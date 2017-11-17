@@ -1,4 +1,4 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.Practice_02;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -42,7 +42,7 @@ public class Practice_02 {
         }*/
 
        // Длина гипотенузы прямоугольного треугольника вычисляется по длине его катетов
-       /*System.out.println("Введите длину катетов (a, b) прямоугольного треугольника и нажмите Enter: ");
+       System.out.println("Введите длину катетов (a, b) прямоугольного треугольника и нажмите Enter: ");
         double a = in.nextInt();
         double b = in.nextInt();
 
@@ -52,7 +52,7 @@ public class Practice_02 {
         // Для вычисления квадратного корня аргумента вызывается встроенный в java метод sqrt( ), который является членом класса Маth
 
         int C = (int) c;            // Приведение переменной к целочисленному типу
-        System.out.println(C);*/
+        System.out.println(C);
 
 
     }

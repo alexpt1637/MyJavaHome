@@ -19,20 +19,47 @@ public class Geometry {
 
         /*rectangle1.toString();*/  // Посмотреть тему переопределения метода toString
 
-        Circumference circumference1 = new Circumference();
+        /*Circle circle = new Circle();
         System.out.println("Введите значение радиуса (в см) и нажмите Enter: ");
-        circumference1.R = in.nextInt();
-        circumference1.площадьКруга();
-        circumference1.диаметр();
-        circumference1.длинаОкружности();
-        circumference1.объемШара();
+        circle.R = in.nextInt();*/
+
+       /* Circle circle1 = new Circle(24);
+
+        circle1.площадьКруга();
+        circle1.диаметр();
+        circle1.длинаОкружности();
+        circle1.объемШара();
+
+        System.out.println();
+
+        Circle circle2 = new Circle(45);
+
+        circle2.диаметр();
+        circle2.длинаОкружности();
+        circle2.площадьКруга();
+        circle2.объемШара();
+
+        System.out.println();*/
+
+        Circle circle3 = new Circle(32);
+
+       /* circle3.объемШара();*/
+       circle3.длинаОкружности();
     }
 }
 
-class Rectangle{
+abstract class Rectangle{
     int a;          // сторона a
     int b;          // сторона b
     String color = "выбираем цвет фигуры";
+
+
+
+    public Rectangle(int a, int b, String color) {  // Создан конструктор с помощью генератора на основе имеемых параметров
+        this.a = a;                                 // 'Alt' + 'Ins'
+        this.b = b;
+        this.color = color;
+    }
 
     void площадь() {
         if (a == b) {
@@ -79,9 +106,16 @@ class Rectangle{
     }*/
 }
 
-class Circumference {
+/**
+ *
+ */
+class Circle {
     double R;      // Радиус круга (окуржности)
     double Pi = 3.14;
+
+    public Circle(double r) {   // Создан конструктор с параметром R
+        R = r;
+    }
 
     void площадьКруга(){
         if (R >= 0){

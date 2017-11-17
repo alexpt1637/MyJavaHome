@@ -1,4 +1,4 @@
-package ru.dvfu.mrcpk.java.proj01;
+package ru.dvfu.mrcpk.java.proj01.Arifmeticheskie_01;
 
 import java.util.Scanner;
 
@@ -180,5 +180,33 @@ public class Arifmeticheskie_01 {
         System.out.println(s1 + s2 + s3 + s4); // или
         System.out.println("Hello" + " " + "John" + "!");
         */
+    }
+
+    public static class Arifmeticheskie_01_01 {
+        public static void main(String[] args) {
+            // 1. Ввести с клавиатуры натуральное число. Вывести на экран младший разряд числа.
+            Scanner in = new Scanner(System.in);
+            System.out.println("Введите с клавиатуры натуральное число и нажмите Enter: ");
+            int x = in.nextInt(); // Переменная, в которую сохраняется введенное значение.
+            int y = x % 10;
+            System.out.println("Младший разряд введенного с клавиатуры натурального числа равен: " + y);
+        }
+    }
+
+    public static class Arifmeticheskie_01_13 {
+        public static void main(String[] args) {
+            // 13.	Поменять местами значения переменных a и b,
+            // сначала с использованием дополнительной третьей переменной, а затем – без.
+            int a = 10;
+            int b = 20; //Даны значения переменных a, b.
+            System.out.println("Дано:   a = " + a);
+            System.out.println("        b = " + b);
+            System.out.println("Меняем местами значения переменных a и b,\n" +
+                    "сначала с использованием дополнительной третьей переменной:");
+            int c = a; a = b; b = c;
+            System.out.println("        a = " + a);
+            System.out.println("        b = " + b);
+            // Следующая часть задания:
+        }
     }
 }
