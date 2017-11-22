@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 public class Main {
     public static void main(String[] args) {
 
-        MyUserProject myUserProject1 = new MyUserProject();  // Создан экземпляр дочернего класса
+        MyUserProject myUserProject1 = new MyUserProject();  // Создан экземпляр класса
 
         myUserProject1.имяПользователя();                   // определяем имя пользователя
         myUserProject1.времяНачалаТеста();                  // определяем время начала тестирования
@@ -25,7 +25,7 @@ public class Main {
 
         myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования
 
-        /*myUserProject1.времяТеста();*/                    // Не получилось получить время!!!!!!!!!!!
+        /*myUserProject1.времяТеста();*/                    // Не получилось получить время через метод!!!!!!!!!!!
 
         // Получение и запись в переменную timeWork времени выполнения теста
         long timeWork = System.currentTimeMillis() - start;
