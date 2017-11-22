@@ -1,5 +1,7 @@
 package ru.dvfu.mrcpk.java.proj01.MyClassUser;
 
+import java.text.SimpleDateFormat;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,11 +10,26 @@ public class Main {
         myUserProject1.имяПользователя();                   // определяем имя пользователя
         myUserProject1.времяНачалаТеста();                  // определяем время начала тестирования
 
-        // myUserProject1.имитацияТеста();                     // имитации выполнения программы
-        myUserProject1.имитацияТеста2();                    // имитации выполнения программы из MyUserProject
+        // Начало отсчета
+        long start = System.currentTimeMillis();
 
+        myUserProject1.раздел();
+
+        myUserProject1.имитацияТеста();                     // имитации выполнения программы
+        // myUserProject1.имитацияТеста2();                    // имитации выполнения программы из MyUserProject
+
+        myUserProject1.раздел();
 
         myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования
 
+        // Получение и запись в переменную timeWork времени работы программы
+        long timeWork = System.currentTimeMillis() - start;
+
+        // Передаем новый шаблон
+        SimpleDateFormat sdf = new SimpleDateFormat();
+        sdf.applyPattern("mm:ss");
+
+        // Вывод времени выполнения работы кода на экран
+        System.out.println("Время выполнения теста: " + sdf.format(timeWork) + " (минут:секунд)");
     }
 }

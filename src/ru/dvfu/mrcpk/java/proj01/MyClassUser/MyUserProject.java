@@ -1,8 +1,11 @@
 package ru.dvfu.mrcpk.java.proj01.MyClassUser;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class MyUserProject extends SuperUser {  // Создан дочерний класс от родительского
+
+
 
     // Временный метод, имитирующий выполнение программы тестирования
     public void имитацияТеста2(){
