@@ -1,13 +1,15 @@
-package ru.dvfu.mrcpk.java.proj01.MyClassUser;
+package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
+import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         MyUserProject myUserProject1 = new MyUserProject();  // Создан экземпляр класса
 
         myUserProject1.имяПользователя();                   // определяем имя пользователя
+        myUserProject1.тематикаТестирования();
         myUserProject1.времяНачалаТеста();                  // определяем время начала тестирования
 
         // Начало отсчета
@@ -18,9 +20,16 @@ public class Main {
         myUserProject1.раздел();
 
         //--------------------------------имитации выполнения программы-----------------------------------------
-        myUserProject1.имитацияТеста();                     // имитации выполнения программы
-        //--------------------------------имитации выполнения программы-----------------------------------------
+        // myUserProject1.имитацияТеста();                     // имитации выполнения программы
+        //-------------------------------------выполнение программы---------------------------------------------
 
+        Question question1 = new Question();
+
+        question1.show();
+        myUserProject1.раздел();
+        question1.result();
+
+        //--------------------------------окончание выполнения программы----------------------------------------
         myUserProject1.раздел();
 
         myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования

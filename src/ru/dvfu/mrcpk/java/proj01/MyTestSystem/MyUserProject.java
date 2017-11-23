@@ -1,8 +1,6 @@
-package ru.dvfu.mrcpk.java.proj01.MyClassUser;
+package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Scanner;
 
 public class MyUserProject extends SuperUser {  // Создан дочерний класс от родительского
 
@@ -14,7 +12,7 @@ public class MyUserProject extends SuperUser {  // Создан дочерний
         return start;
     }
 
-    public void времяТеста(){
+    public Long времяТеста(){
         // Получение и запись в переменную timeWork времени работы программы
         long timeWork = System.currentTimeMillis() - start;
 
@@ -24,6 +22,7 @@ public class MyUserProject extends SuperUser {  // Создан дочерний
 
         // Вывод времени выполнения работы кода на экран
         System.out.println("Время выполнения теста: " + sdf.format(timeWork) + " (минут:секунд)");
+        return timeWork;
     }
 
 

@@ -1,5 +1,7 @@
-package ru.dvfu.mrcpk.java.proj01.MyClassUser;
+package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -67,7 +69,7 @@ public class SuperUser extends Main {
         // Получение и запись в переменную timeWork времени работы программы
         long timeWork = System.currentTimeMillis() - start;
 
-        // Вывод времени выполнения работы кода на экран
+        // Вывод времени выполнения теста на экран
         System.out.println("Время выполнения теста: " + timeWork + " миллисекунд");
     }*/
 
@@ -75,4 +77,13 @@ public class SuperUser extends Main {
        System.out.println("----------------------------------------------------------------------");
    }
 
+   public void тематикаТестирования() throws FileNotFoundException {
+       // Обращаемся к созданному нами файлу "nameTest"
+       File file = new File("nameTest");
+       // Обращаемся к классу Scanner, считываем содержимое файла
+       Scanner scanner = new Scanner(file);
+       String line = scanner.nextLine();
+       // Выводим на экран тему тестирования
+       System.out.println("Тема теста: " + line);
+   }
 }
