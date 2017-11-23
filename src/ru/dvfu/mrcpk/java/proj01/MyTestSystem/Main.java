@@ -9,7 +9,7 @@ public class Main {
         MyUserProject myUserProject1 = new MyUserProject();  // Создан экземпляр класса
 
         myUserProject1.имяПользователя();                   // определяем имя пользователя
-        myUserProject1.тематикаТестирования();
+        myUserProject1.тематикаТестирования();              // выводится тема теста
         myUserProject1.времяНачалаТеста();                  // определяем время начала тестирования
 
         // Начало отсчета

@@ -36,6 +36,9 @@ public class Question implements TestIf {
         // цикл, считывающий все строки в файле
         while (scanner.hasNextLine()){
             System.out.println(scanner.nextLine());
+
+            // закрываем входной поток сканера
+            scanner.close();
         }
     }
 }
