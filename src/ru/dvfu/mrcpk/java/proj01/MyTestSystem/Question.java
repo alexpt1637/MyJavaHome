@@ -19,10 +19,11 @@ public class Question implements TestIf {
 
         if (i == 2){
             System.out.println("Ваш ответ верный");
+        } else if (i <= 0 || i > 3) {
+            System.out.println("Нет такого значения");
         } else {
             System.out.println("Ваш ответ не верный");
         }
-
     }
 
     @Override
@@ -36,9 +37,6 @@ public class Question implements TestIf {
         // цикл, считывающий все строки в файле
         while (scanner.hasNextLine()){
             System.out.println(scanner.nextLine());
-
-            // закрываем входной поток сканера
-            scanner.close();
         }
     }
 }
