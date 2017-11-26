@@ -14,27 +14,24 @@ public class Main {
 
         // Начало отсчета
         long start = System.currentTimeMillis();
+        System.out.println();
 
-        /*myUserProject1.началоОтсчета();*/
-
-        myUserProject1.раздел();
-
-        //--------------------------------имитации выполнения программы-----------------------------------------
-        // myUserProject1.имитацияТеста();                     // имитации выполнения программы
         //-------------------------------------выполнение программы---------------------------------------------
 
-        Question question1 = new Question();
+        QuestionApp questionApp = new QuestionApp();
 
-        question1.show();
-        myUserProject1.раздел();
-        question1.result();
+        questionApp.show1();
+        questionApp.result1();
+
+        questionApp.show2();
+        questionApp.result2();
+
+        questionApp.show3();
+        questionApp.result3();
 
         //--------------------------------окончание выполнения программы----------------------------------------
-        myUserProject1.раздел();
 
         myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования
-
-        /*myUserProject1.времяТеста();*/                    // Не получилось получить время через метод!!!!!!!!!!!
 
         // Получение и запись в переменную timeWork времени выполнения теста
         long timeWork = System.currentTimeMillis() - start;
