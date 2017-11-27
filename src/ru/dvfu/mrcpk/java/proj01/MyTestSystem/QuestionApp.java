@@ -40,13 +40,14 @@ public class QuestionApp extends Question {
 
     public void result1() {
         Scanner in = new Scanner(System.in);
+        sec:
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 1){
             System.out.println("Ваш ответ верный");
         } else if (i <= 0 || i > 3) {
-            System.out.println("Нет такого значения");
+            System.out.println("Ваш ответ не верный. Нет такого значения");
         } else {
             System.out.println("Ваш ответ не верный");
         }
@@ -81,5 +82,20 @@ public class QuestionApp extends Question {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+    }
+
+    public void v1() throws FileNotFoundException {
+        show1();
+        result1();
+    }
+
+    public void v2() throws FileNotFoundException {
+        show2();
+        result2();
+    }
+
+    public void v3() throws FileNotFoundException {
+        show3();
+        result3();
     }
 }

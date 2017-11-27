@@ -16,20 +16,15 @@ public class Main {
         long start = System.currentTimeMillis();
         System.out.println();
 
-        //-------------------------------------выполнение программы---------------------------------------------
+        //-------------------------------------выполнение теста---------------------------------------------
 
         QuestionApp questionApp = new QuestionApp();
 
-        questionApp.show1();
-        questionApp.result1();
+        questionApp.v1();
+        questionApp.v2();
+        questionApp.v3();
 
-        questionApp.show2();
-        questionApp.result2();
-
-        questionApp.show3();
-        questionApp.result3();
-
-        //--------------------------------окончание выполнения программы----------------------------------------
+        //--------------------------------окончание выполнения теста----------------------------------------
 
         myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования
 
@@ -42,6 +37,5 @@ public class Main {
 
         // Вывод времени выполнения теста на экран
         System.out.println("Время выполнения теста: " + sdf.format(timeWork) + " (минут:секунд)");
-
     }
 }
