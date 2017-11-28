@@ -8,10 +8,12 @@ public class MainTest {
 
         QuestionApp questionApp = new QuestionApp();
 
-        questionApp.v1();
+//        questionApp.v1();
 //        questionApp.v2();
 //        questionApp.v3();
 //        questionApp.v4();
         questionApp.v5();
+
+        questionApp.оценка();
     }
 }

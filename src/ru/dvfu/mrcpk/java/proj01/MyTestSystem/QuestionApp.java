@@ -1,12 +1,13 @@
 package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
-import ru.dvfu.mrcpk.java.proj01.myInterface.TestIf;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class QuestionApp extends Question {
+
+    int n = 0, m = 5;   // Начальные значения переменных для рассчета оценки
+    double p;           // Переменная для размещения процента верных ответов
 
     public void show1() throws FileNotFoundException {
 
@@ -38,52 +39,58 @@ public class QuestionApp extends Question {
         System.out.println();
     }
 
-    public void result1() {
+    public int result1() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 1){
             System.out.println("Ваш ответ верный");
+            n++;
         } else if (i <= 0 || i > 3) {
-            System.out.println("Ваш ответ не верный. Нет такого значения");
+            System.out.print("Нет такого значения. ");
             result1();
         } else {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+        return n;
     }
 
-    public void result2() {
+    public int result2() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 2){
             System.out.println("Ваш ответ верный");
+            n++;
         } else if (i <= 0 || i > 3) {
-            System.out.println("Нет такого значения. Нет такого значения");
+            System.out.print("Нет такого значения. ");
             result2();
         } else {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+        return n;
     }
 
-    public void result3() {
+    public int result3() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 3){
             System.out.println("Ваш ответ верный");
+            n++;
         } else if (i <= 0 || i > 3) {
-            System.out.println("Нет такого значения. Нет такого значения");
+            System.out.print("Нет такого значения. ");
             result3();
         } else {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+        return n;
     }
 
     public void v1() throws FileNotFoundException {
@@ -113,20 +120,22 @@ public class QuestionApp extends Question {
         System.out.println();
     }
 
-    public void result4() {
+    public int result4() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 2){
             System.out.println("Ваш ответ верный");
+            n++;
         } else if (i <= 0 || i > 4) {
-            System.out.println("Ваш ответ не верный. Нет такого значения");
+            System.out.print("Нет такого значения. ");
             result4();
         } else {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+        return n;
     }
 
     public void v4() throws FileNotFoundException {
@@ -146,24 +155,42 @@ public class QuestionApp extends Question {
         System.out.println();
     }
 
-    public void result5() {
+    public int result5() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер ответа и нажмите Enter: ");
         int i = in.nextInt();
 
         if (i == 4){
             System.out.println("Ваш ответ верный");
+            n++;
         } else if (i <= 0 || i > 5) {
-            System.out.println("Ваш ответ не верный. Нет такого значения");
+            System.out.print("Нет такого значения. ");
             result5();
         } else {
             System.out.println("Ваш ответ не верный");
         }
         System.out.println();
+        return n;
     }
 
     public void v5() throws FileNotFoundException {
         show5();
         result5();
+    }
+
+    public void оценка(){
+        System.out.println("Дано верных ответов: " + n);
+        double p = (double)n / (double)m * 100;
+        System.out.println("Процент верных ответов: " + p + " %" + ", Вы набрали " + (int)p + " баллов");
+
+        if (p <= 40){
+            System.out.println("Ваша оценка \"неудовлетворительно\"");
+        } else if (p <= 60){
+            System.out.println("Ваша оценка \"удовлетворительно\"");
+        } else if (p <= 80){
+            System.out.println("Ваша оценка \"хорошо\"");
+        } else {
+            System.out.println("Ваша оценка \"отлично\"");
+        }
     }
 }

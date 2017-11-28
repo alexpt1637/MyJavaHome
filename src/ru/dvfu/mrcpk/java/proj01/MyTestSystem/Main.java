@@ -2,6 +2,7 @@ package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
 import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
@@ -39,5 +40,13 @@ public class Main {
 
         // Вывод времени выполнения теста на экран
         System.out.println("Время выполнения теста: " + sdf.format(timeWork) + " (минут:секунд)");
+
+        long timeTest = 60 * 1000;
+
+        if (timeWork <= timeTest){
+            questionApp.оценка();
+        } else {
+            System.out.println("Вы не уложились в установленное время");
+        }
     }
 }
