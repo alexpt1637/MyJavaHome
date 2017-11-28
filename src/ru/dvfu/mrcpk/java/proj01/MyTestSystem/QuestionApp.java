@@ -6,37 +6,43 @@ import java.util.Scanner;
 
 public class QuestionApp extends Question {
 
-    int n = 0, m = 5;   // Начальные значения переменных для рассчета оценки
+    int n = 0, m = 0;   // Начальные значения переменных для рассчета оценки
     double p;           // Переменная для размещения процента верных ответов
 
-    public void show1() throws FileNotFoundException {
+    public int show1() throws FileNotFoundException {
 
-        File files = new File("Вопрос №1");
+        File files = new File("Раздел 1/Вопрос №1");
         Scanner scanner = new Scanner(files);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
         }
         System.out.println();
+        m++;
+        return m;
     }
 
-    public void show2() throws FileNotFoundException {
+    public int show2() throws FileNotFoundException {
 
-        File files = new File("Вопрос №2");
+        File files = new File("Раздел 1/Вопрос №2");
         Scanner scanner = new Scanner(files);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
         }
         System.out.println();
+        m++;
+        return m;
     }
 
-    public void show3() throws FileNotFoundException {
+    public int show3() throws FileNotFoundException {
 
-        File files = new File("Вопрос №3");
+        File files = new File("Раздел 1/Вопрос №3");
         Scanner scanner = new Scanner(files);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
         }
         System.out.println();
+        m++;
+        return m;
     }
 
     public int result1() {
@@ -110,14 +116,16 @@ public class QuestionApp extends Question {
 
     // *** "Вопрос №4" ***
 
-    public void show4() throws FileNotFoundException {
+    public int show4() throws FileNotFoundException {
 
-        File files = new File("Вопрос №4");
+        File files = new File("Раздел 1/Вопрос №4");
         Scanner scanner = new Scanner(files);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
         }
         System.out.println();
+        m++;
+        return m;
     }
 
     public int result4() {
@@ -145,14 +153,16 @@ public class QuestionApp extends Question {
 
     // *** "Вопрос №5" ***
 
-    public void show5() throws FileNotFoundException {
+    public int show5() throws FileNotFoundException {
 
-        File files = new File("Вопрос №5");
+        File files = new File("Раздел 1/Вопрос №5");
         Scanner scanner = new Scanner(files);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
         }
         System.out.println();
+        m++;
+        return m;
     }
 
     public int result5() {
