@@ -8,17 +8,10 @@ public class MainTest {
 
         QuestionApp questionApp = new QuestionApp();
 
-        /*questionApp.show1();
-        questionApp.result1();*/
-
-        /*questionApp.show2();
-        questionApp.result2();
-
-        questionApp.show3();
-        questionApp.result3();*/
-
         questionApp.v1();
-        questionApp.v2();
-        questionApp.v3();
+//        questionApp.v2();
+//        questionApp.v3();
+//        questionApp.v4();
+        questionApp.v5();
     }
 }

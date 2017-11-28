@@ -23,6 +23,8 @@ public class Main {
         questionApp.v1();
         questionApp.v2();
         questionApp.v3();
+        questionApp.v4();
+        questionApp.v5();
 
         //--------------------------------окончание выполнения теста----------------------------------------
 
