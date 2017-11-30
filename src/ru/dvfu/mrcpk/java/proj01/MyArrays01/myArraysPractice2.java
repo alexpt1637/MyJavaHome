@@ -21,10 +21,33 @@ public class myArraysPractice2 {
             System.out.println();
         }
 
+        System.out.println();
 
+        showTriangle();
+    }
 
+    // двумерный несимметричный массив
+    private static void showTriangle() {
+        char[][] tArray = new char[5][];
+        tArray[0] = new char[1];
+        tArray[1] = new char[2];
+        tArray[2] = new char[3];
+        tArray[3] = new char[4];
+        tArray[4] = new char[5];
 
+        // заполнение всех элементов символом *
+        for (int i = 0; i < tArray.length; i++){
+            for (int j = 0; j < tArray[i].length; j++){
+                tArray[i][j] = '*';
+            }
+        }
 
-
+        // вывод на экран треугольника
+        for (int i = 0; i < tArray.length; i++){
+            for (int j = 0; j < tArray[i].length; j++){
+                System.out.print(tArray[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
