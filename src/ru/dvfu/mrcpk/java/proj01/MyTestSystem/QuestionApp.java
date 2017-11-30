@@ -191,7 +191,7 @@ public class QuestionApp extends Question {
     public void оценка(){
         System.out.println("Дано верных ответов: " + n);
         double p = (double)n / (double)m * 100;
-        System.out.println("Процент верных ответов: " + p + " %" + ", Вы набрали " + (int)p + " баллов");
+        System.out.println("Вы набрали " + (int)p + " баллов");
 
         if (p <= 40){
             System.out.println("Ваша оценка \"неудовлетворительно\"");

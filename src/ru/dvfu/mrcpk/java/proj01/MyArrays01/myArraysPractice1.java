@@ -1,6 +1,6 @@
 package ru.dvfu.mrcpk.java.proj01.MyArrays01;
 
-public class MyArraysPractice {
+public class myArraysPractice1 {
 
     public static void main(String[] args) {
         /*double[] myList = {1.2, 2.3, 3.4, 4.5, 5.6};
