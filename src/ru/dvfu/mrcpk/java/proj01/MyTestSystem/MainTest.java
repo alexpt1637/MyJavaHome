@@ -13,7 +13,6 @@ public class MainTest {
         questionApp.v3();
         questionApp.v4();
         questionApp.v5();
-
         questionApp.оценка();
     }
 }
