@@ -2,6 +2,7 @@ package ru.alexpt.test.kotlin
 
 import jdk.nashorn.internal.objects.Global.print
 
+// main() — точка входа в приложение
 fun main(args : Array<String>) {
     println("Hello, World!")   // Первая программа на Kotlin!
     println("Поздравляю, вы написали свою первую программу на Kotlin!")
@@ -26,12 +27,12 @@ fun main(args : Array<String>) {
     var b = 5
     println("a = 3, b = 5")
 
-    // Реализуем функцию mul() умножения двух чисел
-    fun mul(a : Int, b : Int) : Int {
+    // Реализуем функцию multiply() умножения двух чисел. Название любой функции предваряется ключевым словом fun
+    fun multiply(a : Int, b : Int) : Int {
         return a * b
     }
 
-    val c = mul(a, b)
+    val c = multiply(a, b)
     println("Результат умножения двух чисел: " + c)
     println()
 
