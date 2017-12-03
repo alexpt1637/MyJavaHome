@@ -5,7 +5,7 @@ import jdk.nashorn.internal.objects.Global.print
 // main() — точка входа в приложение
 fun main(args : Array<String>) {
     println("Hello, World!")   // Первая программа на Kotlin!
-    println("Поздравляю, вы написали свою первую программу на Kotlin!")
+    println("Первая программа на Kotlin!")
     println()
 
     // цикл while:
