@@ -2,7 +2,6 @@ package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class ReadDirectory {
     public static void main(String[] args) throws FileNotFoundException {

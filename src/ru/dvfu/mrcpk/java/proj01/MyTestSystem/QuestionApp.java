@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class QuestionApp extends Question {
 
     int n = 0, m = 0;   // Начальные значения переменных для рассчета оценки
+    int k = n++;
     double p;           // Переменная для размещения процента верных ответов
 
     public int show1() throws FileNotFoundException {

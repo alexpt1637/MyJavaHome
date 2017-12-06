@@ -1,17 +1,27 @@
 package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
 
-        MyUserProject myUserProject1 = new MyUserProject();  // Создан экземпляр класса
+        MyUserProject myUserProject = new MyUserProject();  // Создан экземпляр класса
 
-        myUserProject1.имяПользователя();                   // определяем имя пользователя
-        myUserProject1.тематикаТестирования();              // выводится тема теста
-        myUserProject1.времяНачалаТеста();                  // определяем время начала тестирования
+        myUserProject.имяПользователя();                   // определяем имя пользователя
+        myUserProject.тематикаТестирования();              // выводится тема теста
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите количество вопросов в тесте (пока до 7): ");
+        int v = in.nextInt();
+
+        if (v > 7){
+            System.out.println("Неверное количество вопросов, перезапустите тест");
+            return;
+        }
+
+        myUserProject.времяНачалаТеста();                  // определяем время начала тестирования
 
         // Начало отсчета
         long start = System.currentTimeMillis();
@@ -20,16 +30,16 @@ public class Main {
         //-------------------------------------выполнение теста---------------------------------------------
 
         QuestionApp questionApp = new QuestionApp();
+        QuestionsTest questionsTest = new QuestionsTest();
 
-        questionApp.v1();
-        questionApp.v2();
-        questionApp.v3();
-        questionApp.v4();
-        questionApp.v5();
+        for (int i = 0; i < v; i++) {
+            questionsTest.show();
+            questionsTest.result();
+        }
 
         //--------------------------------окончание выполнения теста----------------------------------------
 
-        myUserProject1.времяОкончанияТеста();               // определяем время окончания тестирования
+        myUserProject.времяОкончанияТеста();               // определяем время окончания тестирования
 
         // Получение и запись в переменную timeWork времени выполнения теста
         long timeWork = System.currentTimeMillis() - start;
@@ -41,10 +51,10 @@ public class Main {
         // Вывод времени выполнения теста на экран
         System.out.println("Время выполнения теста: " + sdf.format(timeWork) + " (минут:секунд)");
 
-        long timeTest = 60 * 1000;
+        long timeTest = v * 10 * 1000;
 
         if (timeWork <= timeTest){
-            questionApp.оценка();
+            questionsTest.rating();
         } else {
             System.out.println("Вы не уложились в установленное время");
         }

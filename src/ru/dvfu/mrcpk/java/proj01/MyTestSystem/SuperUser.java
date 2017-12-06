@@ -12,8 +12,7 @@ public class SuperUser extends Main {
         String Имя;                                 // Поля (свойства) родительского класса
         int НомерПользователя;
         Date ВремяНачалаТеста, date1, date2, timeTest, time1, time2, dateNull, start;
-
-
+        int v;
     }
 
     public void имяПользователя(){                  // Метод, определяющий имя пользователя
@@ -38,11 +37,6 @@ public class SuperUser extends Main {
         return start;
     }
 
-    /*private Date clone(Date date1) {      // Тут короче не получилось создать клон исходной даты, идем другим путем
-        Date dateNull = clone(date1);
-        return dateNull;
-    }*/
-
     public Date времяОкончанияТеста(){                 // Метод, определяющий время окончания тестирования
         long curDate = System.currentTimeMillis();
         Date date2 = new Date(curDate);
@@ -61,17 +55,6 @@ public class SuperUser extends Main {
         int i = in.nextInt();
         System.out.println("Для имитации выполнения программы Вы ввели целое число: " + i);
     }
-
-   /* public void времяТеста(){
-        // Date start = new Date();
-        long start = 0;
-
-        // Получение и запись в переменную timeWork времени работы программы
-        long timeWork = System.currentTimeMillis() - start;
-
-        // Вывод времени выполнения теста на экран
-        System.out.println("Время выполнения теста: " + timeWork + " миллисекунд");
-    }*/
 
    public void раздел(){
        System.out.println("----------------------------------------------------------------------");
