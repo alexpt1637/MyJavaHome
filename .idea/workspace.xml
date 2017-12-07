@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+              <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,13 +425,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00027" summary="Сокращенная запись условного оператора">
-      <created>1510407154258</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1510407154258</updated>
-    </task>
     <task id="LOCAL-00028" summary="days2.N = 0">
       <created>1510407513564</created>
       <option name="number" value="00028" />
@@ -768,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512630418981</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Тест работает, количество вопросов в тесте (пока до 7)">
+      <created>1512630503827</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1512630503827</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1131,7 +1131,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
