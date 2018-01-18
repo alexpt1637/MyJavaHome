@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.class" afterPath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.class" afterPath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="78" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="18" selection-end-column="91" />
+            <state relative-caret-position="442">
+              <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java">
+      <file leaf-file-name="QuestionsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="91" column="76" lean-forward="false" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="80" />
+            <state relative-caret-position="119">
+              <caret line="80" column="79" lean-forward="true" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -116,12 +126,12 @@
         <option value="$PROJECT_DIR$/Раздел 1/Ответы" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem1/QuestionsTest.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem1/SuperUser.java" />
-        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java" />
-        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Practice_02/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/geometry/WriteTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java" />
       </list>
     </option>
   </component>
@@ -245,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,9 +434,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WriteTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WriteTest" />
         <item index="3" class="java.lang.String" itemvalue="Application.ReadDirectory" />
         <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.dvfu.mrcpk.java.proj01.MyTestSystem.TestKtKt" />
       </list>
@@ -445,13 +455,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Введено отрицательное значение переменной">
-      <created>1510713370756</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1510713370756</updated>
     </task>
     <task id="LOCAL-00034" summary="Динамическая инициализация переменной">
       <created>1510714558928</created>
@@ -789,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516283431466</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="изменённый текст для тестирования записи в файл">
+      <created>1516290045363</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1516290045363</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -829,7 +839,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вызван второй унаследованный от родительского класса метод" />
     <MESSAGE value="Временный метод, имитирующий выполнение программы" />
     <MESSAGE value="Время выполнения теста" />
     <MESSAGE value="Вывод времени выполнения теста на экран" />
@@ -854,7 +863,8 @@
     <MESSAGE value="Тест работает, количество вопросов в тесте (пока до 7)" />
     <MESSAGE value="Неверное количество вопросов, пожалуйста перезапустите тест" />
     <MESSAGE value="Отрабатываем запись сведений в файл" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отрабатываем запись сведений в файл" />
+    <MESSAGE value="изменённый текст для тестирования записи в файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменённый текст для тестирования записи в файл" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,7 +873,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01_13.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01_01.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1108,32 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="78" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="18" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1150,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/geometry/WriteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1166,10 +1141,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="91" column="76" lean-forward="false" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="80" />
+        <state relative-caret-position="319">
+          <caret line="87" column="18" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/SuperUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/QuestionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="80" column="79" lean-forward="true" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="84" />
           <folding />
         </state>
       </provider>
