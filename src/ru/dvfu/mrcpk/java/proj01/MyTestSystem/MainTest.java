@@ -1,6 +1,8 @@
 package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class MainTest {
@@ -62,13 +64,51 @@ public class MainTest {
 
         // ---------- Отрабатываем методы тестирования ----------
 
-        QuestionsTest questionsTest = new QuestionsTest();
+        /*QuestionsTest questionsTest = new QuestionsTest();
         QuestionApp questionApp = new QuestionApp();
 
         for (int i = 0; i < 7; i++) {
             questionsTest.show();
             questionsTest.result();
         }
-        questionsTest.rating();
+        questionsTest.rating();*/
+
+        // ---------- Отрабатываем запись сведений в файл -------------
+
+        File file = new File("notes.txt");                 // Создание объекта класса File
+        file.createNewFile();                              // Создание файла
+        FileWriter writer = new FileWriter(file);          // Создание объекта FileWriter
+
+        // Запись содержимого в файл
+
+        /*String testWrite = "Это простой пример, в котором мы осуществляем\nс помощью языка Java запись в файл.\n\nЧтение из файла отработаем дополнительно.\n";
+
+        writer.write(testWrite);
+        writer.flush();
+        writer.close();
+
+        System.out.println(testWrite);  // Выводим записанный текст в консоль для контроля*/
+
+        /*String testWrite2 = "Это изменённый текст для тестирования записи в файл";
+
+        writer.write(testWrite2);
+        writer.flush();
+        writer.close();
+
+        System.out.println(testWrite2);  // Выводим записанный текст в консоль для контроля*/
+
+        // Random test
+        int a = 1;          // Начальное значение диапазона - "от"
+        int b = 3;          // Конечное значение диапазона - "до"
+
+        int R = a + (int) (Math.random() * b);  // Генерация номера раздела тестирования
+
+        System.out.println("Номер выбранного раздела: " + R);
+
+        writer.write("Номер выбранного раздела: " + R);
+        writer.flush();
+        writer.close();
+
+
     }
 }

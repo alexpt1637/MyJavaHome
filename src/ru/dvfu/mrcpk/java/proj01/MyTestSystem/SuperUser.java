@@ -2,6 +2,8 @@ package ru.dvfu.mrcpk.java.proj01.MyTestSystem;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -15,11 +17,19 @@ public class SuperUser extends Main {
         int v;
     }
 
-    public void имяПользователя(){                  // Метод, определяющий имя пользователя
+    public void имяПользователя() throws IOException {                  // Метод, определяющий имя пользователя
+
+        File file = new File("name.txt");                  // Запись сведений в файл, создание объекта класса File
+        file.createNewFile();                              // Создание файла
+        FileWriter writer = new FileWriter(file);          // Создание объекта FileWriter
+
         Scanner in = new Scanner(System.in);
         System.out.println("Введите имя пользователя и нажмите Enter: ");
         String Имя = in.nextLine();
         System.out.println("Имя пользователя: " + Имя);
+        writer.write("Имя пользователя: " + Имя);
+        writer.flush();
+        writer.close();
         // --> передача информации в класс или метод, определяющий результаты тестирования
     }
 
