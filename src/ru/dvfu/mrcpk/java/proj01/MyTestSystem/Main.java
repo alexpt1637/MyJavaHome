@@ -10,9 +10,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         MyUserProject myUserProject = new MyUserProject();  // Создан экземпляр класса
+        QuestionApp questionApp = new QuestionApp();
+        QuestionsTest questionsTest = new QuestionsTest();
 
-        myUserProject.имяПользователя();                   // определяем имя пользователя
-//        myUserProject.тематикаТестирования();              // выводится тема теста
+        myUserProject.имяПользователя();                    // определяем имя пользователя
+        questionsTest.nameTest();                           // выводится тема теста
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите количество вопросов в тесте (до 10): ");
@@ -30,9 +32,6 @@ public class Main {
         System.out.println();
 
         //-------------------------------------выполнение теста---------------------------------------------
-
-        QuestionApp questionApp = new QuestionApp();
-        QuestionsTest questionsTest = new QuestionsTest();
 
         for (int i = 0; i < v; i++) {
             questionsTest.show();

@@ -13,11 +13,11 @@ public class QuestionsTest {
     double p;           // Переменная для размещения процента верных ответов
 //    int R;              // Номер раздела тестирования
     int a = 1;          // Начальное значение диапазона - "от"
-    int b = 2;          // Конечное значение диапазона - "до"
+    int b = 3;          // Конечное значение диапазона - "до"
 
     int R = a + (int) (Math.random() * b);  // Генерация номера раздела тестирования
 
-    public int show() throws IOException {
+    public void nameTest() throws IOException {
 
         // выводим тему тестирования, обращаемся к файлу "nameTest" в нужном нам разделе
         String section = "Раздел " + R + "/nameTest";           // Тематика тестирования
@@ -27,6 +27,9 @@ public class QuestionsTest {
         String line = scanner.nextLine();
         // Выводим на экран тему тестирования
         System.out.println("Тема теста: " + line);
+    };
+
+    public int show() throws IOException {
 
         // обращаемся к файлам, содержащим вопросы для тестирования в нужном нам разделе
         String path = "Раздел " + R + "/Вопрос №" + k;         // Выбор вопроса
