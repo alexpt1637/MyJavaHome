@@ -10,16 +10,17 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         MyUserProject myUserProject = new MyUserProject();  // Создан экземпляр класса
-        QuestionApp questionApp = new QuestionApp();
         QuestionsTest questionsTest = new QuestionsTest();
+//        QuestionApp questionApp = new QuestionApp();      // Не используется, только на начальном этапе разработки
 
         myUserProject.имяПользователя();                    // определяем имя пользователя
         questionsTest.nameTest();                           // выводится тема теста
 
         //---------------------------определяем количество вопросов в тесте---------------------------------
+        // раздел включен временно для упрощения тестирования работы программы (сокращения времени на пробный запуск)
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите количество вопросов в тесте (до 10): ");    // временно для упрощения тестирования работы программы
+        System.out.println("Введите количество вопросов в тесте (до 10): ");
         int v = in.nextInt();
 
         if (v > 10){

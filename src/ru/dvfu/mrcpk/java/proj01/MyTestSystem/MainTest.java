@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class MainTest {
     public static void main(String[] args) throws IOException, FileNotFoundException {
@@ -75,9 +78,9 @@ public class MainTest {
 
         // ---------- Отрабатываем запись сведений в файл -------------
 
-        File file = new File("notes.txt");                 // Создание объекта класса File
+        /*File file = new File("notes.txt");                 // Создание объекта класса File
         file.createNewFile();                              // Создание файла
-        FileWriter writer = new FileWriter(file);          // Создание объекта FileWriter
+        FileWriter writer = new FileWriter(file);*/          // Создание объекта FileWriter
 
         // Запись содержимого в файл
 
@@ -98,7 +101,7 @@ public class MainTest {
         System.out.println(testWrite2);  // Выводим записанный текст в консоль для контроля*/
 
         // Random test
-        int a = 1;          // Начальное значение диапазона - "от"
+        /*int a = 1;          // Начальное значение диапазона - "от"
         int b = 3;          // Конечное значение диапазона - "до"
 
         int R = a + (int) (Math.random() * b);  // Генерация номера раздела тестирования
@@ -107,7 +110,64 @@ public class MainTest {
 
         writer.write("Номер выбранного раздела: " + R);
         writer.flush();
-        writer.close();
+        writer.close();*/
+
+        // ---------------------------- Количество дней между датами --------------------------------------
+
+        String date1 = "21.09.2009";
+        String date2 = "29.09.2017";
+
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        SimpleDateFormat sdfyy = new SimpleDateFormat();
+        SimpleDateFormat sdfMM = new SimpleDateFormat();
+
+        Date dateOne = null;
+        Date dateTwo = null;
+
+        try {
+            dateOne = format.parse(date1);
+            dateTwo = format.parse(date2);
+//            System.out.println("dateOne: " + dateOne);
+//            System.out.println("dateTwo: " + dateTwo);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Количество дней между датами в миллисекундах
+        long difference = dateTwo.getTime() - dateOne.getTime();
+        System.out.println("Количество дней между датами в миллисекундах: " + difference);
+
+        // Передаем новый шаблон даты/времени
+        /*sdfyy.applyPattern("yy");
+        System.out.println("yy: " + sdfyy.format(difference));
+
+        // Передаем новый шаблон даты/времени
+        sdfMM.applyPattern("MM");
+        System.out.println("MM: " + sdfyy.format(difference));*/
+
+
+        //-------------- Перевод количества дней между датами из миллисекунд в дни ----------------------------
+
+        int days =  (int)(difference / (24 * 60 * 60 * 1000)); // миллисекунды / (24ч * 60мин * 60сек * 1000мс)
+        // Вывод разницы между датами в днях на экран
+        System.out.println(days + " дн.");
+
+        int yars = days / 365;
+        System.out.println(yars + " лет");
+
+        int months = (days - yars * 365) / 30;
+        System.out.println(months + " мес.");
+
+        //-----------------------------------------------------------------------------------------------------
+
+        /*GregorianCalendar todaydate = new GregorianCalendar();
+        GregorianCalendar primdate = new GregorianCalendar(2014, 4-1, 14); //14/04/2014
+        // Получить разницу
+        long difference2 = todaydate.getTimeInMillis() - primdate.getTimeInMillis();
+        int days2 =  (int)difference2 / (24 * 60 * 60 * 1000);
+        System.out.println("days2: " + days2);*/
+
+        //-----------------------------------------------------------------------------------------------------
 
 
     }
