@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Scanner;
 
 public class MainTest {
     public static void main(String[] args) throws IOException, FileNotFoundException {
@@ -100,6 +101,8 @@ public class MainTest {
 
         System.out.println(testWrite2);  // Выводим записанный текст в консоль для контроля*/
 
+        //--------------------------- Генерация номера раздела тестирования ------------------------------
+
         // Random test
         /*int a = 1;          // Начальное значение диапазона - "от"
         int b = 3;          // Конечное значение диапазона - "до"
@@ -114,37 +117,32 @@ public class MainTest {
 
         // ---------------------------- Количество дней между датами --------------------------------------
 
-        String date1 = "21.09.2009";
-        String date2 = "29.09.2017";
+        String date1 = "21092009";
+        String date2 = "21092010";
 
-        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
-        SimpleDateFormat sdfyy = new SimpleDateFormat();
-        SimpleDateFormat sdfMM = new SimpleDateFormat();
+        SimpleDateFormat format = new SimpleDateFormat("ddMMyyyy");
+        Scanner in = new Scanner(System.in);
 
-        Date dateOne = null;
+        System.out.println("Введите дату в формате \"ddMMyyyy\": ");
+        long date3 = in.nextLong();
+
+        Date dateOne = null;    // в данную переменную записываем значение, полученное после преобразования
         Date dateTwo = null;
+        Date dateThree = null;
 
         try {
             dateOne = format.parse(date1);
             dateTwo = format.parse(date2);
-//            System.out.println("dateOne: " + dateOne);
-//            System.out.println("dateTwo: " + dateTwo);
+            dateThree = format.parse(String.valueOf(date3));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        // Количество дней между датами в миллисекундах
-        long difference = dateTwo.getTime() - dateOne.getTime();
+        //---------------------- Количество дней между датами в миллисекундах ---------------------------------
+
+        long difference = dateThree.getTime() - dateOne.getTime();
+
         System.out.println("Количество дней между датами в миллисекундах: " + difference);
-
-        // Передаем новый шаблон даты/времени
-        /*sdfyy.applyPattern("yy");
-        System.out.println("yy: " + sdfyy.format(difference));
-
-        // Передаем новый шаблон даты/времени
-        sdfMM.applyPattern("MM");
-        System.out.println("MM: " + sdfyy.format(difference));*/
-
 
         //-------------- Перевод количества дней между датами из миллисекунд в дни ----------------------------
 
@@ -153,21 +151,13 @@ public class MainTest {
         System.out.println(days + " дн.");
 
         int yars = days / 365;
-        System.out.println(yars + " лет");
+//        System.out.println(yars + " лет");
 
         int months = (days - yars * 365) / 30;
-        System.out.println(months + " мес.");
+        System.out.println("Страховой стаж: " + yars + " лет " + months + " мес.");
 
         //-----------------------------------------------------------------------------------------------------
 
-        /*GregorianCalendar todaydate = new GregorianCalendar();
-        GregorianCalendar primdate = new GregorianCalendar(2014, 4-1, 14); //14/04/2014
-        // Получить разницу
-        long difference2 = todaydate.getTimeInMillis() - primdate.getTimeInMillis();
-        int days2 =  (int)difference2 / (24 * 60 * 60 * 1000);
-        System.out.println("days2: " + days2);*/
-
-        //-----------------------------------------------------------------------------------------------------
 
 
     }
