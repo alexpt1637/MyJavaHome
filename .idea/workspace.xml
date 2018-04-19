@@ -37,8 +37,8 @@
       <file leaf-file-name="BasicsKotlin.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="392" column="5" lean-forward="true" selection-start-line="392" selection-start-column="5" selection-end-line="392" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
               <folding>
                 <element signature="e#31#189#0" expanded="true" />
               </folding>
@@ -475,13 +475,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00045" summary="закрываем входной поток сканера">
-      <created>1511419987667</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1511419987667</updated>
-    </task>
     <task id="LOCAL-00046" summary="Нет такого значения">
       <created>1511669422660</created>
       <option name="number" value="00046" />
@@ -818,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524149988422</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Преобразование 'toCharArray' выполнено">
+      <created>1524151687738</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1524151687738</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -858,7 +858,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="окончание выполнения теста" />
     <MESSAGE value="Ваш ответ не верный. Нет такого значения" />
     <MESSAGE value="Процент верных ответов" />
     <MESSAGE value="Работа с массивами" />
@@ -883,7 +882,8 @@
     <MESSAGE value="конструкция when может возвращать значение" />
     <MESSAGE value="Цикл do-while" />
     <MESSAGE value="Массивы и пример работы с датами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Массивы и пример работы с датами" />
+    <MESSAGE value="Преобразование 'toCharArray' выполнено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Преобразование 'toCharArray' выполнено" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1225,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="392" column="5" lean-forward="true" selection-start-line="392" selection-start-column="5" selection-end-line="392" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
           <folding>
             <element signature="e#31#189#0" expanded="true" />
           </folding>

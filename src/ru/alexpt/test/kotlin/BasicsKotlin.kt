@@ -391,4 +391,23 @@ fun main(args: Array<String>) {
     for(dydpars in dydpars){
         println(dydpars)
     }
+    println()
+
+    val dydlist = dydpars.toList()
+    println(dydlist)
+
+    val dydstr = dydlist.toString()
+    println(dydstr)
+    println()
+
+    var k: Int = 0
+    println(dydpars[k+2])
+
+    var j = 107
+    var j1 = j.toChar()
+    println(j1)
+
+    var j2 = dydpars[k+2]
+    val j3 = j2.toInt()
+    println(j3)
 }
