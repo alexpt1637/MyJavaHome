@@ -1,6 +1,9 @@
 package ru.alexpt.test.kotlin
 
+import com.sun.xml.internal.fastinfoset.util.StringArray
 import jdk.nashorn.internal.objects.Global.print
+import java.text.SimpleDateFormat
+import java.util.*
 
 // main() — точка входа в приложение
 fun main(args: Array<String>) {
@@ -38,7 +41,7 @@ fun main(args: Array<String>) {
     //------------------------------------------------- Типы данных ----------------------------------------------------
     // Kotlin не имеет встроенных примитивных типов. Все типы представляют определенные классы.
     // Любые литералы, которые представляют целые числа, воспринимаются как данные типа Int.
-    val i: Int = 45
+    var i: Int = 45
     // Если число представляет значение типа Long, то следует использовать суффикс L:
     val l: Long = 45L
     // Все числа с плавающей точкой (содержат точку в качестве разделителя целой и дробной части) рассматриваются как числа типа Double:
@@ -235,21 +238,141 @@ fun main(args: Array<String>) {
     //------------------------------------------------ Циклы / Цикл for ------------------------------------------------
     // Цикл for пробегается по всем элементам коллекции - цикл for в Kotlin эквивалентен циклу for-each в ряде других языков программирования
     /*Его формальная форма выглядит следующим образом:
-    for(переменная in поледовательность){
+    for(переменная in последовательность){
         выполняемые инструкции
     }*/
 
-    // цикл while:
+    // цикл while:  Цикл while повторяет определенные действия пока истинно некоторое условие:
     var x = 5
     while (x > 0) {
         println("цикл while: " + x--)
     }
     println()
 
-    // Цикл do-while
-    var y = 5
-    while (y > 0) {
-        println("Цикл do-while: " + y--)
+    // цикл do-while:   вначале выполняется блок кода после ключевого слова do, а потом оценивается условие после while
+    // Если условие истинно, то повторяется выполнение блока после do.
+    // Если i не соответствует условию, блок do выполнится хотя бы один раз.
+    i = 5
+    do{
+        println("Цикл do-while: " + i*i)
+        i--
+    }
+    while(i > 10)
+    println()
+
+    // возникает необходимость при некоторых условиях не дожидаться выполнения всех инструкций в цикле, перейти к новой итерации
+    println("оператор continue:")
+    for(n in 1..8){
+        if(n == 5) continue
+        println(n * n)
     }
     println()
+
+    // при некоторых условиях нам вовсе надо выйти из цикла, прекратить его выполнение. В этом случае применяется оператор break:
+    println("оператор break:")
+    for(n in 1..5){
+        if(n == 5) break
+        println(n * n)
+    }
+    println()
+
+    //-------------------------------------------- Последовательности --------------------------------------------------
+    // Последовательность представляет набор значений или диапазон: https://metanit.com/java/kotlin/2.8.php
+    var range = 1..5    // последовательность [1, 2, 3, 4, 5]
+
+    //------------------------------------------------- Массивы --------------------------------------------------------
+    // https://metanit.com/java/kotlin/2.3.php
+    // val numbers: Array<Int>
+    val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
+    val n = numbers[1]  // получаем второй элемент  n=2
+    println("Второй элемент n = $n")
+    println("Пятый элемент массива равен = " + numbers[4])
+    numbers[4] = 7      // переустанавливаем пятый элемент
+    println("Пятый элемент массива после переустановки равен = " + numbers[4])
+    println()
+
+    val phones: Array<String> = arrayOf("Galaxy S8", "iPhone X", "Motorola C350")
+    for(phone in phones){
+        println(phone)
+    }
+    println()
+
+    phones[2] = "LG"
+    println(phones[2])
+    println(phones[1])
+    println(phones[0])
+    println()
+
+    val num = IntArray(3, {5})
+    val doub = DoubleArray(3, {1.5})
+    num[1] = 256
+    doub[1] = 10.24
+    doub[2] = 6.5
+    for(num in num){
+        println("num = IntArray: $num")
+    }
+    println()
+    for(doub in doub){
+        println("doub = DoubleArray: $doub")
+    }
+    println()
+
+    val bit = IntArray (5, {128})
+    bit[1] = bit[0] * 2
+    bit[2] = bit[1] * 2
+    bit[3] = bit[2] * 2
+    bit[4] = bit[3] * 2
+
+    for(bit in bit){
+        println(bit)
+    }
+    println()
+
+    val ch = bit.toList()
+    for(ch in ch){
+        println("List: $ch")
+    }
+    println()
+
+    //--------------------------------------------- Пример работы с датами ---------------------------------------------
+    // ---------------------------------------- Количество дней между датами -------------------------------------------
+
+    val date1 = "21092009"
+    val date2 = "21092010"
+
+    val format = SimpleDateFormat("ddMMyyyy")
+    val `in` = Scanner(System.`in`)
+
+    println("Введите дату в формате \"ddMMyyyy\": ")
+    val date3 = `in`.nextLong()
+
+    var dateOne: Date? = null    // в данную переменную записываем значение, полученное после преобразования
+    var dateTwo: Date? = null
+    var dateThree: Date? = null
+
+    try {
+        dateOne = format.parse(date1)
+        dateTwo = format.parse(date2)
+        dateThree = format.parse(date3.toString())
+    } catch (e: Exception) {
+        e.printStackTrace()
+    }
+
+    //------------------------------- Количество дней между датами в миллисекундах -------------------------------------
+
+    val difference = dateThree!!.getTime() - dateOne!!.getTime()
+    println("Количество дней между датами в миллисекундах: " + difference)
+
+    val days = (difference / (24 * 60 * 60 * 1000)).toInt() // миллисекунды / (24ч * 60мин * 60сек * 1000мс)
+    // Вывод разницы между датами в днях на экран
+    println("Промежуточное значение $days дней")
+
+    val yars = days / 365
+    println("Промежуточное значение $yars лет")
+
+    val months = (days - yars * 365) / 30
+    println("Страховой стаж: $yars лет $months мес.")
+
+    //---------------------------------------- Страховой стаж: 8 лет 7 мес. --------------------------------------------
+
 }
