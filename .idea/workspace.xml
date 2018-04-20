@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/DateKotlin.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" />
     </list>
@@ -27,18 +30,18 @@
       <file leaf-file-name="TestKotlin.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicsKotlin.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicsKotlin.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
+            <state relative-caret-position="310">
+              <caret line="388" column="35" lean-forward="false" selection-start-line="388" selection-start-column="35" selection-end-line="388" selection-end-column="35" />
               <folding>
                 <element signature="e#31#189#0" expanded="true" />
               </folding>
@@ -46,21 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
+      <file leaf-file-name="ArrayKotlin.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="133" column="42" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="140" selection-end-column="111" />
+            <state relative-caret-position="170">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -88,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Раздел 1/Вопрос №4" />
-        <option value="$PROJECT_DIR$/Раздел 1/Вопрос №5" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопрос №7" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопрос №2" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопросы.txt" />
@@ -138,7 +129,9 @@
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/PassA.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Test.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/DateKotlin.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" />
       </list>
     </option>
   </component>
@@ -165,10 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,36 +199,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proj01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proj01" type="462c0819:PsiDirectoryNode" />
-              <item name="MyDate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proj01" type="462c0819:PsiDirectoryNode" />
-              <item name="MyTestSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,45 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.dvfu.mrcpk.java.proj01.myInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.dvfu.mrcpk.java.proj01.MyTestSystem.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.dvfu.mrcpk.java.proj01.MyTestSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.dvfu.mrcpk.java.proj01.MyTestSystem.MainTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -420,9 +349,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="ru.alexpt.test.kotlin.ArrayKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.ArrayKotlinKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
     <configuration name="ru.alexpt.test.kotlin.BasicsKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.BasicsKotlinKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
+    <configuration name="ru.alexpt.test.kotlin.DateKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.DateKotlinKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -445,19 +398,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -474,13 +427,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Нет такого значения">
-      <created>1511669422660</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1511669422660</updated>
     </task>
     <task id="LOCAL-00047" summary="class MainTest">
       <created>1511694979750</created>
@@ -818,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524151687738</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Преобразование 'j.toChar()' выполнено">
+      <created>1524154190748</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1524154190748</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -858,7 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ваш ответ не верный. Нет такого значения" />
     <MESSAGE value="Процент верных ответов" />
     <MESSAGE value="Работа с массивами" />
     <MESSAGE value="замена значения по индексу (присвоение)" />
@@ -883,7 +835,8 @@
     <MESSAGE value="Цикл do-while" />
     <MESSAGE value="Массивы и пример работы с датами" />
     <MESSAGE value="Преобразование 'toCharArray' выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Преобразование 'toCharArray' выполнено" />
+    <MESSAGE value="Преобразование 'j.toChar()' выполнено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Преобразование 'j.toChar()' выполнено" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,20 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MyAdminProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Practice_02/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/geometry/WriteTest.java" />
@@ -1183,26 +1122,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestKotlin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1211,25 +1141,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="133" column="42" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="140" selection-end-column="111" />
+        <state relative-caret-position="2142">
+          <caret line="133" column="42" lean-forward="false" selection-start-line="117" selection-start-column="7" selection-end-line="140" selection-end-column="111" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/DateKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#31#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
+        <state relative-caret-position="310">
+          <caret line="388" column="35" lean-forward="false" selection-start-line="388" selection-start-column="35" selection-end-line="388" selection-end-column="35" />
           <folding>
             <element signature="e#31#189#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

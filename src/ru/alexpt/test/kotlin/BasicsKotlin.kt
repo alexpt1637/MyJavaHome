@@ -292,6 +292,8 @@ fun main(args: Array<String>) {
     println()
 
     val phones: Array<String> = arrayOf("Galaxy S8", "iPhone X", "Motorola C350")
+
+    // Для перебора массивов применяется цикл for:
     for(phone in phones){
         println(phone)
     }
@@ -334,56 +336,6 @@ fun main(args: Array<String>) {
     }
     println()
 
-    //--------------------------------------------- Пример работы с датами ---------------------------------------------
-
-    /*val date1 = "21092009"      // Рабочее исходное значение начальной даты
-    val date2 = "21092010"
-
-    // ---------------------------------------- Количество дней между датами -------------------------------------------
-
-    val format = SimpleDateFormat("ddMMyyyy")
-    val `in` = Scanner(System.`in`)
-
-    println("Введите дату в формате \"ddMMyyyy\": ")
-    val date3 = `in`.nextLong()
-
-    var dateOne: Date? = null    // в данную переменную записываем значение, полученное после преобразования
-    var dateTwo: Date? = null
-    var dateThree: Date? = null
-
-    try {
-        dateOne = format.parse(date1)
-        dateTwo = format.parse(date2)
-        dateThree = format.parse(date3.toString())
-    } catch (e: Exception) {
-        e.printStackTrace()
-    }
-
-    //------------------------------- Количество дней между датами в миллисекундах -------------------------------------
-
-    val difference = dateThree!!.getTime() - dateOne!!.getTime()
-    println("Количество дней между датами в миллисекундах: " + difference)
-
-    val days = (difference / (24 * 60 * 60 * 1000)).toInt() // миллисекунды / (24ч * 60мин * 60сек * 1000мс)
-    // Вывод разницы между датами в днях на экран
-    println("Промежуточное значение $days дней")
-
-    val yars = days / 365
-    println("Промежуточное значение $yars лет")
-
-    val months = (days - yars * 365) / 30
-    println("Страховой стаж: $yars лет $months мес.")
-
-    //----------------------------- Результат рассчета: Страховой стаж: 8 лет 7 мес. -----------------------------------
-
-    val result = IntArray (3)
-    result[0] = yars
-    result[1] = months
-    result[2] = days
-
-    for(result in result){
-        println(result)
-    }*/
 
     val dyd: String = "ABRAKADABRA"
     val dydpars = dyd.toCharArray()
@@ -401,13 +353,38 @@ fun main(args: Array<String>) {
     println()
 
     var k: Int = 0
-    println(dydpars[k+2])
+    println(dydpars[k+1])
 
-    var j = 107
+    var j = 1066
     var j1 = j.toChar()
     println(j1)
 
-    var j2 = dydpars[k+2]
-    val j3 = j2.toInt()
-    println(j3)
+    var j2 = dydpars[k+1]
+    val g2 = j2.toInt()
+    println(g2)
+
+    var j3 = dydpars[k+2]
+    val g3 = j3.toInt()
+    println(g3)
+    println()
+
+    // можем проверить наличие или отсутствие элементов в массиве с помощью операторов in и !in:
+    println(4 in numbers)       // true
+    println(2 !in numbers)      // false
+    println(10 in numbers)      // false
+    println(1 in numbers)       // true
+    println()
+
+    // Двухмерные массивы
+    // Используя индексы, можно обращаться к подмассивам в подобном массиве, в том числе переустанавливать их значения:
+    val table = Array(3, { Array(3, {0}) })
+    table[0] = arrayOf(1, 2, 3)
+    table[1] = arrayOf(4, 5, 6)
+    table[2] = arrayOf(7, 8, 9)
+
+    table[0][1] = 6  // второй элемент первой строки
+    val w = table[0][1]     // t = 6
+    println(w)
+
+    // Используя два цикла, можно перебирать двухмерные массивы
 }
