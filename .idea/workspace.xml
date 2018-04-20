@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/DateKotlin.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/FunKotlin.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayKotlin.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayKotlin.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunKotlin.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/FunKotlin.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -81,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Раздел 1/Вопрос №7" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопрос №2" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопросы.txt" />
         <option value="$PROJECT_DIR$/Раздел 1/Вопросы2.txt" />
@@ -132,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/DateKotlin.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/FunKotlin.kt" />
       </list>
     </option>
   </component>
@@ -248,26 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.dvfu.mrcpk.java.proj01.MyTestSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.dvfu.mrcpk.java.proj01.MyTestSystem.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.FunKotlinKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -385,6 +374,18 @@
       <module name="untitled1" />
       <envs />
     </configuration>
+    <configuration name="ru.alexpt.test.kotlin.FunKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.FunKotlinKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
     <configuration name="ru.alexpt.test.kotlin.TestKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.TestKotlinKt" />
@@ -398,19 +399,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.FunKotlinKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.FunKotlinKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.ArrayKotlinKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.BasicsKotlinKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.DateKotlinKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestKotlinKt" />
       </list>
     </recent_temporary>
   </component>
@@ -427,13 +428,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00047" summary="class MainTest">
-      <created>1511694979750</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1511694979750</updated>
     </task>
     <task id="LOCAL-00048" summary="окончание выполнения теста">
       <created>1511797793574</created>
@@ -771,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524154190748</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Для перебора массивов применяется цикл for">
+      <created>1524231383838</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1524231383838</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Процент верных ответов" />
     <MESSAGE value="Работа с массивами" />
     <MESSAGE value="замена значения по индексу (присвоение)" />
     <MESSAGE value="вывод на экран треугольника" />
@@ -836,7 +836,8 @@
     <MESSAGE value="Массивы и пример работы с датами" />
     <MESSAGE value="Преобразование 'toCharArray' выполнено" />
     <MESSAGE value="Преобразование 'j.toChar()' выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Преобразование 'j.toChar()' выполнено" />
+    <MESSAGE value="Для перебора массивов применяется цикл for" />
+    <option name="LAST_COMMIT_MESSAGE" value="Для перебора массивов применяется цикл for" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,7 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Practice_02/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/geometry/WriteTest.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/MyUserProject.java">
@@ -1182,8 +1182,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArrayKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/FunKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>

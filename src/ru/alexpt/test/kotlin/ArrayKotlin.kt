@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
 
     // https://metanit.com/java/kotlin/2.3.php
 
+    // С помощью встроенной функции arrayOf() можно передать набор значений, которые будут составлять массив:
     val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
     val n = numbers[1]  // получаем второй элемент  n=2
     numbers[2] = 7      // переустанавливаем третий элемент
@@ -11,8 +12,8 @@ fun main(args: Array<String>) {
     // Перебор массивов. Для перебора массивов применяется цикл for:
     for(numbers in numbers){
         println(numbers)
-        println()
     }
+    println()
 
     // Двухмерные массивы
     // Используя два цикла, можно перебирать двухмерные массивы:
