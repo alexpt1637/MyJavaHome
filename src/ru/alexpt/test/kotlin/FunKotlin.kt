@@ -57,10 +57,34 @@ fun main(args: Array<String>) {
     println("Площадь круга с радиусом R равна $S_circle кв.см.")
 
     val L_circle = circumference(15)
-    println("Длина окрудности с радиусом R равна $L_circle см.")
+    println("Длина окружности с радиусом R равна $L_circle см.")
+
+    var D_circle = diameter(15)
+    println("Диаметр круга с радиусом R равен $D_circle см.")
+    println()
+
+    // Лямбда-выражения могут передаваться в качестве параметра в функции.
+    // Лямбда-выражение можно сохранить в обычную переменную и затем вызывать через имя этой переменной как обычную функцию.
+    var helloBob = {println("hello, Bob")}
+    helloBob()
+    helloBob = {println("Переопределение переменной с сохраненным лямбда-выражением")}
+    helloBob()
+
+    helloBob = {println("Hello, Grey")}
+    helloBob()
+    println()
+
+    D_circle = diameter(25)
+    println("Диаметр круга с радиусом R равен $D_circle см.")
+    println()
+
+    // Локальные функции
+    val a2 = isFirstGreater(10.0, 10.0, 20.0, 20.0)
+    val b2 = isFirstGreater(20.0, 20.0, 10.0, 10.0)
+    println("a = $a2, b = $b2")
 }
 
-
+//-----------------------------------------------------/ fun /----------------------------------------------------------
 // определение функции hello
 fun hello(){
     println("Hello")
@@ -131,3 +155,14 @@ fun double(x: Int) = x * x
 fun areaCircle (R: Int) = 3.14 * R * R
 
 fun circumference (R: Int) = 2 * 3.14 * R
+
+fun diameter (R: Int) = 2 * R
+
+// Локальные функции
+// Одни функции могут быть определены внутри других функций. Внутренние или вложенные функции еще называют локальными
+// функция принимает на вход основание и высоту двух треугольников и должна вычислить, больше ли площадь первого треугольника, чем второго:
+
+fun isFirstGreater(base1: Double, height1: Double, base2: Double, height2: Double): Boolean{
+    fun square(base: Double, height: Double) = base * height / 2
+    return square(base1, height1) > square(base2, height2)
+}
