@@ -48,7 +48,7 @@ public class Arifmeticheskie_01 {
         double a = in.nextInt(); // Переменная, в которую сохраняется введенное значение.
         System.out.println("Введите с клавиатуры значение b и нажмите Enter: ");
         double b = in.nextInt(); // Переменная, в которую сохраняется введенное значение.
-        System.out.print("Корень линейного уравнения равен: ");
+        System.out.print("Корень линейного уравнения ax + b = 0 равен: ");
         double x = -b / a;
         System.out.print(x);
         */
