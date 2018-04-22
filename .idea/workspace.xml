@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01$Arifmeticheskie_01_01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01$Arifmeticheskie_01_13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_03_18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Days.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyArrays01/MyArrays.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyArrays01/myArraysPractice1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ru/dvfu/mrcpk/java/proj01/MyArrays01/myArraysPractice2.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArithmeticTest.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/BasicsKotlin.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestBasics.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmetic/Arifmetic_01.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_03.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmetic/Arifmetic_03.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_03_18.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmetic/Arifmeticheskie_03_18.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays01/MyArrays.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays/MyArrays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays01/myArraysPractice1.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays/myArraysPractice1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays01/myArraysPractice2.java" afterPath="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyArrays/myArraysPractice2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
+    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="меняем средние цифры значений x и y">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arifmetic_01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmetic/Arifmetic_01.java">
+      <file leaf-file-name="Arithmetic_01.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="145" column="60" lean-forward="true" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="68" />
+            <state relative-caret-position="-170">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arithmetic_01.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt">
+      <file leaf-file-name="Arithmetic_02.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -103,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem1/QuestionsTest.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem1/SuperUser.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Practice_02/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/geometry/WriteTest.java" />
@@ -154,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/Arifmeticheskie_01/Arifmeticheskie_01.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/ArithmeticTest.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt" />
       </list>
     </option>
   </component>
@@ -255,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt">
+  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.Arithmetic_02Kt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -349,9 +332,9 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="ru.alexpt.test.kotlin.TestArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.alexpt.test.kotlin.Arithmetic_02Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.TestArrayKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.Arithmetic_02Kt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -398,19 +381,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestFunKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestClassKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestCollectionKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestFunKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestClassKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestCollectionKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_02Kt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestCollectionKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestClassKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestFunKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_02Kt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestCollectionKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestClassKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestFunKt" />
       </list>
     </recent_temporary>
   </component>
@@ -427,13 +410,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Работа с массивами">
-      <created>1512012083985</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1512012083985</updated>
     </task>
     <task id="LOCAL-00054" summary="замена значения по индексу (присвоение)">
       <created>1512012688987</created>
@@ -771,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524369194980</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Меняем местами значения переменных a и b">
+      <created>1524400728668</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1524400728668</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +794,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Первая программа на Kotlin!" />
     <MESSAGE value="Результат умножения двух чисел" />
     <MESSAGE value="второй элемент массива заменен" />
     <MESSAGE value="Функция с выражением в качестве тела и автоматически определенным типом возвращаемого значения" />
@@ -836,7 +818,8 @@
     <MESSAGE value="Изменяемые списки" />
     <MESSAGE value="Задачи блок 1" />
     <MESSAGE value="Задачи блок 1 - Сумма в рублях" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задачи блок 1 - Сумма в рублях" />
+    <MESSAGE value="Меняем местами значения переменных a и b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Меняем местами значения переменных a и b" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,13 +828,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Раздел 1/Вопрос №10">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Раздел 1/Ответы">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1163,6 +1139,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,6 +1147,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,8 +1169,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="-170">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
           <folding />
         </state>
       </provider>
