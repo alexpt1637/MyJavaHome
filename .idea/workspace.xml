@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="меняем средние цифры значений x и y">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt" />
+    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +48,7 @@
       <file leaf-file-name="Arithmetic_01.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="85">
               <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
@@ -58,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+              <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -411,13 +412,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00054" summary="замена значения по индексу (присвоение)">
-      <created>1512012688987</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1512012688987</updated>
-    </task>
     <task id="LOCAL-00055" summary="вывод на экран треугольника">
       <created>1512020234795</created>
       <option name="number" value="00055" />
@@ -754,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524400728668</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Меняем средние цифры значений x и y">
+      <created>1524407447277</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1524407447277</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -794,7 +795,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Результат умножения двух чисел" />
     <MESSAGE value="второй элемент массива заменен" />
     <MESSAGE value="Функция с выражением в качестве тела и автоматически определенным типом возвращаемого значения" />
     <MESSAGE value="считываем данные из файла" />
@@ -819,7 +819,8 @@
     <MESSAGE value="Задачи блок 1" />
     <MESSAGE value="Задачи блок 1 - Сумма в рублях" />
     <MESSAGE value="Меняем местами значения переменных a и b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Меняем местами значения переменных a и b" />
+    <MESSAGE value="Меняем средние цифры значений x и y" />
+    <option name="LAST_COMMIT_MESSAGE" value="Меняем средние цифры значений x и y" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,7 +1170,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_01.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding />
         </state>
@@ -1178,7 +1179,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Arithmetic_02.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding />
         </state>
       </provider>
