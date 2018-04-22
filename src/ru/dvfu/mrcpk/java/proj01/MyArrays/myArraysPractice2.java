@@ -1,4 +1,4 @@
-package ru.dvfu.mrcpk.java.proj01.MyArrays01;
+package ru.dvfu.mrcpk.java.proj01.MyArrays;
 
 public class myArraysPractice2 {
     public static void main(String[] args) {

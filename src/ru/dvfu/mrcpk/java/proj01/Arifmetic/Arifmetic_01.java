@@ -1,8 +1,8 @@
-package ru.dvfu.mrcpk.java.proj01.Arifmeticheskie_01;
+package ru.dvfu.mrcpk.java.proj01.Arifmetic;
 
 import java.util.Scanner;
 
-public class Arifmeticheskie_01 {
+public class Arifmetic_01 {
     public static void main(String[] args) {
         // 1. Ввести с клавиатуры натуральное число. Вывести на экран младший разряд числа.
         /* Scanner in = new Scanner(System.in);

@@ -1,15 +1,10 @@
-package ru.dvfu.mrcpk.java.proj01.Arifmeticheskie_01;
+package ru.dvfu.mrcpk.java.proj01.Arifmetic;
 
 import java.text.SimpleDateFormat;
-import java.time.MonthDay;
-import java.time.YearMonth;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicReference;
 
-public class Arifmeticheskie_03 {
+public class Arifmetic_03 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
