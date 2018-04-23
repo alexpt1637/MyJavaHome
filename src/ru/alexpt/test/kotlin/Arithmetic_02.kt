@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     val z = `in`.nextInt()
     mod_02(z)           // подсчитать сумму первой и третьей цифры и разность второй и четвертой
 
-    println("Введите с клавиатуры 3-значное число и удалите из него среднюю цифру:")
+    println("Введите с клавиатуры 3-значное число:")
     val q = `in`.nextInt()
     mod_03(q)           // ввести с клавиатуры 3-значное число и удалить из него среднюю цифру
 
@@ -33,9 +33,9 @@ fun mod_01(x: Int, y: Int){
     val y3 = y - y1 - y2
 //    println("x = $x, x1 = $x1, x2 = $x2, x3 = $x3")
 //    println("y = $y, y1 = $y1, y2 = $y2, y3 = $y3")
-    val x = x1 + y2 + x3
-    val y = y1 + x2 + y3
-    println("Меняем средние цифры значений x и y: $x, $y")
+    val xx = x1 + y2 + x3
+    val yy = y1 + x2 + y3
+    println("Меняем средние цифры значений x и y: $xx, $yy")
 }
 
 fun mod_02(z: Int){
@@ -54,8 +54,8 @@ fun mod_03(q: Int){
     val q2 = q % 100 /10
     val q3 = q % 1000 / 10 - q2
 //    println("q = $q, q3 = $q3, q2 = $q2, q1 = $q1")
-    val sum = q1 + q3
-    println("q = $q, sum = $sum")
+    val sum = q1 + q3   // ввести с клавиатуры 3-значное число и удалить из него среднюю цифру
+    println("Удалим из 3-значного числа $q среднюю цифру: $sum")
 }
 
 fun mod_04(r: Int, p: Double){
