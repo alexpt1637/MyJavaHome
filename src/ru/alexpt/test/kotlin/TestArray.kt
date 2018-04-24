@@ -97,6 +97,12 @@ fun main(args: Array<String>) {
     }
     println(name.toList())
 
+    arrint[1] = 88
+    arrint.sortDescending()
+    val ch = arrint.toList()
+    println(ch.toString())
+
+
 
     //------------------------------------------- Двухмерные массивы ---------------------------------------------------
     // Используя два цикла, можно перебирать двухмерные массивы:
