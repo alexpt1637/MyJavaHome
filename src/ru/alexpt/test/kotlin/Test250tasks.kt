@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     val a = 21.0; val b = 12.0; val h = 17.0
     /*task_11(); task_12(); task_13(); task_14(); task_15(); task_16(); task_17()
     task_18(a, b); task_19(a, h); task_20(a, b, h); task_21(b); task_22(b, h)*/
-    task_23(a, b, h); task_24(b); task_26(a, b, h); task_27(b, h)
+    task_23(a, b, h); task_24(b); task_26(a, b, h); task_27(b, h); task_65(); task_74()
 }
 
 fun task_11(){
@@ -110,6 +110,23 @@ fun task_26(a: Double, b: Double, h: Double){
 
 fun task_27(b: Double, h: Double){
     val R = b
-    val v = 1.0 / 3.0 * Math.PI * Math.pow(R, 2.0) * h; val V = v.toInt()
+    val v = 1.0 / 3.0 * Math.PI * Math.pow(R, 2.0) * h; val V = v - v % 0.01
     println("27) При R = $b и h = $h см объем конуса равен $V куб.см")
+}
+
+fun task_65(){
+    val S = 50.0        // расстояние до дачи (км)
+    val l = 12.5        // расход бензина на 100 км
+    val r = 39.5        // цена литра бензина (руб)
+    val d = 365 / 2 / 7 * 2
+    val x1 = 2 * S * l / 100 * r; val x = x1.toInt()
+    val dd = x * d
+    println("65) Одна поездка на дачу обойдется $x руб, в сезон поездки обойдутся в $dd руб")
+}
+
+fun task_74(){
+    // Преобразование числа в денежный формат
+    val y = 23.6
+    val r = y.toInt(); val k = ((y - r) * 100).toInt()
+    println("74) Заданное число в денежном формате равняется: $r руб $k коп")
 }
