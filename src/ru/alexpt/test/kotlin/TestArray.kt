@@ -1,13 +1,14 @@
 package ru.alexpt.test.kotlin
 
 import java.util.*
+import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
 
     // https://metanit.com/java/kotlin/2.3.php
 
     // С помощью встроенной функции arrayOf() можно передать набор значений, которые будут составлять массив:
-    val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
+    /*val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
     val n = numbers[1]  // получаем второй элемент  n=2
     println("n = $n")
     numbers[2] = 7          // переустанавливаем третий элемент
@@ -21,10 +22,10 @@ fun main(args: Array<String>) {
     numbers.fill(12)    // заполняет массив переданным значением
 
     // Перебор массивов. Для перебора массивов применяется цикл for:
-    /*for(numbers in numbers){
+    *//*for(numbers in numbers){
         println(numbers)
     }
-    println()*/
+    println()*//*
 
     val str = numbers.toList()
     println(str)
@@ -100,8 +101,7 @@ fun main(args: Array<String>) {
     arrint[1] = 88
     arrint.sortDescending()
     val ch = arrint.toList()
-    println(ch.toString())
-
+    println(ch.toString())*/
 
 
     //------------------------------------------- Двухмерные массивы ---------------------------------------------------
@@ -117,4 +117,101 @@ fun main(args: Array<String>) {
         }
         println()
     }*/
+    //------------------------------------------------------------------------------------------------------------------
+
+    val code1 = "Это текст X"
+    val text1 = "ABRAKADABRA"
+    println(code1)
+    println(text1)
+    val j = 11
+
+    val code2 = code1.toList()
+    val text2 = text1.toList()
+    println(code2)
+    println(text2)
+
+    val text3: Array<String> = Array(j, {"*"})
+    val text4 = text3.toList()
+    println(text4)
+    val text5 = text2.toCharArray()
+    println(text5)
+
+    val x: Array<Int> = Array(j, {25})
+
+    xList(x, code2, text2)
+
+    val xx = x.toList()
+    println("xx: $xx")
+    val xx1 = x[6].toChar()
+    println("xx1: $xx1")
+
+    val xxx = CharArray(j, {'1'})
+
+    for(xxx in xxx){
+        print(xxx)
+    }
+    println()
+
+    val y: Array<Int> = Array(j, {25})
+
+    yInt(y, x, text2)
+
+    val yy = y.toList()
+    println("yy: $yy")
+
+    val z: Array<String> = Array(j, {"*"})
+
+    zChar(z, yy)
+    println("Расшифрованный текст:")
+    for(z in z){
+        print(z)
+    }
+    println()
+
+    val ch = CharArray(11, {'*'})
+
+    println("Криптограмма:")
+    cript(xxx, ch)
+
+    for(ch in ch){
+       print(ch)
+    }
+    println()
+
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+fun xList(x: Array<Int>, code2: List<Char>, text2: List<Char>){
+    var i = 0
+    while(i < 11){
+        x[i] = code2[i].toInt() + text2[i].toInt() - 50
+        i++
+    }
+}
+
+fun yInt(y: Array<Int>, x: Array<Int>, text2: List<Char>){
+    var i = 0
+    while(i < 11){
+        y[i] = x[i] + 50 - text2[i].toInt()
+        i++
+    }
+}
+
+fun zChar(z: Array<String>, yy: List<Int>){
+    z.toList()
+    var i = 0
+    while(i < 11){
+        z[i] = yy[i].toChar().toString()
+        i++
+    }
+}
+
+fun cript(xxx: CharArray, ch: CharArray){
+    println(ch)
+    var i = 0
+    while(i < 11){
+        ch[i] = xxx[i]
+        i++
+    }
 }

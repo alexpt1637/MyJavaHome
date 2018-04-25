@@ -8,11 +8,7 @@ fun main(args: Array<String>) {
     /*task_11(); task_12(); task_13(); task_14(); task_15(); task_16(); task_17()
     task_18(a, b); task_19(a, h); task_20(a, b, h); task_21(b); task_22(b, h)
     task_23(a, b, h); task_24(b); task_26(a, b, h); task_27(b, h); task_65(); task_74()*/
-    println("77) Вычисление частного: \nВведите с клавиатуры последовательно два числа и нажмите Enter: ")
-    val x1 = `in`.nextInt()
-    val x2 = `in`.nextInt()
-    task_77(x1, x2)
-    task_77a(x1, x2)
+    /*task_77(); task_77a()*/
 }
 
 fun task_11(){
@@ -137,7 +133,11 @@ fun task_74(){
     println("74) Заданное число в денежном формате равняется: $r руб $k коп")
 }
 
-fun task_77(x1: Int, x2: Int){
+fun task_77(){
+    val `in` = Scanner(System.`in`)
+    println("77) Вычисление частного: \nВведите с клавиатуры последовательно два числа и нажмите Enter: ")
+    val x1 = `in`.nextInt()
+    val x2 = `in`.nextInt()
     if(x2 == 0){
         println("77) Делитель не может быть равен нулю, перезапустите программу")
     } else {
@@ -146,7 +146,11 @@ fun task_77(x1: Int, x2: Int){
     }
 }
 
-fun task_77a(x1: Int, x2: Int){
+fun task_77a(){
+    val `in` = Scanner(System.`in`)
+    println("77a) Вычисление частного: \nВведите с клавиатуры последовательно два числа и нажмите Enter: ")
+    val x1 = `in`.nextInt()
+    val x2 = `in`.nextInt()
     val x: Double; val x3: Double
     when(x2){
         0 -> println("77a) Делитель не может быть равен нулю, перезапустите программу")
