@@ -19,14 +19,14 @@ fun main(args: Array<String>) {
 
     val textof: String = "ɜʠʬ賓ʒʱʌʱﹶʕʣﺀʳʩﹴʢʉﺅʣʑﺏʩﺇʤʥʎʔʘﹿ*****"
 
-    ofkey(textof)
+    ofkey(textof, i, j, textkey1)
 }
 
 fun addkey(textkey1: List<Char>, i: Int, j: Int) {
     var i = textkey1.size               // определяем длину массива (длину ключа, максимальную длину сообщения)
     println("Длина ключа: i = $i")
 
-    var text: String = "Мой дядя самых честных правил"
+    var text: String = "Мой дядя самых честных правил"      // исходный текст
     val text1 = text.toList()
     println(text1)
     var j = text1.size                  // определяем длину массива и длину сообщения
@@ -58,6 +58,54 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int) {
     println()
 }
 
-fun ofkey(textof: String) {
-    println("Зашифрованный текст: \n$textof")
+fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>) {
+    println()
+    println("Зашифрованный текст: --------------/ расшифование /--------------- \n'textof' : $textof")
+    val textof1 = textof.toList()
+    println("textof1:")
+    println(textof1)
+    println("textkey1:")
+    println(textkey1)
+
+    val textkey2: CharArray = textkey1.toCharArray()
+    val textof2: CharArray = textof1.toCharArray()
+    val textof3: Array<Char>
+    println("textof2:")
+    for(textof2 in textof2){
+        print(textof2)
+    }
+
+    println("\ntextkey2:")
+    for(textkey2 in textkey2){
+        print(textkey2)
+    }
+    println()
+
+    print("textkey2[2]: ")
+    println(textkey2[2])
+
+    val t8 = (textof2[9] - textkey2[9] + 1500).toChar()
+    println("t3 = $t8")
+
+    /*if(i <= j){
+        var n = 0
+        while(n < i){
+            text3[n] = textkey2[n] + text2[n].toInt() - 1500
+            n++
+        }
+    } else {
+        var n = 0
+        while(n < j){
+            text3[n] = textkey2[n] + text2[n].toInt() - 1500
+            n++
+        }
+    }
+    println()
+
+    println("Зашифрованный текст:")
+    for(text3 in text3){
+        print(text3)
+    }
+    println()*/
+
 }

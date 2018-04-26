@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="TestArray.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="170" column="33" lean-forward="true" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
               <folding>
                 <element signature="e#31#85#0" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="Encryption.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="293">
+              <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -430,13 +430,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00062" summary="второй элемент массива заменен">
-      <created>1512128699970</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1512128699970</updated>
-    </task>
     <task id="LOCAL-00063" summary="второй элемент массива заменен">
       <created>1512128844595</created>
       <option name="number" value="00063" />
@@ -773,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524670688376</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Зашифрованный текст">
+      <created>1524748114230</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1524748114231</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -788,7 +788,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25585023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25585023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -813,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Запись сведений в файл реализована" />
     <MESSAGE value="Вывод времени выполнения теста на экран и запись в файл" />
     <MESSAGE value="обращаемся к файлам, содержащим вопросы для тестирования в нужном нам разделе" />
     <MESSAGE value="Номер выбранного раздела" />
@@ -838,7 +837,8 @@
     <MESSAGE value="Заданное число в денежном формате" />
     <MESSAGE value="task_77a Частное двух чисел / оператор when" />
     <MESSAGE value="ABRAKADABRA" />
-    <option name="LAST_COMMIT_MESSAGE" value="ABRAKADABRA" />
+    <MESSAGE value="Зашифрованный текст" />
+    <option name="LAST_COMMIT_MESSAGE" value="Зашифрованный текст" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="170" column="33" lean-forward="true" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
           <folding>
             <element signature="e#31#85#0" expanded="true" />
           </folding>
@@ -1188,8 +1188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        <state relative-caret-position="293">
+          <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
           <folding />
         </state>
       </provider>
