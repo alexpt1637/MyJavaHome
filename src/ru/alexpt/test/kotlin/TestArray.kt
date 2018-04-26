@@ -173,10 +173,12 @@ fun main(args: Array<String>) {
     println("Криптограмма:")
     cript(xxx, ch)
 
-    for(ch in ch){
+    /*for(ch in ch){
        print(ch)
     }
-    println()
+    println()*/
+
+//    fortest()
 
 }
 
@@ -207,11 +209,24 @@ fun zChar(z: Array<String>, yy: List<Int>){
     }
 }
 
-fun cript(xxx: CharArray, ch: CharArray){
-    println(ch)
-    var i = 0
+fun cript(xx: CharArray, ch: CharArray){
+    println(xx)
+    /*var i = 0
     while(i < 11){
         ch[i] = xxx[i]
         i++
+    }*/
+
+    /*for(i in 0..10){
+        ch[i] = xx[i]
+        print(ch)
+    }*/
+
+
+}
+
+fun fortest(){
+    for(n in 1..9){
+        print("${n * n} \t")
     }
 }
