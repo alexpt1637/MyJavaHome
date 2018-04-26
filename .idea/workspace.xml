@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="TestArray.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+            <state relative-caret-position="3502">
+              <caret line="207" column="11" lean-forward="false" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
               <folding>
                 <element signature="e#31#85#0" expanded="true" />
               </folding>
@@ -37,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encryption.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Encryption.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestProjects.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -50,7 +60,7 @@
       <file leaf-file-name="TestBasics.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestBasics.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4063">
+            <state relative-caret-position="2159">
               <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
               <folding />
             </state>
@@ -89,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Раздел 1/Вопрос №8" />
         <option value="$PROJECT_DIR$/Раздел 1/Ответы" />
         <option value="$PROJECT_DIR$/Раздел 2/nameTest" />
         <option value="$PROJECT_DIR$/Раздел 2/Вопрос №1" />
@@ -140,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/Test250tasks.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt" />
       </list>
     </option>
   </component>
@@ -166,10 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +221,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt">
+  <component name="RunManager" selected="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -351,6 +361,18 @@
       <module name="untitled1" />
       <envs />
     </configuration>
+    <configuration name="ru.alexpt.kotlin.myprojects.TestProjectsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.kotlin.myprojects.TestProjectsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
     <configuration name="ru.alexpt.test.kotlin.Arithmetic_01Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" />
@@ -359,18 +381,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.Arithmetic_01Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
-    <configuration name="ru.alexpt.test.kotlin.Arithmetic_02Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.Arithmetic_02Kt" />
       <option name="WORKING_DIRECTORY" />
       <module name="untitled1" />
       <envs />
@@ -401,18 +411,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_02Kt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_02Kt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Arithmetic_01Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -429,13 +439,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00063" summary="второй элемент массива заменен">
-      <created>1512128844595</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1512128844595</updated>
     </task>
     <task id="LOCAL-00064" summary="Функция с выражением в качестве тела и автоматически определенным типом возвращаемого значения">
       <created>1512219109015</created>
@@ -773,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524748114231</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="println(&quot;t3 = $t8&quot;)">
+      <created>1524757032554</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1524757032554</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -813,7 +823,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вывод времени выполнения теста на экран и запись в файл" />
     <MESSAGE value="обращаемся к файлам, содержащим вопросы для тестирования в нужном нам разделе" />
     <MESSAGE value="Номер выбранного раздела" />
     <MESSAGE value="Конструкция when" />
@@ -838,7 +847,8 @@
     <MESSAGE value="task_77a Частное двух чисел / оператор when" />
     <MESSAGE value="ABRAKADABRA" />
     <MESSAGE value="Зашифрованный текст" />
-    <option name="LAST_COMMIT_MESSAGE" value="Зашифрованный текст" />
+    <MESSAGE value="println(&quot;t3 = $t8&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="println(&quot;t3 = $t8&quot;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,13 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Раздел 2/Вопрос №3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Раздел 2/Вопрос №4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1156,13 +1159,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestBasics.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4063">
+        <state relative-caret-position="2159">
           <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
           <folding />
         </state>
@@ -1178,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestArray.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+        <state relative-caret-position="3502">
+          <caret line="207" column="11" lean-forward="false" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
           <folding>
             <element signature="e#31#85#0" expanded="true" />
           </folding>
@@ -1188,8 +1190,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding />
         </state>
       </provider>
