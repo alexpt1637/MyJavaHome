@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Assembly.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +28,27 @@
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
+              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assembly.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Assembly.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Assembly.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="559">
+              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDate.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -50,7 +57,7 @@
       <file leaf-file-name="TestProjects.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="1428">
               <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding />
             </state>
@@ -79,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Раздел 2/nameTest" />
         <option value="$PROJECT_DIR$/Раздел 2/Вопрос №1" />
         <option value="$PROJECT_DIR$/Раздел 2/Вопрос №2" />
         <option value="$PROJECT_DIR$/Раздел 2/Вопрос №3" />
@@ -130,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Assembly.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt" />
       </list>
     </option>
   </component>
@@ -156,9 +163,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.kotlin.myprojects.AssemblyKt">
+  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.TestDateKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -365,18 +372,6 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="ru.alexpt.test.kotlin.Test250tasksKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.Test250tasksKt" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
     <configuration name="ru.alexpt.test.kotlin.TestArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" />
@@ -389,20 +384,32 @@
       <module name="untitled1" />
       <envs />
     </configuration>
+    <configuration name="ru.alexpt.test.kotlin.TestDateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.alexpt.test.kotlin.TestDateKt" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.AssemblyKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.AssemblyKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestDateKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.AssemblyKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.Test250tasksKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestDateKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.AssemblyKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.EncryptionKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.kotlin.myprojects.TestProjectsKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -419,13 +426,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00065" summary="считываем данные из файла">
-      <created>1512289710234</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1512289710234</updated>
     </task>
     <task id="LOCAL-00066" summary="считываем данные из файла">
       <created>1512289761623</created>
@@ -763,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524764140569</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="fun decClass">
+      <created>1524850147449</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1524850147449</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -803,7 +810,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Номер выбранного раздела" />
     <MESSAGE value="Конструкция when" />
     <MESSAGE value="конструкция when может возвращать значение" />
     <MESSAGE value="Цикл do-while" />
@@ -828,7 +834,8 @@
     <MESSAGE value="Зашифрованный текст" />
     <MESSAGE value="println(&quot;t3 = $t8&quot;)" />
     <MESSAGE value="преобразования для проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="преобразования для проекта" />
+    <MESSAGE value="fun decClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="fun decClass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1070,13 +1077,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/PersonTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/PersonKotlin.kt" />
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestCollection.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1164,14 +1164,14 @@
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/TestProjects.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="1428">
           <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding />
         </state>
@@ -1179,8 +1179,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Assembly.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="559">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
           <folding />
         </state>
       </provider>

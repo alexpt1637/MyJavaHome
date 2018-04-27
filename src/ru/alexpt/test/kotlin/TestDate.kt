@@ -3,7 +3,6 @@ package ru.alexpt.test.kotlin
 import java.text.SimpleDateFormat
 import java.util.*
 
-// main() — точка входа в приложение
 fun main(args : Array<String>) {
     //--------------------------------------------- Пример работы с датами ---------------------------------------------
 
@@ -47,15 +46,12 @@ fun main(args : Array<String>) {
 
     //----------------------------- Результат рассчета: Страховой стаж: _ лет _ мес. -----------------------------------
 
-    val result = IntArray (3)   // Объявление архива из трех элементов
+    val result = IntArray (3)   // Объявление массива из трех элементов
     result[0] = yars
     result[1] = months
-    result[2] = days
+    result[2] = days - 365 * yars - 30 * months
 
-    for(result in result){      // Вывод элементов архива
-        println(result)
+    for(result in result){      // Вывод элементов массива
+        print("$result \t")
     }
-
-    result[1] = 55555
-    println("Второй элемент массива: " + result[1])
 }
