@@ -7,7 +7,10 @@ fun main(args: Array<String>) {
     /*println("Введите кодовую фразу (ключ):")
     val textkey: String = `in`.nextLine()*/
 
-    val textkey = "Моя кодовая фраза на русском языке"
+    var k = 0
+    enru(k)
+
+    val textkey = "На каком основании принимаются политизированные решения"
     println("'textkey': $textkey")
 
     val textkey1 = textkey.toList()
@@ -15,18 +18,18 @@ fun main(args: Array<String>) {
 
     val i = 0
     val j = 0
-    addkey(textkey1, i, j)
+    addkey(textkey1, i, j, k)
 
-    val textof: String = "ɜʠʬ賓ʒʱʌʱﹶʕʣﺀʳʩﹴʢʉﺅʣʑﺏʩﺇʤʥʎʔʘﹿ*****"
+    val textof: String = "Ҏҧ\u0085ҬҤҳҳҥ\u008FҮ*********************************************"
 
-    ofkey(textof, i, j, textkey1)
+    ofkey(textof, i, j, textkey1, k)
 }
 
-fun addkey(textkey1: List<Char>, i: Int, j: Int) {
+fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
     var i = textkey1.size               // определяем длину массива (длину ключа, максимальную длину сообщения)
     println("Длина ключа: i = $i")
 
-    var text: String = "Мой дядя самых честных правил"      // исходный текст
+    var text: String = "qwertyuiop"      // исходный текст
     val text1 = text.toList()
     println(text1)
     var j = text1.size                  // определяем длину массива и длину сообщения
@@ -39,13 +42,13 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int) {
     if(i <= j){
         var n = 0
         while(n < i){
-            text3[n] = textkey2[n] + text2[n].toInt() - 1500
+            text3[n] = textkey2[n] + text2[n].toInt() - k
             n++
         }
     } else {
         var n = 0
         while(n < j){
-            text3[n] = textkey2[n] + text2[n].toInt() - 1500
+            text3[n] = textkey2[n] + text2[n].toInt() - k
             n++
         }
     }
@@ -58,7 +61,7 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int) {
     println()
 }
 
-fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>) {
+fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
     println()
     println("Зашифрованный текст: --------------/ расшифование /--------------- \n'textof' : $textof")
     val textof1 = textof.toList()
@@ -81,11 +84,11 @@ fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>) {
     }
     println()
 
-    print("textkey2[2]: ")
-    println(textkey2[2])
+    print("textkey2[3]: ")
+    println(textkey2[3])
 
-    val t8 = (textof2[9] - textkey2[9] + 1500).toChar()
-    println("t3 = $t8")
+    val t3 = (textof2[2] - textkey2[2] + k).toChar()
+    println("t3 = $t3")
 
     /*if(i <= j){
         var n = 0
