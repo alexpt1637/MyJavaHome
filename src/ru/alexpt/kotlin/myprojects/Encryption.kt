@@ -23,7 +23,11 @@ fun main(args: Array<String>) {
     val textof: String = "Ҏҧ\u0085ҬҤҳҳҥ\u008FҮ*********************************************"
 
     ofkey(textof, i, j, textkey1, k)
+
+//    decClass2(i, j)
 }
+
+//----------------------------------------------------------------------------------------------------------------------
 
 fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
     var i = textkey1.size               // определяем длину массива (длину ключа, максимальную длину сообщения)
@@ -110,5 +114,14 @@ fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
         print(text3)
     }
     println()*/
+
+}
+
+fun decClass2(i: Int, j: Int){
+    if(i > j){
+        decClass()
+    } else {
+        addtext()
+    }
 
 }
