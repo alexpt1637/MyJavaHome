@@ -1,4 +1,4 @@
-package ru.alexpt.kotlin.myprojects
+package ru.alexpt.test.projects01
 
 import java.util.*
 
