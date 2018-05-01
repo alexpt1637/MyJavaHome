@@ -25,9 +25,21 @@ fun sdf(y: Int){
 
 fun fgh(){
     var j = 32768; var j1 = j.toChar(); println("32768 = $j1")
-    j = 32769; j1 = j.toChar(); println("32769 = $j1")
-    j = 32770; j1 = j.toChar(); println("32770 = $j1")
-    j = 31065; j1 = j.toChar(); println("31065 = $j1")
-    j = 32165; j1 = j.toChar(); println("32165 = $j1")
+    j = 32769; val j0 = j.toChar(); println("32769 = $j0")
+    j = 29770; j1 = j.toChar(); println("29770 = $j1")
+    j = 31065; val j2 = j.toChar(); println("31065 = $j2")
+    j = 30165; val j3 = j.toChar(); println("30165 = $j3")
+    j = 27165; val j4 = j.toChar(); println("30165 = $j4")
 
+    val china: Array<Char> = arrayOf(j0, j1, j2, j3, j4)
+
+    for (china in china){
+        println(china)
+    }
+
+    val ch = china.toList()
+    println(ch)
+
+    val ch1 = ch.toString()
+    println(ch1)
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,28 +39,28 @@
       <file leaf-file-name="TestFun.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestFun.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
+            <state relative-caret-position="306">
               <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyTestFun.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyTestFun.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="310">
+              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encryption.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Encryption.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -67,7 +69,7 @@
       <file leaf-file-name="Assembly.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Assembly.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="323">
               <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
@@ -77,7 +79,7 @@
       <file leaf-file-name="TestProjects.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/TestProjects.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="187">
               <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
@@ -153,10 +155,10 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/newprojects_01/Encryption.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/kotlin/myprojects/Encryption.kt" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects02/Test_01.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects01/TestProjects.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt" />
       </list>
     </option>
   </component>
@@ -183,8 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,7 +253,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.test.kotlin.MyTestFunKt">
+  <component name="RunManager" selected="Kotlin.ru.alexpt.test.projects01.EncryptionKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -445,9 +447,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.MyTestFunKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects02.Test_01Kt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects01.EncryptionKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects01.EncryptionKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.MyTestFunKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects02.Test_01Kt" />
         <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects01.AssemblyKt" />
         <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.kotlin.TestDateKt" />
       </list>
@@ -466,13 +468,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Тест работает, количество вопросов в тесте (пока до 7)">
-      <created>1512559604285</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1512559604285</updated>
     </task>
     <task id="LOCAL-00070" summary="Тест работает, количество вопросов в тесте (пока до 7)">
       <created>1512559881470</created>
@@ -810,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525094354630</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="var j = 32768">
+      <created>1525101950232</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1525101950232</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -850,7 +852,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Массивы и пример работы с датами" />
     <MESSAGE value="Преобразование 'toCharArray' выполнено" />
     <MESSAGE value="Преобразование 'j.toChar()' выполнено" />
     <MESSAGE value="Для перебора массивов применяется цикл for" />
@@ -875,7 +876,8 @@
     <MESSAGE value="Страховой стаж (in Array)" />
     <MESSAGE value="decClass2" />
     <MESSAGE value="Выбор языка ввода" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выбор языка ввода" />
+    <MESSAGE value="var j = 32768" />
+    <option name="LAST_COMMIT_MESSAGE" value="var j = 32768" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,7 +1178,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/TestProjects.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="187">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
@@ -1190,26 +1192,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Assembly.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestFun.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
+        <state relative-caret-position="306">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1224,8 +1210,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="310">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Assembly.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
           <folding />
         </state>
       </provider>

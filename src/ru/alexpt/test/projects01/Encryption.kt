@@ -7,10 +7,10 @@ fun main(args: Array<String>) {
     /*println("Введите кодовую фразу (ключ):")
     val textkey: String = `in`.nextLine()*/
 
-    var k = 0
-    enru(k)
+    var k = 30000
+//    enru(k)
 
-    val textkey = "На каком основании принимаются политизированные решения"
+    val textkey = "Моя кодовая фраза на русском языке (ключ шифрования)"
     println("'textkey': $textkey")
 
     val textkey1 = textkey.toList()
@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     val j = 0
     addkey(textkey1, i, j, k)
 
-    val textof: String = "Ҏҧ\u0085ҬҤҳҳҥ\u008FҮ*********************************************"
+    val textof: String = "錍鍃鍘輷錺鍏輤鍀錴錵鍓輥鍑輰錴鍇鍃輣鍋錹謐鍒鍈鍋鍒鍌輺輬輱鍛鍅鍝鍊錽輬謘鍑鍍鍜輷輯鍖鍃鍓鍕錺錻鍋鍉鍫"
 
     ofkey(textof, i, j, textkey1, k)
 
@@ -33,7 +33,7 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
     var i = textkey1.size               // определяем длину массива (длину ключа, максимальную длину сообщения)
     println("Длина ключа: i = $i")
 
-    var text: String = "qwertyuiop"      // исходный текст
+    var text: String = "Сейчас введен другой текст, смотрим что получилось на этот раз"      // исходный текст
     val text1 = text.toList()
     println(text1)
     var j = text1.size                  // определяем длину массива и длину сообщения
@@ -67,7 +67,7 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
 
 fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
     println()
-    println("Зашифрованный текст: --------------/ расшифование /--------------- \n'textof' : $textof")
+    println("Зашифрованный текст: --------------/ расшифование /--------------- \n'textof': $textof")
     val textof1 = textof.toList()
     println("textof1:")
     println(textof1)
@@ -90,8 +90,10 @@ fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
 
     print("textkey2[3]: ")
     println(textkey2[3])
+    println("textof2[4]: ")
+    println(textof2[4])
 
-    val t3 = (textof2[2] - textkey2[2] + k).toChar()
+    val t3 = (textof2[4] - textkey2[4] + k).toChar()
     println("t3 = $t3")
 
     /*if(i <= j){
