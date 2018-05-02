@@ -1,4 +1,4 @@
-package ru.alexpt.test.projects01
+package ru.alexpt.test.projects_01
 
 import java.util.*
 

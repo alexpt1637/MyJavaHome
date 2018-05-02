@@ -1,14 +1,11 @@
-package ru.alexpt.test.projects01
+package ru.alexpt.test.projects_01
 
 import java.util.*
 
 fun main(args: Array<String>) {
     val `in` = Scanner(System.`in`)
-    /*println("Введите кодовую фразу (ключ):")
-    val textkey: String = `in`.nextLine()*/
 
     var k = 30000
-//    enru(k)
 
     val textkey = "Моя кодовая фраза на русском языке (ключ шифрования)"
     println("'textkey': $textkey")

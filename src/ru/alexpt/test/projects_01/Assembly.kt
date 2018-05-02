@@ -1,4 +1,4 @@
-package ru.alexpt.test.projects01
+package ru.alexpt.test.projects_01
 
 import java.util.*
 
@@ -7,9 +7,7 @@ fun main(args: Array<String>) {
 }
 
 fun wer(){
-    val k = 0
-    enru(k)
-
+    val k = 30000
     val `in` = Scanner(System.`in`)
     println("Введите кодовую фразу (ключ):")
     val textkey: String = `in`.nextLine()

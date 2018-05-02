@@ -1,4 +1,4 @@
-package ru.alexpt.test.projects02
+package ru.alexpt.test.projects_02
 
 import java.util.*
 
@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 
 fun enru(): Int {                                   // функция возвращает значение типа Int
     val `in` = Scanner(System.`in`)
-    println("Выбор языка ввода (введите 'en' или 'ru':")
+    println("Выбор языка ввода (введите 'en' или 'ru'):")
     val e: String = `in`.nextLine()
     var k = 0
 
