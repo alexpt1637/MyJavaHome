@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     println("'textkey': $textkey")
 
     val textkey1 = textkey.toList()
-    println(textkey1)
+    println("textkey1: $textkey1")
 
     val i = 0
     val j = 0
@@ -35,7 +35,7 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
 
     var text: String = "Сейчас введен другой текст, смотрим что получилось на этот раз"      // исходный текст
     val text1 = text.toList()
-    println(text1)
+    println("text1: $text1")
     var j = text1.size                  // определяем длину массива и длину сообщения
     println("Исходный текст: '$text', \nдлина сообщения j = $j")
 
@@ -65,7 +65,7 @@ fun addkey(textkey1: List<Char>, i: Int, j: Int, k: Int) {
     println()
 }
 
-fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
+fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int): CharArray {
     println()
     println("Зашифрованный текст: --------------/ расшифование /--------------- \n'textof': $textof")
     val textof1 = textof.toList()
@@ -92,6 +92,8 @@ fun ofkey(textof: String, i: Int, j: Int, textkey1: List<Char>, k: Int) {
     println(textkey2[3])
     println("textof2[4]: ")
     println(textof2[4])
+
+    return textkey2
 
     val t3 = (textof2[4] - textkey2[4] + k).toChar()
     println("t3 = $t3")

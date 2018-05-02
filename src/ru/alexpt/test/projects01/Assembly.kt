@@ -3,8 +3,7 @@ package ru.alexpt.test.projects01
 import java.util.*
 
 fun main(args: Array<String>) {
-//    wer()
-    decClass()
+    wer()
 }
 
 fun wer(){
@@ -22,23 +21,4 @@ fun wer(){
     val j = 0
     addkey(textkey1, i, j, k)
     println("-----------------------------------")
-}
-
-fun decClass(){
-    val `in` = Scanner(System.`in`)
-    println("Введите значение 'x' и 'y':")
-    val x1 = `in`.nextInt()
-    val y1 = `in`.nextInt()
-
-    val tz: Dec = Dec()
-    tz.sum(x = x1, y = y1)
-
-    val ty: Dec = Dec()
-    ty.sum(x = y1, y = y1)
-
-    val tx: Dec = Dec()
-    tx.sum(x = x1, y = x1)
-
-    val tpow: Dec = Dec()
-    tpow.pow(z = x1)
 }

@@ -32,6 +32,7 @@ fun main(args: Array<String>) {
 
     enru(k)
     addtext()
+    decClass()
 
     val a1 = CharArray(i, {'*'})
 }
@@ -84,4 +85,23 @@ class Dec {
         val zz = Math.pow(z.toDouble(), 3.0)
         println("Число в кубе равно: $zz")
     }
+}
+
+fun decClass(){
+    val `in` = Scanner(System.`in`)
+    println("Введите значение 'x' и 'y':")
+    val x1 = `in`.nextInt()
+    val y1 = `in`.nextInt()
+
+    val tz: Dec = Dec()
+    tz.sum(x = x1, y = y1)
+
+    val ty: Dec = Dec()
+    ty.sum(x = y1, y = y1)
+
+    val tx: Dec = Dec()
+    tx.sum(x = x1, y = x1)
+
+    val tpow: Dec = Dec()
+    tpow.pow(z = x1)
 }
