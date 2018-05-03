@@ -9,6 +9,11 @@ fun main(args: Array<String>) {
     x = asd(x); val y = x.toInt()
     sdf(y)
     fgh()
+
+    println()
+    println("Введите значение v:")
+    val v = `in`.nextInt()
+    testwhen(v)
 }
 
 fun asd(x: Double) : Double = Math.pow(x, 3.0)
@@ -42,4 +47,12 @@ fun fgh(){
 
     val ch1 = ch.toString()
     println(ch1)
+}
+
+fun testwhen(v: Int){
+    when(v){
+        10 -> println("v = 10")
+        20 -> println("v = 20")
+        else -> println("v != 10 != 20")
+    }
 }
