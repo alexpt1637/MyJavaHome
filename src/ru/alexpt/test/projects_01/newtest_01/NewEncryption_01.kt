@@ -3,19 +3,20 @@ package ru.alexpt.test.projects_01.newtest_01
 import java.util.*
 
 fun main(args: Array<String>) {
-    val i = 0
-    val j = 0
     val k = 30000
     val `in` = Scanner(System.`in`)
-    println("Введите кодовую фразу (ключ):")
-    val textkey: String = `in`.nextLine()
+
+    /*println("Введите кодовую фразу (ключ):")
+    val textkey: String = `in`.nextLine()*/
+    val textkey: String = "Мой дядя самых честных правил когда не в шутку занемог он уважать себя заставил и лучше выдумать не мог"
+
     println("Введите текст:")
     val text: String = `in`.nextLine()
 
-    encrypt(textkey, text, i, j, k)
+    encrypt(textkey, text, k)
 }
 
-fun encrypt(textkey: String, text: String, i: Int, j: Int, k: Int) {
+fun encrypt(textkey: String, text: String, k: Int) {
     val textkey1 = textkey.toList()
     val text1 = text.toList()
     val i = textkey1.size
