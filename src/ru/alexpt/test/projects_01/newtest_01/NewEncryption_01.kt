@@ -14,6 +14,7 @@ fun main(args: Array<String>) {
     val text: String = `in`.nextLine()
 
     encrypt(textkey, text, k)
+    println()
 }
 
 fun encrypt(textkey: String, text: String, k: Int) {

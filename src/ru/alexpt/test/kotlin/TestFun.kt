@@ -82,6 +82,9 @@ fun main(args: Array<String>) {
     val a2 = isFirstGreater(10.0, 10.0, 20.0, 20.0)
     val b2 = isFirstGreater(20.0, 20.0, 10.0, 10.0)
     println("a = $a2, b = $b2")
+
+    // Ограничение количества знаков после запятой (val str = String.format("%.2f", d))
+    rand()
 }
 
 //-----------------------------------------------------/ fun /----------------------------------------------------------
@@ -165,4 +168,12 @@ fun diameter (R: Int) = 2 * R
 fun isFirstGreater(base1: Double, height1: Double, base2: Double, height2: Double): Boolean{
     fun square(base: Double, height: Double) = base * height / 2
     return square(base1, height1) > square(base2, height2)
+}
+
+// Ограничение количества знаков после запятой
+fun rand(){
+    val d: Double = Math.random()
+    val str = String.format("%.2f", d)
+    val i = (d * 100).toInt()
+    println("random d = $str; i = $i")
 }
