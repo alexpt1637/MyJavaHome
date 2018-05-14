@@ -108,7 +108,7 @@ fun displayUser(name: String, age: Int){
 // мы обязательно должны предоставить для каждого параметра какое-то определенное значение
 // мы можем определить какие-то параметры функции как необязательные и установить для них значения по умолчанию:
 
-fun displayUser2(name: String, age: Int = 18, position: String="Visitor"){
+fun displayUser2(name: String, age: Int = 18, position: String = "Visitor"){
     println("Name: $name, Age: $age, Position: $position")
 }
 
@@ -142,7 +142,7 @@ fun printUserGroup3(group: String, vararg users: String, count:Int){
 }
 
 fun factorial2(n: Int) : Int{   // функция возвращает значение типа Int
-    var result = 1;
+    var result = 1
     for(d in 1..n){
         result *= d
     }
@@ -153,11 +153,11 @@ fun factorial2(n: Int) : Int{   // функция возвращает знач�
 // Эта форма позволяет опустить возвращаемый тип и оператор return.
 // Значение этого выражения будет возвращаться функцией. При этом оператор return не используется.
 
-fun double(x: Int) = x * x
+fun double(x: Int) = Math.pow(x.toDouble(), 2.0)
 
-fun areaCircle (R: Int) = 3.14 * R * R
+fun areaCircle (R: Int) = Math.PI * Math.pow(R.toDouble(), 2.0)
 
-fun circumference (R: Int) = 2 * 3.14 * R
+fun circumference (R: Int) = 2 * Math.PI * R
 
 fun diameter (R: Int) = 2 * R
 
