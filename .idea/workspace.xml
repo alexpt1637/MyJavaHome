@@ -428,13 +428,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00078" summary="Неверное количество вопросов, пожалуйста перезапустите тест">
-      <created>1512704445658</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1512704445658</updated>
-    </task>
     <task id="LOCAL-00079" summary="Неверное количество вопросов, пожалуйста перезапустите тест">
       <created>1512709349614</created>
       <option name="number" value="00079" />
@@ -771,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526473647338</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Генератор фраз 2">
+      <created>1526473746742</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1526473746742</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Меняем местами значения переменных a и b" />
     <MESSAGE value="Меняем средние цифры значений x и y" />
     <MESSAGE value="сумма денег, выплачиваемых банком вкладчику каждый месяц" />
     <MESSAGE value="Массив имен после сортировки" />
@@ -836,7 +835,8 @@
     <MESSAGE value="Ограничение количества знаков после запятой" />
     <MESSAGE value="Генератор фраз" />
     <MESSAGE value="Генератор фраз (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Генератор фраз (2)" />
+    <MESSAGE value="Генератор фраз 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Генератор фраз 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
