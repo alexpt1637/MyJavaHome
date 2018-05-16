@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/NewTest_01.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/NewTest_01.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="NewTest_01.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/NewTest_01.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="21" />
+            <state relative-caret-position="245">
+              <caret line="85" column="64" lean-forward="false" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -430,13 +428,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00077" summary="Неверное количество вопросов, пожалуйста перезапустите тест">
-      <created>1512631081353</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1512631081353</updated>
-    </task>
     <task id="LOCAL-00078" summary="Неверное количество вопросов, пожалуйста перезапустите тест">
       <created>1512704445658</created>
       <option name="number" value="00078" />
@@ -773,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526317610494</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Генератор фраз (2)">
+      <created>1526473647338</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1526473647338</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -813,7 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задачи блок 1 - Сумма в рублях" />
     <MESSAGE value="Меняем местами значения переменных a и b" />
     <MESSAGE value="Меняем средние цифры значений x и y" />
     <MESSAGE value="сумма денег, выплачиваемых банком вкладчику каждый месяц" />
@@ -838,7 +835,8 @@
     <MESSAGE value="textkey" />
     <MESSAGE value="Ограничение количества знаков после запятой" />
     <MESSAGE value="Генератор фраз" />
-    <option name="LAST_COMMIT_MESSAGE" value="Генератор фраз" />
+    <MESSAGE value="Генератор фраз (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Генератор фраз (2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1183,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/NewTest_01.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="21" />
+        <state relative-caret-position="245">
+          <caret line="85" column="64" lean-forward="false" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
           <folding />
         </state>
       </provider>
