@@ -428,13 +428,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00084" summary="Вывод времени выполнения теста на экран и запись в файл">
-      <created>1516334327682</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1516334327683</updated>
-    </task>
     <task id="LOCAL-00085" summary="Вывод времени выполнения теста на экран и запись в файл">
       <created>1516456566207</created>
       <option name="number" value="00085" />
@@ -771,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526478841767</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Новый подбор слов">
+      <created>1526483701271</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1526483701271</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="ToolWindowManager">
