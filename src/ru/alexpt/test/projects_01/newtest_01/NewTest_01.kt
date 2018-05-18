@@ -76,7 +76,7 @@ fun main(args: Array<String>) {
     println("Эта строка выполняется в любом случае, x=$x")
     println("-------------------------------------------")
 
-    // Генератор фраз
+    // Генератор фраз (начало) -----------------------------------------------------------------------------------------
     // Создаем строковые массивы
     val wordListOne: Array<String> = arrayOf(
             "быть", "мочь", "сказать", "говорить", "хотеть", "иметь", "видеть", "думать", "сделать", "понимать",
@@ -97,18 +97,103 @@ fun main(args: Array<String>) {
     val threeSize: Int = wordListThree.size
     println("oneLength = $oneSize; twoLength = $twoSize; threeLength = $threeSize")
 
-    // Генерируем три случайных числа
+    // Генерируем три случайных числа, приводим их к целочисленому типу Int
     val rand1: Int = (Math.random() * oneSize).toInt()
     val rand2: Int = (Math.random() * twoSize).toInt()
     val rand3: Int = (Math.random() * threeSize).toInt()
     println("rand1 = $rand1; rand2 = $rand2; rand3 = $rand3")
 
-    // Строим фразу
+    // Строим фразу, выбираем по слову их каждого списка
     val phrase: String = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3]
 
     // Выводим фразу на экран
     println("Всё что нам нужно - это $phrase")
     println("-------------------------------------------")
+    // Генератор фраз (конец) ------------------------------------------------------------------------------------------
 
-
+    // Игра в угадывание (старт функции) -------------------------------------------------------------------------------
+    startGame()
+    println("-------------------------------------------")
+    // Игра в угадывание -----------------------------------------------------------------------------------------------
 }
+
+// Игра в угадывание (начало) ------------------------------------------------------------------------------------------
+class Player {
+    // Здесь хранится вариант числа
+    var number = 0
+
+    fun guess(){
+        number = (Math.random() * 10).toInt()
+        println("Думаю, это число: $number")
+    }
+}
+
+fun startGame(){
+    // Создаем три объекта класса Player и присваиваем их трем переменным экземляра
+    val p1: Player = Player()
+    val p2: Player = Player()
+    val p3: Player = Player()
+
+    // Три переменных для хранения вариантов от каждого игрока
+    var guessp1: Int = 0
+    var guessp2: Int = 0
+    var guessp3: Int = 0
+
+    // Три переменных для хранения правильности или неправильности ответов игроков
+    var p1isRight: Boolean = false
+    var p2isRight: Boolean = false
+    var p3isRight: Boolean = false
+
+    // Создаем число, которое игроки должны угадать
+    val targetNumber = (Math.random() * 10).toInt()
+    println("Я загадываю число от 0 до 9...")
+    println("Число, которое нужно угадать: $targetNumber")
+
+    // Вызываем функцию guess() из каждого объекта Player
+    p1.guess()
+    p2.guess()
+    p3.guess()
+
+    // Извлекаем варианты каждого игрока, получая доступ к их переменным number
+    guessp1 = p1.number
+    println("Первый игрок думает, что это: $guessp1")
+
+    guessp2 = p2.number
+    println("Первый игрок думает, что это: $guessp2")
+
+    guessp3 = p3.number
+    println("Первый игрок думает, что это: $guessp3")
+
+    // Проверяем варианты каждого из игроков на соответствие загаданному числу
+    if (guessp1 == targetNumber) {
+        p1isRight = true
+    }
+    if (guessp2 == targetNumber) {
+        p2isRight = true
+    }
+    if (guessp3 == targetNumber) {
+        p3isRight = true
+    }
+    // Если игрок угадал, то присваиваем соответствующей переменной значение true
+
+    if (p1isRight || p2isRight || p3isRight) {
+        // Если первый игрок, ИЛИ второй игрок, ИЛИ третий игрок угадал
+        println("У нас есть победитель!")
+        when(p1isRight){
+            true -> println("Угадал первый игрок, это число: $targetNumber.")
+            false -> println("Первый игрок - не угадал.")
+        }
+        when(p2isRight){
+            true -> println("Угадал второй игрок, это число: $targetNumber.")
+            false -> println("Второй игрок - не угадал.")
+        }
+        when(p3isRight){
+            true -> println("Угадал третий игрок, это число: $targetNumber.")
+            false -> println("Третий игрок - не угадал.")
+        }
+        println("Конец игры.")                          // Игра окончена
+    } else {
+        println("Игроки должны попробовать ещё раз")    // Просим игроков сделать ещё одну попытку
+    }
+}
+// Игра в угадывание (конец) -------------------------------------------------------------------------------------------
