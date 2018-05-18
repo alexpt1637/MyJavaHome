@@ -92,15 +92,15 @@ fun main(args: Array<String>) {
     )
 
     // Вычисляем сколько слов в каждом списке (длину массива)
-    val oneLength: Int = wordListOne.size
-    val twoLength: Int = wordListTwo.size
-    val threeLength: Int = wordListThree.size
-    println("oneLength = $oneLength; twoLength = $twoLength; threeLength = $threeLength")
+    val oneSize: Int = wordListOne.size
+    val twoSize: Int = wordListTwo.size
+    val threeSize: Int = wordListThree.size
+    println("oneLength = $oneSize; twoLength = $twoSize; threeLength = $threeSize")
 
     // Генерируем три случайных числа
-    val rand1: Int = (Math.random() * oneLength).toInt()
-    val rand2: Int = (Math.random() * twoLength).toInt()
-    val rand3: Int = (Math.random() * threeLength).toInt()
+    val rand1: Int = (Math.random() * oneSize).toInt()
+    val rand2: Int = (Math.random() * twoSize).toInt()
+    val rand3: Int = (Math.random() * threeSize).toInt()
     println("rand1 = $rand1; rand2 = $rand2; rand3 = $rand3")
 
     // Строим фразу
@@ -109,4 +109,6 @@ fun main(args: Array<String>) {
     // Выводим фразу на экран
     println("Всё что нам нужно - это $phrase")
     println("-------------------------------------------")
+
+
 }
