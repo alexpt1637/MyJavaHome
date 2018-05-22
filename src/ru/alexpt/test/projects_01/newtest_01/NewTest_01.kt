@@ -92,15 +92,15 @@ fun main(args: Array<String>) {
     )
 
     // Вычисляем сколько слов в каждом списке (длину массива)
-    val oneSize: Int = wordListOne.size
-    val twoSize: Int = wordListTwo.size
-    val threeSize: Int = wordListThree.size
+    val oneSize = wordListOne.size
+    val twoSize = wordListTwo.size
+    val threeSize = wordListThree.size
     println("oneLength = $oneSize; twoLength = $twoSize; threeLength = $threeSize")
 
     // Генерируем три случайных числа, приводим их к целочисленому типу Int
-    val rand1: Int = (Math.random() * oneSize).toInt()
-    val rand2: Int = (Math.random() * twoSize).toInt()
-    val rand3: Int = (Math.random() * threeSize).toInt()
+    val rand1 = (Math.random() * oneSize).toInt()
+    val rand2 = (Math.random() * twoSize).toInt()
+    val rand3 = (Math.random() * threeSize).toInt()
     println("rand1 = $rand1; rand2 = $rand2; rand3 = $rand3")
 
     // Строим фразу, выбираем по слову их каждого списка
@@ -115,6 +115,13 @@ fun main(args: Array<String>) {
     startGame()
     println("-------------------------------------------")
     // Игра в угадывание -----------------------------------------------------------------------------------------------
+
+    // Интересуемся у щенка, кто он... (балуемся с ООП) ----------------------------------------------------------------
+    myDog()
+    println("-------------------------------------------")
+    myDogRandom()
+    println("-------------------------------------------")
+    // -----------------------------------------------------------------------------------------------------------------
 }
 
 // Игра в угадывание (начало) ------------------------------------------------------------------------------------------
@@ -193,7 +200,96 @@ fun startGame(){
         }
         println("Конец игры.")                          // Игра окончена
     } else {
-        println("Игроки должны попробовать ещё раз")    // Просим игроков сделать ещё одну попытку
+        println("Игроки могут попробовать ещё раз")    // Просим игроков сделать ещё одну попытку
     }
 }
 // Игра в угадывание (конец) -------------------------------------------------------------------------------------------
+
+// Балуемся с ООП, создаем класс ---------------------------------------------------------------------------------------
+class Dog {
+    // Переменные экземпляра
+    var sizeDog = 0
+    var breedDog = ""
+    var nameDog = ""
+
+    // Функция (действие) экземпляра класса
+    fun bark(){
+        println("Гав! Гав! Я - $breedDog, меня зовут $nameDog, мне $sizeDog лет.")
+    }
+}
+
+fun myDog(){
+    // Экземпляр класса Dog
+    val dog1: Dog = Dog()
+    val dog2: Dog = Dog()
+    val dog3: Dog = Dog()
+
+    dog1.sizeDog = 5             // Присваеваем значение возраста щенка
+    dog1.breedDog = "хаски"      // Порода щенка
+    dog1.nameDog = "Тузик"       // Имя щенка
+
+    dog2.sizeDog = 6
+    dog2.breedDog = "сенбернар"
+    dog2.nameDog = "Бобик"
+
+    dog3.sizeDog = 7
+    dog3.breedDog = "такса"
+    dog3.nameDog = "Маня"
+
+    dog1.nameDog = "Рэкс, а не Тузик"   // Меняем имя щенка
+
+    println("Кто ты, пёсик?")    // Интересуемся у щенка, кто он...
+    dog1.bark()                  // Получаем ответ
+    println("А ты кто?")
+    dog2.bark()
+    println("Ну а ты?")
+    dog3.bark()
+}
+
+fun myDogRandom(){
+    val rand = (Math.random() * 7).toInt() + 1
+
+    var dog: Dog = Dog()
+
+    when(rand){
+        1 -> {
+            dog.sizeDog = 5             // Присваеваем значение возраста щенка
+            dog.breedDog = "хаски"      // Порода щенка
+            dog.nameDog = "Сири"        // Имя щенка
+        }
+        2 -> {
+            dog.sizeDog = 6
+            dog.breedDog = "сенбернар"
+            dog.nameDog = "Боб"
+        }
+        3 -> {
+            dog.sizeDog = 7
+            dog.breedDog = "такса"
+            dog.nameDog = "Маня"
+        }
+        4 -> {
+            dog.sizeDog = 8
+            dog.breedDog = "спаниэль"
+            dog.nameDog = "Терри"
+        }
+        5 -> {
+            dog.sizeDog = 9
+            dog.breedDog = "лабрадор"
+            dog.nameDog = "Рэкс"
+        }
+        6 -> {
+            dog.sizeDog = 10
+            dog.breedDog = "овчарка колли"
+            dog.nameDog = "Лэсси"
+        }
+        7 -> {
+            dog.sizeDog = 11
+            dog.breedDog = "дворняжка"
+            dog.nameDog = "Тузик"
+        }
+    }
+
+    println("Кто ты, пёсик?")    // Интересуемся у щенка, кто он...
+    dog.bark()                   // Получаем ответ
+}
+// Балуемся с ООП ------------------------------------------------------------------------------------------------------
