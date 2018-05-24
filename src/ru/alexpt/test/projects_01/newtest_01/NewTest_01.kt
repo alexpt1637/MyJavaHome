@@ -44,7 +44,7 @@ fun main(args: Array<String>) {
 
     // Пример цикла while:
     x = 1
-    println("Перед началом цикла x = $x")
+    println("Пример цикла while: \nПеред началом цикла x = $x")
     while (x < 4) {
         println("Внутри цикла: x = $x")
         x = x + 1
@@ -215,12 +215,15 @@ fun startGame(){
 class Dog {
     // Переменные экземпляра
     var sizeDog = 0
+    var hiDog = ""
     var breedDog = ""
     var nameDog = ""
+    var ownerDog = ""
 
     // Функция (действие) экземпляра класса
     fun bark(){
-        println("Гав! Гав! Я - $breedDog, меня зовут $nameDog, мне $sizeDog лет.")
+        println("$hiDog Я - $breedDog, меня зовут $nameDog, мне $sizeDog лет." +
+                "\nМой владелец $ownerDog.")
     }
 }
 
@@ -231,16 +234,22 @@ fun myDog(){
     val dog3: Dog = Dog()
 
     dog1.sizeDog = 5             // Присваеваем значение возраста щенка
+    dog1.hiDog = "Гав! Гав!"     // Приветствие щенка
     dog1.breedDog = "хаски"      // Порода щенка
     dog1.nameDog = "Тузик"       // Имя щенка
+    dog1.ownerDog = "Оля"        // Хозяин щенка
 
     dog2.sizeDog = 6
+    dog2.hiDog = "Гав!"
     dog2.breedDog = "сенбернар"
     dog2.nameDog = "Бобик"
+    dog2.ownerDog = "Вова"
 
     dog3.sizeDog = 7
+    dog3.hiDog = "Тяф-Тяф!"
     dog3.breedDog = "такса"
     dog3.nameDog = "Маня"
+    dog3.ownerDog = "Борис"
 
     dog1.nameDog = "Рэкс, а не Тузик"   // Меняем имя щенка
 
@@ -260,38 +269,52 @@ fun myDogRandom(){
     when(rand){
         1 -> {
             dog.sizeDog = 5             // Присваеваем значение возраста щенка
+            dog.hiDog = "Гав! Гав!"     // Приветствие щенка
             dog.breedDog = "хаски"      // Порода щенка
             dog.nameDog = "Сири"        // Имя щенка
+            dog.ownerDog = "Оля"        // Хозяин щенка
         }
         2 -> {
             dog.sizeDog = 6
+            dog.hiDog = "Гаввв!"
             dog.breedDog = "сенбернар"
             dog.nameDog = "Боб"
+            dog.ownerDog = "Вова"
         }
         3 -> {
             dog.sizeDog = 7
+            dog.hiDog = "Тяф-тяф!"
             dog.breedDog = "такса"
             dog.nameDog = "Маня"
+            dog.ownerDog = "Коля"
         }
         4 -> {
             dog.sizeDog = 8
+            dog.hiDog = "Тяф! Тяф!"
             dog.breedDog = "спаниэль"
             dog.nameDog = "Терри"
+            dog.ownerDog = "Борис"
         }
         5 -> {
             dog.sizeDog = 9
+            dog.hiDog = "Гав! Гав!"
             dog.breedDog = "лабрадор"
             dog.nameDog = "Рэкс"
+            dog.ownerDog = "Максим"
         }
         6 -> {
             dog.sizeDog = 10
+            dog.hiDog = "Гав! Гав!"
             dog.breedDog = "овчарка колли"
             dog.nameDog = "Лэсси"
+            dog.ownerDog = "Наташа"
         }
         7 -> {
             dog.sizeDog = 11
+            dog.hiDog = "Тяф!"
             dog.breedDog = "дворняжка"
             dog.nameDog = "Тузик"
+            dog.ownerDog = "теперь ты"
         }
     }
 
