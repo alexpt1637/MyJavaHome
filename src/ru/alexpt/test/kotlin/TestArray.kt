@@ -2,6 +2,9 @@ package ru.alexpt.test.kotlin
 
 import java.util.*
 import kotlin.collections.ArrayList
+import java.text.SimpleDateFormat
+
+
 
 fun main(args: Array<String>) {
 
@@ -221,12 +224,22 @@ fun cript(xx: CharArray, ch: CharArray){
         ch[i] = xx[i]
         print(ch)
     }*/
-
-
 }
 
-fun fortest(){
+fun fortest(){                  // Перемножение множителей из указанного диапазона чисел
     for(n in 1..9){
         print("${n * n} \t")
+    }
+}
+
+fun exc(){                      // Обработка исключения (деление на ноль)
+    val a = 12
+    val b = 0
+
+    try {
+        val c = a / b
+        println("b не равно нулю, b = $b, c = $c")
+    } catch (e: Exception) {
+        println("На 0 делить нельзя")
     }
 }
