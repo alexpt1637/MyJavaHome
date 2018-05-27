@@ -247,7 +247,7 @@ fun myDog(){
 fun myDogRandom(){
     val rand = (Math.random() * 7).toInt() + 1
 
-    var dog: Dog = Dog()
+    val dog: Dog = Dog()
 
     when(rand){
         1 -> {
@@ -305,3 +305,64 @@ fun myDogRandom(){
     dog.bark()                   // Получаем ответ
 }
 // Балуемся с ООП ------------------------------------------------------------------------------------------------------
+// Тестирование объектов Movie (начало)
+
+class Movie {
+    var title: String = ""          // Название фильма
+    var genre: String = ""          // Жанр фильма
+    var rating: Int = 0             // Рейтинг фильма
+    var duration: Int = 0           // Длительность фильма
+    var land: String = ""           // Страна - производитель
+
+    fun playIt(){
+        println("Сегодня демонстрируется $genre '$title' длительностью $duration минут, рейтинг фильма - $rating, производство $land.")
+    }
+}
+
+fun onMovie(){
+    val rand = (Math.random() * 5).toInt() + 1
+
+    val movie: Movie = Movie()
+
+    when (rand){
+        1 -> {
+            movie.title = "Чужой"
+            movie.genre = "фантастика"
+            movie.rating = 120
+            movie.duration = 105
+            movie.land = "USA"
+        }
+        2 -> {
+            movie.title = "Хищник"
+            movie.genre = "фантастика"
+            movie.rating = 115
+            movie.duration = 110
+            movie.land = "USA"
+        }
+        3 -> {
+            movie.title = "Банзай"
+            movie.genre = "комедия"
+            movie.rating = 90
+            movie.duration = 95
+            movie.land = "France"
+        }
+        4 -> {
+            movie.title = "Не бойся, я с тобой!"
+            movie.genre = "приключения"
+            movie.rating = 120
+            movie.duration = 125
+            movie.land = "USSR"
+        }
+        5 -> {
+            movie.title = "Дочки-мачехи"
+            movie.genre = "мелодрама"
+            movie.rating = 65
+            movie.duration = 320
+            movie.land = "Russia"
+        }
+    }
+
+    println("Какой фильм демонстрируется сегодня?")
+    movie.playIt()
+}
+// Тестирование объектов Movie (конец) ---------------------------------------------------------------------------------
