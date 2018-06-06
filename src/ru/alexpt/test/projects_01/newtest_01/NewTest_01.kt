@@ -366,3 +366,22 @@ fun onMovie(){
     movie.playIt()
 }
 // Тестирование объектов Movie (конец) ---------------------------------------------------------------------------------
+
+// Первичный и вторичный конструктор:
+class Personal(val name: String, val age: Int){     // Первичный конструктор является частью заголовка класса и определяется сразу после имени класса
+    var friend = ""                                 // Вторичные конструкторы определяются в теле класса
+    var agefriend = 0
+}
+
+fun personal(){
+    val bob = Personal("Bob", 23)
+    val mom = Personal("Mom", 45)
+    val alex = Personal("Alex", 24)
+    alex.friend = "Fred"
+    alex.agefriend = 36
+
+    println("Name: ${bob.name}, Age: ${bob.age}")
+    println("Name: ${mom.name}, Age: ${mom.age}")
+    println("Name: ${alex.name}, Age: ${alex.age}, My friend: ${alex.friend}, His age: ${alex.agefriend}")
+}
+// Первичный и вторичный конструктор (конец) ---------------------------------------------------------------------------
