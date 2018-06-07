@@ -9,6 +9,10 @@ fun main(args: Array<String>) {
     val frame2 = MyFrame(40,40)
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE // прекращение работы программы вцелом
     frame.isVisible = true      // вместо устаревшего метода frame.show()
+    // меняем иконку второго окна
+    val kit = Toolkit.getDefaultToolkit()
+    val im = kit.getImage("ic_launcher.gif")
+    frame2.iconImage = im
     frame2.isVisible = true
 }
 

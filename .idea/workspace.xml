@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/Main.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/Main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="My25.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="My25.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My25.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="My25.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#37#86#0" expanded="true" />
               </folding>
@@ -282,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.My25">
     <configuration name="My25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -440,8 +437,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.testJFrameKt.My25Kt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.My25" />
+        <item index="0" class="java.lang.String" itemvalue="Application.My25" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.testJFrameKt.My25Kt" />
         <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects_01.newtest_01.MainKt" />
         <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects_01.newtest_01.NewTest_01Kt" />
         <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.projects_01.newtest_01.NewEncryption_01Kt" />
@@ -461,13 +458,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Изменяемые списки">
-      <created>1524317238841</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1524317238841</updated>
     </task>
     <task id="LOCAL-00100" summary="Задачи блок 1">
       <created>1524359481063</created>
@@ -805,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528286534792</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Создаем два окна и устанавливаем их положение (локацию) в % от разрешения экрана">
+      <created>1528370752744</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1528370752744</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,7 +842,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Зашифрованный текст" />
     <MESSAGE value="println(&quot;t3 = $t8&quot;)" />
     <MESSAGE value="преобразования для проекта" />
     <MESSAGE value="fun decClass" />
@@ -870,7 +866,8 @@
     <MESSAGE value="Импорт функций" />
     <MESSAGE value="Тестирование объектов Movie" />
     <MESSAGE value="Первичный и вторичный конструктор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первичный и вторичный конструктор" />
+    <MESSAGE value="Создаем два окна и устанавливаем их положение (локацию) в % от разрешения экрана" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создаем два окна и устанавливаем их положение (локацию) в % от разрешения экрана" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1214,22 +1211,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#37#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameKt/My25.kt">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="272">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
-            <element signature="e#37#86#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

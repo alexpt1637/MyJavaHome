@@ -9,8 +9,18 @@ public class My25 {
         System.out.println("It is program My");
         MyFrame frame = new MyFrame(0,0);
         MyFrame frame2 = new MyFrame(40,40);
+        // создаем текст строки заголовка первого окна
+        frame.setTitle("Main frame");
+        // делаем первое окно не изменяемым по размеру
+        frame.setResizable(false);      // false - значит что окно не изменяемое
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);         // вместо устаревшего метода frame.show();
+        // меняем иконку второго окна
+        Toolkit kit = Toolkit.getDefaultToolkit();
+        Image im = kit.getImage("heart.png");
+        frame2.setIconImage(im);
+        // создаем текст строки заголовка второго окна
+        frame2.setTitle("Heart");
         frame2.setVisible(true);
     }
 }
