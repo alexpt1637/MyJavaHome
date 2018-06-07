@@ -1,8 +1,10 @@
-package ru.alexpt.test.testJFrameKt
+package ru.alexpt.test.my25kt
 
 import java.awt.Frame
+import java.awt.Graphics
 import java.awt.Toolkit
 import javax.swing.JFrame
+import javax.swing.JPanel
 
 fun main(args: Array<String>) {
     println("It is program My")
@@ -46,5 +48,20 @@ internal class MyFrame// создаем конструктор
         val lx = screenSize.width      // положение окна по оси х
         val ly = screenSize.height     // положение окна по оси у
         setBounds(x * lx / 100, y * ly / 100, 300, 200)
+        // создадим панель для размещения элементов (надписи, кнопки, переключатели)
+        val panel = MyPanel()
+        // создаем клиентскую часть окна (фрея)
+        val pane = contentPane
+        // свяжем панель и клиентскую часть окна с помощью метода add
+        pane.add(panel)
+    }
+}
+
+internal class MyPanel : JPanel() {
+    public override fun printComponent(g: Graphics) {     // g - объект класса Graphics
+        // обратимся к родительской реализации метода (super)
+        super.printComponent(g)
+        // приступим непосредственно к рисованию строки
+        g.drawString("It is text", 55, 55)
     }
 }
