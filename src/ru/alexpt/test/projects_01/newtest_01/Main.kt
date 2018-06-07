@@ -2,6 +2,13 @@ package ru.alexpt.test.projects_01.newtest_01
 
 import ru.alexpt.test.kotlin.exc
 import ru.alexpt.test.kotlin.fortest
+import java.awt.*
+import java.applet.*
+
+/*
+<applet code="SimpleApplet" width=200 height= 60>
+</applet>
+ */
 
 fun main(args: Array<String>) {
 //    phraseGenerator()           // Генератор фраз
