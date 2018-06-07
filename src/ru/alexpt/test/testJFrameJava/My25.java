@@ -8,7 +8,8 @@ public class My25 {
     public static void main(String[] args) {
         System.out.println("It is program My");
         MyFrame frame = new MyFrame(0,0);
-        MyFrame frame2 = new MyFrame(40,40);
+        MyFrame frame2 = new MyFrame(30,30);
+        MyFrame frame3 = new MyFrame(60,60);
         // создаем текст строки заголовка первого окна
         frame.setTitle("Main frame");
         // делаем первое окно не изменяемым по размеру
@@ -19,9 +20,14 @@ public class My25 {
         Toolkit kit = Toolkit.getDefaultToolkit();
         Image im = kit.getImage("heart.png");
         frame2.setIconImage(im);
+        // запускаем второе окно в максимально возможном размере
+        frame2.setExtendedState(Frame.MAXIMIZED_BOTH);
         // создаем текст строки заголовка второго окна
         frame2.setTitle("Heart");
         frame2.setVisible(true);
+        // создаем третье окно без атрибутов (декораций) чистое
+        frame3.setUndecorated(true);    // метод очистил третье окно
+        frame3.setVisible(true);
     }
 }
 
