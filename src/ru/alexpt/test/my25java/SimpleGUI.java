@@ -39,8 +39,8 @@ public class SimpleGUI extends JFrame {
         public void actionPerformed(ActionEvent e) {
             String message = "";
             message += "Button was presed\n";
-            message += "Text is " + input.getText() + "\n";
-            message += (radio1.isSelected() ? "Radio #1" : "Radio #2") + "is selected";
+            message += "Text is: " + input.getText() + "\n";
+            message += (radio1.isSelected() ? "Radio #1 " : "Radio #2 ") + "is selected\n";
             message += "Checkbox is " + ((check.isSelected()) ? "checked" : "unchecked");
             JOptionPane.showMessageDialog(null, message, "Output", JOptionPane.PLAIN_MESSAGE);
         }
