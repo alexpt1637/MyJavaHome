@@ -8,6 +8,7 @@ class SimpleGUI : JFrame("Simple Example") {
     private val button = JButton("Press")
     private val input = JTextField("", 5)
     private val label = JLabel("Input:")
+    private val label2 = JLabel("Output: label2")
     private val radio1 = JRadioButton("Select this")
     private val radio2 = JRadioButton("Select that")
     private val check = JCheckBox("Check", false)
@@ -31,6 +32,11 @@ class SimpleGUI : JFrame("Simple Example") {
         container.add(check)
         button.addActionListener(ButtonEventListener())
         container.add(button)
+
+        val frame2 = MyFrame(25,25)
+        frame2.title = "Heart"
+        frame2.add(label2)
+        frame2.isVisible = true
     }
 
     internal inner class ButtonEventListener : ActionListener {

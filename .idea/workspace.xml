@@ -9,6 +9,7 @@
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/Main.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/Main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleGUI.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleGUI.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#31#93#0" expanded="true" />
               </folding>
@@ -75,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -168,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my27java/My27.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25java/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25java/SimpleGUI.java" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/Main.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt" />
       </list>
     </option>
   </component>
@@ -525,13 +526,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00105" summary="Массив имен после сортировки">
-      <created>1524496785109</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1524496785109</updated>
-    </task>
     <task id="LOCAL-00106" summary="полученное значение в квадрате">
       <created>1524537800433</created>
       <option name="number" value="00106" />
@@ -868,7 +862,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528465980543</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="SimpleGUI.kt - Main.kt - frame2.isVisible">
+      <created>1528468837296</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1528468837296</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -908,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Выбор языка ввода" />
     <MESSAGE value="var j = 32768" />
     <MESSAGE value="Сейчас введен другой текст, смотрим что получилось" />
     <MESSAGE value="println textkey1" />
@@ -933,7 +933,8 @@
     <MESSAGE value="my27java" />
     <MESSAGE value="SimpleGUI.java" />
     <MESSAGE value="SimpleGUI.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleGUI.kt" />
+    <MESSAGE value="SimpleGUI.kt - Main.kt - frame2.isVisible" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleGUI.kt - Main.kt - frame2.isVisible" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,16 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#31#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/My25.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1281,9 +1272,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#31#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
