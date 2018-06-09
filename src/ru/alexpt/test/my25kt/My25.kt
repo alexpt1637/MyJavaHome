@@ -4,18 +4,26 @@ import java.awt.Frame
 import java.awt.Graphics
 import java.awt.Toolkit
 import javax.swing.JFrame
+import javax.swing.JLabel
 import javax.swing.JPanel
 
 fun main(args: Array<String>) {
+    my25()
+//    simpleGUI()
+}
+
+fun my25(){
     println("It is program My")
     val frame = MyFrame(0,0)
     val frame2 = MyFrame(25,25)
     val frame3 = MyFrame(50,50)
+    val label = JLabel("Input:")
     // создаем текст строки заголовка первого окна
     frame.title = "Main frame"
     // делаем первое окно не изменяемым по размеру
 //    frame.isResizable = false      // false - значит что окно не изменяемое
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE // прекращение работы программы вцелом
+    frame.add(label)
     frame.isVisible = true      // вместо устаревшего метода frame.show()
     // меняем иконку второго окна
     val kit = Toolkit.getDefaultToolkit()
@@ -25,6 +33,8 @@ fun main(args: Array<String>) {
     frame2.extendedState = Frame.NORMAL
     // создаем текст строки заголовка второго окна
     frame2.title = "Heart"
+    val fr2 = frame2.title
+    println("frame2.title: $fr2")   // просто проверим что выводится в итоге
     frame2.isVisible = true
     // создаем третье окно без атрибутов (декораций) чистое
 //    frame3.isUndecorated = true    // метод очистил третье окно
