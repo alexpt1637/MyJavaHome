@@ -3,6 +3,10 @@ package ru.alexpt.test.my25kt
 import java.awt.*
 import java.awt.event.*
 import javax.swing.*
+import java.awt.BorderLayout
+import javax.swing.JPanel
+
+
 
 fun main(args: Array<String>) {
     visible()
