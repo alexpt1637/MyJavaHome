@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="JFrame - file TopLevelDemo">
+    <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="Проведены вычисления">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -125,8 +125,8 @@
       <file leaf-file-name="index3.html" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/app JavaScript/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -553,13 +553,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00110" summary="ABRAKADABRA">
-      <created>1524670688376</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1524670688376</updated>
-    </task>
     <task id="LOCAL-00111" summary="Зашифрованный текст">
       <created>1524748114230</created>
       <option name="number" value="00111" />
@@ -896,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528713732469</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Проведены вычисления">
+      <created>1528716363467</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1528716363467</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -936,7 +936,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="緃緂綣綜綧" />
     <MESSAGE value="Введите значение 'v'" />
     <MESSAGE value="textkey" />
     <MESSAGE value="Ограничение количества знаков после запятой" />
@@ -961,7 +960,8 @@
     <MESSAGE value="SimpleGUI.kt - Output: label2" />
     <MESSAGE value="Создание и настройка окна" />
     <MESSAGE value="JFrame - file TopLevelDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="JFrame - file TopLevelDemo" />
+    <MESSAGE value="Проведены вычисления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проведены вычисления" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,8 +1321,8 @@
     </entry>
     <entry file="file://$USER_HOME$/app JavaScript/index3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="51">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
