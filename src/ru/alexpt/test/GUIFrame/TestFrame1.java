@@ -10,11 +10,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class TestFrame extends JFrame {
+public class TestFrame1 extends JFrame {
 
     private JTextField textField;
 
-    public TestFrame() {
+    public TestFrame1() {
         super("Test frame");
         createGUI();
     }
@@ -66,7 +66,7 @@ public class TestFrame extends JFrame {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 JFrame.setDefaultLookAndFeelDecorated(true);
-                TestFrame frame = new TestFrame();
+                TestFrame1 frame = new TestFrame1();
                 frame.pack();
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);

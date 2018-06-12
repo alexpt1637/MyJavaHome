@@ -1,6 +1,7 @@
 package ru.alexpt.test.GUIFrame;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,9 +16,12 @@ public class GUIFrame extends JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        button1.setToolTipText ("кнопка ничего не делает");
+        button1.setToolTipText ("результат выводится в панель компилятора");
         ActionListener actionListener = new TestActionListener();
         button1.addActionListener(actionListener);
+
+        JPanel panel = new JPanel();
+        panel.setLayout(new FlowLayout());
     }
 
     public static void main(String[] args) {
@@ -31,6 +35,8 @@ public class GUIFrame extends JFrame {
             int b = 5;
             int c = a / b;
             System.out.println("c = " + c);
+
+
         }
     }
 }
