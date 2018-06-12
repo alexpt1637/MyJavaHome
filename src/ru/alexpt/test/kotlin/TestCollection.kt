@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     }
     println()
 
-    println("get(index): возвращает элемент по индексу: " + numbers.get(1))
+    println("get(Index): возвращает элемент по индексу: " + numbers.get(1))
     println("indexOf(2): возвращает первый индекс элемента: " + numbers.indexOf(2))
 
     // Изменяемые списки
