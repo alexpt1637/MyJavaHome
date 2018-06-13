@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Программа на JavaScript</h2>
+<script>
+// С помощью функции prompt() в браузере выводится диалоговое окно с предложением ввести некоторое значение.
+// Второй аргумент в этой функции указывает на значение, которое будет использоваться по умолчанию.
+    var strSum = prompt("Введите сумму вклада", 1000);
+    var strPercent = prompt("Введите процентную ставку", 10);
+    var sum = parseFloat(strSum);
+    var procent = parseFloat(strPercent);
+    sum = sum + sum * procent / 100;
+    alert("После начисления процентов сумма вклада составит: " + sum);
+</script>
+</body>
+</html>

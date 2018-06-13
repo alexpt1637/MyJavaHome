@@ -21,9 +21,11 @@ fun createGUI() {
     // Сейчас нам необходимо, чтобы при закрытии окна закрывалось и приложение
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
 
+    val y = sum()   // сохраняем в переменную результат работы функции sum()
+
     // создаем текстовый лейбл с помощью JLabel,
     // указывая при этом какой текст мы хотим в нем видеть, и размещаем на форме
-    val label = JLabel("The test label")
+    val label = JLabel("The result of the function: y = $y")    // выводим результат работы функции sum()
 
     // у объекта JFrame есть специальная панель content pane, на которой должны размещаться все остальные дочерние компоненты.
     // с помощью вызова getContentPane мы получаем эту панель и добавляем лейбл уже на нее
@@ -35,4 +37,9 @@ fun createGUI() {
     // показываем окно пользователю
     frame.pack()
     frame.isVisible = true
+}
+
+fun sum(): Int{
+    val x = 25 + 5
+    return x
 }
