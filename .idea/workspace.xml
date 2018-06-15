@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/newpage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testindex/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index.js" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testindex/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testindex/index5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testindex/index6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testindex/index6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.HTML5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.HTML5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -77,6 +70,28 @@
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.HTML5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="83" lean-forward="false" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.HTML5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,10 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects01/Encryption.kt" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/Assembly.kt" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects_02/Test_01.kt" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/Encryption.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/MyTestFun.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/projects_01/newtest_01/NewEncryption_01.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestFun.kt" />
@@ -155,6 +166,10 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5.html" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/newpage.html" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/4.HTML5.html" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5.html" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/5.HTML5.html" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5.html" />
       </list>
     </option>
   </component>
@@ -253,17 +268,6 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="testHTML5" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="alexpt" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="testHTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -295,11 +299,11 @@
       <recent name="ru.dvfu.mrcpk.java.proj01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\html\testHTML5" />
       <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\html\testindex" />
       <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\html\index" />
       <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\GUIFrame" />
       <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\testJFrameKt" />
-      <recent name="C:\Users\ACERa\IdeaProjects\untitled1\src\ru\alexpt\test\projects01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ACERa\IdeaProjects\untitled1\Раздел 1" />
@@ -514,13 +518,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Сейчас введен другой текст, смотрим что получилось">
-      <created>1525149137146</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1525149137146</updated>
     </task>
     <task id="LOCAL-00120" summary="println textkey1">
       <created>1525268371219</created>
@@ -858,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529028875055</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="документ HTML5 newpage.html">
+      <created>1529068826247</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1529068826247</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -901,7 +905,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Генератор фраз в отдельной функции" />
     <MESSAGE value="Балуемся с ООП" />
     <MESSAGE value="Обработка исключения (деление на ноль)" />
     <MESSAGE value="Импорт функций" />
@@ -926,7 +929,8 @@
     <MESSAGE value="&quot;Лукоморье&quot;" />
     <MESSAGE value="&quot;Лукоморье&quot; 2" />
     <MESSAGE value="toFixed(2); // Ограничение количества знаков после запятой" />
-    <option name="LAST_COMMIT_MESSAGE" value="toFixed(2); // Ограничение количества знаков после запятой" />
+    <MESSAGE value="документ HTML5 newpage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="документ HTML5 newpage.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,20 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/kotlin/TestDate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyDate/MyDate01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/projects_01/TestProjects.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-512">
@@ -1243,18 +1233,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="103" lean-forward="false" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="103" lean-forward="false" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
           <folding />
         </state>
       </provider>
@@ -1271,10 +1269,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="986">
+          <caret line="58" column="83" lean-forward="false" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>
