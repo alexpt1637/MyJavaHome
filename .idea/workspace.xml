@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index.kt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js" />
@@ -55,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index6.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index6.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index6.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -147,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/GUIFrame/TestFrame2.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/GUIFrameKt/TestFrameKt2.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/index5.html" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js" />
       </list>
     </option>
   </component>
@@ -488,13 +487,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00117" summary="Выбор языка ввода">
-      <created>1525094354630</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1525094354630</updated>
-    </task>
     <task id="LOCAL-00118" summary="var j = 32768">
       <created>1525101950232</created>
       <option name="number" value="00118" />
@@ -831,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528949155516</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="&quot;Лукоморье&quot; 2">
+      <created>1528984567495</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1528984567495</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -874,7 +873,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Генератор фраз два" />
     <MESSAGE value="Новый подбор слов" />
     <MESSAGE value="Генератор фраз в отдельной функции" />
     <MESSAGE value="Балуемся с ООП" />
@@ -899,7 +897,8 @@
     <MESSAGE value="создаем само окно и указываем текст, который будет располагаться в его заголовке" />
     <MESSAGE value="диалоговое окно с предложением ввести некоторое значение" />
     <MESSAGE value="&quot;Лукоморье&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Лукоморье&quot;" />
+    <MESSAGE value="&quot;Лукоморье&quot; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Лукоморье&quot; 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1222,18 +1221,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/index6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
           <folding />
         </state>
       </provider>
