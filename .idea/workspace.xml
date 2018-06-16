@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/8.HTML5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="9.HTML5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="440">
+              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -458,13 +455,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00123" summary="textkey">
-      <created>1526282959138</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1526282959138</updated>
-    </task>
     <task id="LOCAL-00124" summary="Ограничение количества знаков после запятой">
       <created>1526287753575</created>
       <option name="number" value="00124" />
@@ -801,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529153277754</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Навигация внутри документа">
+      <created>1529161435159</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1529161435159</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -844,7 +841,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Тестирование объектов Movie" />
     <MESSAGE value="Первичный и вторичный конструктор" />
     <MESSAGE value="Создаем два окна и устанавливаем их положение (локацию) в % от разрешения экрана" />
     <MESSAGE value="Создаем текст строки заголовка второго окна" />
@@ -869,7 +865,8 @@
     <MESSAGE value="Форматирование текста в HTML5" />
     <MESSAGE value="Отобразим файл на веб-странице по адресу в интернете" />
     <MESSAGE value="Горизонтальный список" />
-    <option name="LAST_COMMIT_MESSAGE" value="Горизонтальный список" />
+    <MESSAGE value="Навигация внутри документа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Навигация внутри документа" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1201,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="440">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
