@@ -7,29 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/2.16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/2.18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/2.2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/new_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/promo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/st1300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/10.HTML5 Формы.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/11.HTML5 Элементы форм.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/12.HTML5 Кнопки.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/13.HTML5 Текстовые поля.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/14.HTML5 Ввод чисел.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/15.HTML5 Флажки и переключатели.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/16.HTML5 Ввод цвета, url, email, тел.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5 Атрибуты.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5 Заголовок и абзац.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5 Элементы.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5 Документ.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5 Форматирование.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/6.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/6.HTML5 Изображения.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5 Списки.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/8.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/8.HTML5 Таблицы.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5 Ссылки.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5 Атрибуты.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/01.HTML5 Атрибуты.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5 Заголовок и абзац.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/02.HTML5 Заголовок и абзац.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5 Элементы.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/03.HTML5 Элементы.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5 Документ.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/04.HTML5 Документ.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5 Форматирование.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/05.HTML5 Форматирование.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/6.HTML5 Изображения.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/06.HTML5 Изображения.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5 Списки.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/07.HTML5 Списки.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/8.HTML5 Таблицы.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/08.HTML5 Таблицы.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5 Ссылки.html" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/09.HTML5 Ссылки.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -471,13 +457,6 @@
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
     </task>
-    <task id="LOCAL-00129" summary="Новый подбор слов">
-      <created>1526473862068</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1526473862068</updated>
-    </task>
     <task id="LOCAL-00130" summary="Новый подбор слов">
       <created>1526473979542</created>
       <option name="number" value="00130" />
@@ -814,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529217951077</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Элементы для ввода цвета, url, email, телефона">
+      <created>1529238974386</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1529238974386</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -857,7 +843,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my27java" />
     <MESSAGE value="SimpleGUI.java" />
     <MESSAGE value="SimpleGUI.kt" />
     <MESSAGE value="SimpleGUI.kt - Main.kt - frame2.isVisible" />
@@ -882,7 +867,8 @@
     <MESSAGE value="будет отключено автодополнение" />
     <MESSAGE value="Кнопки" />
     <MESSAGE value="использовать в качестве кнопки изображение" />
-    <option name="LAST_COMMIT_MESSAGE" value="использовать в качестве кнопки изображение" />
+    <MESSAGE value="Элементы для ввода цвета, url, email, телефона" />
+    <option name="LAST_COMMIT_MESSAGE" value="Элементы для ввода цвета, url, email, телефона" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,7 +1043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/8.HTML5 Таблицы.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/08.HTML5 Таблицы.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
@@ -1068,7 +1054,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/9.HTML5 Ссылки.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/09.HTML5 Ссылки.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -1076,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/4.HTML5 Документ.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/04.HTML5 Документ.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
@@ -1084,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/7.HTML5 Списки.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/07.HTML5 Списки.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -1100,7 +1086,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/3.HTML5 Элементы.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/03.HTML5 Элементы.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
@@ -1108,7 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/2.HTML5 Заголовок и абзац.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/02.HTML5 Заголовок и абзац.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
@@ -1132,7 +1118,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/5.HTML5 Форматирование.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/05.HTML5 Форматирование.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
@@ -1207,7 +1193,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/6.HTML5 Изображения.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/06.HTML5 Изображения.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="45" />
@@ -1223,7 +1209,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/1.HTML5 Атрибуты.html">
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/01.HTML5 Атрибуты.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
