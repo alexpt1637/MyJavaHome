@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список select</title>
+</head>
+<body>
+    <h3>Список select</h3>
+    <pre>
+        Элемент select создает список. В зависимости от настроек это может быть выпадающий список для выбора одного элемента,
+        либо раскрытый список, в котором можно выбрать сразу несколько элементов.
+
+        Создадим выпадающий список:
+
+        form method="get"
+            label for="phone">Выберите модель:<
+            select id="phone" name="phone"
+                option value="iphone 6s">iPhone 6S<
+                option value="lumia 950">Lumia 950<
+                option value="nexus 5x">Nexus 5X<
+                option value="galaxy s7">Galaxy S7<
+            /select
+            input type="submit" value="Отправить"
+        /form
+    </pre>
+    <form method="get">
+        <p>
+            <label for="phone">Выберите модель:</label>
+            <select id="phone" name="phone">
+                <option value="iphone 6s">iPhone 6S</option>
+                <option value="lumia 950">Lumia 950</option>
+                <option value="nexus 5x">Nexus 5X</option>
+                <option value="galaxy s7">Galaxy S7</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+    <pre>
+        Внутрь элемента select помещаются элементы option - элементы списка. Каждый элемент option содержит атрибут value,
+        который хранит значение элемента. При этом значение элемента option не обязательно должно совпадать с отображаемым
+        им текстом. Например:
+
+        option value="apple">iPhone 6S<
+    </pre>
+    <option value="apple">iPhone 6S</option>
+    <pre>
+        С помощью атрибута <b>selected</b> мы можем установить выбранный по умолчанию элемент - это необязательно должен быть
+        первый элемент в списке:
+
+        select id="phone2" name="phone"
+            option value="iphone 6s">iPhone 6S<
+            option value="lumia 950">Lumia 950<
+            option value="nexus 5x" <b>selected</b>>Nexus 5X<
+        /select
+    </pre>
+    <select id="phone2" name="phone">
+        <option value="iphone 6s">iPhone 6S</option>
+        <option value="lumia 950">Lumia 950</option>
+        <option value="nexus 5x" selected>Nexus 5X</option>
+    </select>
+    <pre>
+        С помощью другого атрибута <b>disabled</b> можно запретить выбор определенного элемента.
+        Как правило, элементы с этим атрибутом служат для создания заголовков:
+
+        select id="phone3" name="phone"
+            option <b>disabled</b> selected>Выберите модель<
+            option value="iphone 6s">iPhone 6S<
+            option value="lumia 950">Lumia 950<
+            option value="nexus 5x" <b>selected</b>>Nexus 5X<
+        /select
+    </pre>
+    <select id="phone3" name="phone">
+        <option disabled selected>Выберите модель</option>
+        <option value="iphone 6s">iPhone 6S</option>
+        <option value="lumia 950">Lumia 950</option>
+        <option value="nexus 5x" selected>Nexus 5X</option>
+    </select>
+    <pre>
+        Для создания списка с множественным выбором к элементу select надо добавить атрибут <b>multiple</b>:
+
+        select <b>multiple</b> id="phone4" name="phone"
+
+        Зажав клавишу Ctrl, мы можем выбрать в таком списке несколько элементов:
+    </pre>
+    <form method="get">
+        <p>
+            <label for="phone4">Выберите модель:</label> <br/>
+            <select multiple id="phone4" name="phone">
+                <option value="iphone 6s">iPhone 6S</option>
+                <option value="lumia 950">Lumia 950</option>
+                <option value="nexus 5x">Nexus 5X</option>
+                <option value="galaxy s7">Galaxy S7</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+    <pre>
+        Select также позволяет группировать элементы с помощью тега <b>optgroup</b>:
+
+        optgroup label="Apple"
+    </pre>
+    <form method="get">
+        <p>
+            <label for="phone5">Выберите модель:</label>
+
+            <select id="phone5" name="phone">
+                <optgroup label="Apple">
+                    <option value="iphone 6s">iPhone 6S</option>
+                    <option value="iphone 6s plus">iPhone 6S Plus</option>
+                    <option value="iphone 5se">iPhone 5SE</option>
+                </optgroup>
+                <optgroup label="Microsoft">
+                    <option value="lumia 950">Lumia 950</option>
+                    <option value="lumia 950 xl">Lumia 950 XL</option>
+                    <option value="lumia 650">Lumia 650</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+    <pre>
+        Использование групп элементов применимо как к выпадающему списку, так и к списку со множественным выбором.
+    </pre>
+</body>
+</html>

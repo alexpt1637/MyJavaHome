@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Textarea</title>
+</head>
+<body>
+    <h3>Textarea</h3>
+    <pre>
+        Элемент <b>input type="text"</b> позволяет создавать простое однострочное текстовое поле. Однако возможностей этого
+        элемента по вводу текста бывает недостаточно, и в этой ситуации мы можем использовать многострочное текстовое поле,
+        представленное элементом <b>textarea</b>:
+
+        label for="comment">Ваш комментарий:<
+        textarea name="comment" id="comment" placeholder="Не более 200 символов" maxlength="200"
+    </pre>
+    <form method="get">
+        <p>
+            <label for="comment">Ваш комментарий:</label><br/>
+            <textarea name="comment" id="comment" placeholder="Не более 200 символов" maxlength="200"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Добавить" />
+        </p>
+    </form>
+    <pre>
+        С помощью дополнительных атрибутов <b>cols</b> и <b>rows</b> можно задать соответственно количество столбцов и строк:
+
+        label for="comment2">Ваш комментарий:<
+        textarea id="comment2" name="comment" placeholder="Написать комментарий" cols="30" rows="7"
+    </pre>
+    <form method="get">
+        <p>
+            <label for="comment2">Ваш комментарий:</label><br/>
+            <textarea id="comment2" name="comment" placeholder="Написать комментарий" cols="30" rows="7"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Добавить" />
+        </p>
+    </form>
+</body>
+</html>
