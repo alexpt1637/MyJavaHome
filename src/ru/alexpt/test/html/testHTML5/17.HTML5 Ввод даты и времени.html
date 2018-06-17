@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Элементы для ввода даты и времени</title>
+</head>
+<body>
+    <h3>Элементы для ввода даты и времени</h3>
+    <pre>
+        Для работы с датами и временем в HTML5 предназначено несколько типов элементов input:
+
+        datetime-local: устанавливает дату и время
+        date: устанавливает дату
+        month: устанавливает текущий месяц и год
+        time: устанавливает время
+        week: устанавливает текущую неделю
+
+        Например, используем поле для установки даты:
+
+        label for="firstname">Имя: <
+        input type="text" id="firstname" name="firstname"
+
+        label for="date">Дата рождения: <
+        input type="date" id="date" name="date"
+
+        button type="submit">Отправить<
+
+        И при вводе в поле для даты будет открываться календарик:
+    </pre>
+    <form>
+        <p>
+            <label for="firstname">Имя: </label>
+            <input type="text" id="firstname" name="firstname"/>
+        </p>
+        <p>
+            <label for="date">Дата рождения: </label>
+            <input type="date" id="date" name="date"/>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        Действие этого элемента зависит от браузера. В данном случае используется Google Chrome.
+        В последних версиях Opera элемент не будет сильно отличаться. А вот в Microsoft Edge элемент будет выглядеть иначе.
+        А браузеры Firefox и IE11 вообще не поддерживают данный элемент и отображают его как обычное текстовое поле.
+
+        Применение остальных элементов:
+
+        label for="week">Неделя: <
+        input type="week" name="week" id="week"
+
+        label for="localdate">Дата и время: <
+        input type="datetime-local" id="localdate" name="date"
+
+        label for="month">Месяц: <
+        input type="month" id="month" name="month"
+
+        label for="time">Время: <
+        input type="time" id="time" name="time"
+
+        button type="submit">Отправить<
+    </pre>
+    <form>
+        <p>
+            <label for="week">Неделя: </label>
+            <input type="week" name="week" id="week" />
+        </p>
+        <p>
+            <label for="localdate">Дата и время: </label>
+            <input type="datetime-local" id="localdate" name="date"/>
+        </p>
+        <p>
+            <label for="month">Месяц: </label>
+            <input type="month" id="month" name="month"/>
+        </p>
+        <p>
+            <label for="time">Время: </label>
+            <input type="time" id="time" name="time"/>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        При использовании этих элементов также надо учитывать, что Firefox и IE11, не говоря уже о более старших версиях IE,
+        не поддерживают эти элементы.
+    </pre>
+</body>
+</html>

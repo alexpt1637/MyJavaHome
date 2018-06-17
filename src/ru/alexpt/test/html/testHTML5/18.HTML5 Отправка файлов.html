@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отправка файлов</title>
+</head>
+<body>
+    <h3>Отправка файлов</h3>
+    <pre>
+        За выбор файлов на форме отвечает элемент input с атрибутом type="file":
+
+        form enctype="multipart/form-data" method="post" action="content/index.html"
+        input type="file" name="file"
+        input type="submit" value="Отправить"
+    </pre>
+    <form enctype="multipart/form-data" method="post" action="content/index.html">
+        <p>
+            <input type="file" name="file" />
+        </p>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+    <pre>
+        При нажатии на кнопку "Выберите файл" открывается диалоговое окно для выбора файла.
+        А после выбора рядом с кнопкой отображается имя выбранного файла.
+        Важно отметить, что для отправки файла на сервер форма должна иметь атрибут enctype="multipart/form-data".
+
+        С помощью ряда атрибутов мы можем дополнительно настроить элементы выбора файла:
+        <u>accept</u>: устанавливает тип файл, которые допустимы для выбора
+        <u>multiple</u>: позволяет выбирать множество файлов
+        <u>required</u>: требует обязательной установки файла
+
+        Например, множественный выбор файлов:
+
+        form enctype="multipart/form-data" method="post" action="content/index.html"
+        input type="file" name="file" multiple
+        input type="submit" value="Отправить"
+
+        При нажатии на кнопку также открывается диалоговое окно для выбора файлов, только теперь, зажав клавишу CTRL или Shift,
+        мы можем выбрать несколько файлов, а после выбора рядом с кнопкой отобразится количество выбранных файлов:
+    </pre>
+    <form enctype="multipart/form-data" method="post" action="content/index.html">
+        <p>
+            <input type="file" name="file" multiple />
+        </p>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+</body>
+</html>
