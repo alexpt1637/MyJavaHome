@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Элементы для ввода цвета, url, email, телефона</title>
+</head>
+<body>
+    <h3>Элементы для ввода цвета, url, email, телефона</h3>
+    <h4 style="color:blue;">Установка цвета</h4>
+    <pre>
+        За установку цвета в HTML5 отвечает специальный элемент input с типом color:
+
+        label for="favcolor">Выберите цвет<
+        input type="color" id="favcolor" name="favcolor"
+
+        Элемент отображает выбранный цвет. А при нажатии на него появляется специальное диалоговое окно для установки цвета:
+    </pre>
+    <label for="favcolor">Выберите цвет</label>
+    <input type="color" id="favcolor" name="favcolor" />
+    <pre>
+        Значением этого элемента будет числовой шестнадцатеричный код выбранного цвета.
+
+        С помощью элемента <b>datalist</b> мы можем задать набор цветов, из который пользователь может выбрать нужный:
+
+        label for="favcolor2">Выберите цвет<
+        input type="color" list="colors" id="favcolor2" name="favcolor"
+        datalist id="colors"
+            option value="#0000FF" label="blue"
+            option value="#008000" label="green"
+            option value="#ff0000" label="red"
+        datalist
+    </pre>
+    <label for="favcolor2">Выберите цвет</label>
+    <input type="color" list="colors" id="favcolor2" name="favcolor" />
+    <datalist id="colors">
+        <option value="#0000FF" label="blue">
+        <option value="#008000" label="green">
+        <option value="#ff0000" label="red">
+    </datalist>
+    <pre>
+        Каждый элемент option в datalist должен в качестве значения принимать шестнадцатеричный код цвета, например, "#0000FF".
+        После выбора цвета данный числовой код устанавливается в качестве значения в элементе input.
+    </pre>
+    <h3>Поля для ввода url, email, телефона</h3>
+    <pre>
+        Ряд полей input предназначены для ввода таких данных, как url, адреса электронной почты и телефонного номера.
+        Они однотипны и во многом отличаются только тем, что для атрибута type принимают соответственно значения email, tel и url.
+
+        Для их настройки мы можем использовать те же атрибуты, что и для обычного текстового поля:
+
+        maxlength: максимально допустимое количество символов в поле
+        pattern: определяет шаблон, которому должен соответствовать вводимый текст
+        placeholder: устанавливает текст, который по умолчанию отображается в поле
+        readonly: делает текстовом поле доступным только для чтения
+        required: указывает, что текстовое поле обязательно должно иметь значение
+        size: устанавливает ширину поля в видимых символах
+        value: устанавливает значение по умолчанию для поля
+        list: устанавливает привязку к элементу datalist со списком возможных значений
+
+        label for="email">Email: <
+        input type="email" placeholder="user@gmail.com" id="email" name="email"
+
+        label for="url">URL: <
+        input type="url" id="url" name="url"
+
+        label for="phone">Телефон: <
+        input type="tel" placeholder="(XXX)-XXX-XXXX" id="phone" name="phone"
+
+        button type="submit">Отправить<
+    </pre>
+    <form>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="user@gmail.com" id="email" name="email"/>
+        </p>
+        <p>
+            <label for="url">URL: </label>
+            <input type="url" id="url" name="url"/>
+        </p>
+        <p>
+            <label for="phone">Телефон: </label>
+            <input type="tel" placeholder="(XXX)-XXX-XXXX" id="phone" name="phone"/>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        Основное преимущество подобных полей ввода перед обычными текстовыми полями состоит в том, что поля ввода для email,
+        url, телефона для проверки ввода используют соответствующий шаблон. Например, если мы введем в какое-либо поле
+        некорректное значение и попробуем отправить форму, то браузер может отобразить нам сообщение о некорректном вводе,
+        а форма не будет отправлена:
+    </pre>
+    <img src="content/2.18.png" alt=" Форма не будет отправлена" />
+</body>
+</html>

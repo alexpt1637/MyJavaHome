@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кнопки</title>
+</head>
+<body>
+    <h3>Кнопки</h3>
+    <pre>
+        Кнопки представлены элементом <b>button</b>. Они обладают широкими возможностями по конфигурации.
+        Так, в зависимости от значения атрибута <b>type</b> мы можем создать различные типы кнопок:
+
+        <u>submit</u>: кнопка, используемая для отправки формы
+        <u>reset</u>: кнопка сброса значений формы
+        <u>button</u>: кнопка без какого-либо специального назначения
+
+        Если кнопка используется для отправки формы, то есть у нее установлен атрибут type="submit",
+        то мы можем задать у нее ряд дополнительных атрибутов:
+
+        <u>form</u>: определяет форму, за которой закреплена кнопка отправки
+        <u>formaction</u>: устанавливает адрес, на который отправляется форма. Если у элемента <b>form</b> задан атрибут <b>action</b>,
+        то он переопределяется
+        <u>formenctype</u>: устанавливает формат отправки данных. Если у элемента <b>form</b> установлен атрибут <b>enctype</b>,
+        то он переопределяется
+        <u>formmethod</u>: устанавливает метод отправки формы (<b>post</b> или <b>get</b>). Если у элемента <b>form</b> установлен атрибут <b>method</b>,
+        то он переопределяется
+
+        Например, определим на форме кнопку отправки и кнопку сброса:
+
+        input type="text" name="login"
+        input type="password" name="password"
+        button type="submit" formmethod="get" formaction="index.html">Отправить<
+        button type="reset">Отмена<
+    </pre>
+    <form>
+        <p><input type="text" name="login"/></p>
+        <p><input type="password" name="password"/></p>
+        <p>
+            <button type="submit" formmethod="get" formaction="content/index.html">Отправить</button>
+            <button type="reset">Отмена</button>
+        </p>
+    </form>
+    <pre>
+        Кроме элемента button для создания кнопок можно использовать элемент input, у которого атрибут равен submit или reset.
+        Например:
+
+        input type="text" name="login"
+        input type="password" name="password"
+        input type="submit" value="Отправить"
+        input type="reset" value="Отмена"
+    </pre>
+    <form>
+        <p><input type="text" name="login"/></p>
+        <p><input type="password" name="password"/></p>
+        <p>
+            <input type="submit" value="Отправить" />
+            <input type="reset" value="Очистить" />
+        </p>
+    </form>
+    <pre>
+        И еще один элемент input с атрибутом type="image" позволяет использовать в качестве кнопки изображение:
+
+        input type="text" name="search"
+        input type="image" src="content/new_google.png" name="submit" formaction="content/index.html"
+    </pre>
+    <form>
+        <p>
+            <input type="text" name="search" />
+            <input type="image" src="content/new_google.png" name="submit" formaction="content/index.html" />
+        </p>
+    </form>
+    <pre>
+        Кроме наличия изображения в остальном эта кнопка будет аналогична стандартной кнопке отправки input type="submit"
+        или button type="submit".
+    </pre>
+</body>
+</html>

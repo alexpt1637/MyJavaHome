@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Элементы для ввода чисел</title>
+</head>
+<body>
+    <h3>Элементы для ввода чисел</h3>
+    <h4>Простое числовое поле</h4>
+    <pre>
+        Для ввода чисел используется элемент <b>input</b> с атрибутом type="<b>number</b>".
+        Он создает числовое поле, которое мы можем настроить с помощью следующих атрибутов:
+
+        min: минимально допустимое значение
+        max: максимально допустимое значение
+        readonly: доступно только для чтения
+        required: указывает, что данное поле обязательно должно иметь значение
+        step: значение, на которое будет увеличиваться число в поле
+        value: значение по умолчанию
+
+        Используем числовое поле:
+
+        label for="age">Возраст: <
+        input type="number" step="1" min="1" max="100" value="10" id="age" name="age"
+
+        button type="submit">Отправить<
+    </pre>
+    <form>
+        <p>
+            <label for="age">Возраст: </label>
+            <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        Здесь числовое поле по умолчанию имеет значение 10 (value="10"), минимально допустимое значение,
+        которое мы можем ввести, - 1, а максимальное допустимое значение - 100. И атрибут step="1" устанавливает,
+        что значение будет увеличиваться на единицу.
+
+        В зависимости от браузера визуализация этого поля может отличаться.
+        Но как правило, у большинства современных браузеров, кроме IE 11 и Microsoft Edge, справа в поле ввода имеются
+        стрелки для увеличения/уменьшения значения на величину, указанную в атрибуте step.
+
+        Как и в случае с текстовым полем мы можем здесь прикрепить список <b>datalist</b> с диапазоном возможных значений:
+
+        label for="price">Цена: <
+        input type="number" list="priceList"
+                   step="1000" min="3000" max="100000" value="10000" id="price" name="price"
+
+        button type="submit">Отправить<
+
+        datalist id="priceList"
+            option value="15000"
+            option value="20000"
+            option value="25000"
+    </pre>
+    <form>
+        <p>
+            <label for="price">Цена: </label>
+            <input type="number" list="priceList"
+                   step="1000" min="3000" max="100000" value="10000" id="price" name="price"/>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <datalist id="priceList">
+        <option value="15000" />
+        <option value="20000" />
+        <option value="25000" />
+    </datalist>
+    <h4>Ползунок</h4>
+    <pre>
+        Ползунок представляет шкалу, на которой мы можем выбрать одно из значений.
+        Для создания ползунка применяется элемент input с атрибутом type="range".
+        Во многом ползунок похож на простое поле для ввода чисел. Он также имеет атрибуты min, max, step и value:
+
+        label for="price2">Цена: <
+        1'input type="range" step="1" min="0" max="100" value="10" id="price2" name="price"/'100
+
+        button type="submit">Отправить<
+    </pre>
+    <form>
+        <p>
+            <label for="price2">Цена: </label>
+            1<input type="range" step="1" min="0" max="100" value="10" id="price2" name="price"/>100
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+</body>
+</html>

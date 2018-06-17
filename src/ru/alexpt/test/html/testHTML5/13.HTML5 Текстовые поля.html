@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Текстовые поля</title>
+</head>
+<body>
+    <h3>Текстовые поля</h3>
+    <pre>
+        Однострочное текстовое поле создается с помощью элемента <b>input</b>, когда его атрибут <b>type</b> имеет значение <b>text</b>:
+
+        input type="text" name="login"
+    </pre>
+    <input type="text" name="login" />
+    <pre>
+        С помощью ряда дополнительных атрибутов можно настроить текстовое поле:
+
+        dirname: устанавливает направление текста
+        maxlength: максимально допустимое количество символов в текстовом поле
+        pattern: определяет шаблон, которому должен соответствовать вводимый текст
+        placeholder: устанавливает текст, который по умолчанию отображается в текстовом поле
+        readonly: делает текстовом поле доступным только для чтения
+        required: указывает, что текстовое поле обязательно должно иметь значение
+        size: устанавливает ширину текстового поля в видимых символах
+        value: устанавливает значение по умолчанию в текстовом поле
+
+        Применим некоторые атрибуты:
+
+        input type="text" name="userName" placeholder="Введите имя" size="18"
+        input type="text" name="userPhone" placeholder="Введите номер телефона" size="18" maxlength="11"
+        button type="submit" formaction="content/index.html">Отправить<
+        button type="reset">Отмена<
+    </pre>
+    <form>
+        <p><input type="text" name="userName" placeholder="Введите имя" size="18" /></p>
+        <p><input type="text" name="userPhone" placeholder="Введите номер телефона" size="18" maxlength="12" /></p>
+        <p>
+            <button type="submit" formaction="content/index.html">Отправить</button>
+            <button type="reset">Отмена</button>
+        </p>
+    </form>
+    <pre>
+        В этом примере во втором текстовом поле сразу устанавливаются атрибуты size и maxlength.
+        При этом size - то есть количество символов, которые помещаются в видимое пространство поля больше,
+        чем допустимое количество символов. Однако все равно ввести символов больше, чем maxlength, мы не сможем.
+
+        В данном случае также важно различать атрибуты value и placeholder, хотя оба устанавливают видимый текст в поле.
+        Однако placeholder устанавливает своего рода подсказку или приглашение к вводу, поэтому он обычно отмечается
+        серым цветом. В то время как значение value представляет введенный в поле текст по умолчанию:
+
+        input type="text" name="userName" value="Том"
+        input type="text" name="userPhone" placeholder="Номер телефона"
+    </pre>
+    <form>
+        <p><input type="text" name="userName" value="Том" /></p>
+        <p><input type="text" name="userPhone" placeholder="Номер телефона" /></p>
+        <p>
+            <button type="submit" formaction="content/index.html">Отправить</button>
+            <button type="reset">Отмена</button>
+        </p>
+    </form>
+    <pre>
+        Атрибуты readonly и disabled делают текстовое поле недоступным, однако сопровождаются разным визуальным эффектом.
+        В случае с disabled текстовое поле затеняется:
+
+        input type="text" name="userName" value="Том" readonly
+        input type="text" name="userPhone" value="+12345678901" disabled
+    </pre>
+    <form>
+        <p><input type="text" name="userName" value="Том" readonly /></p>
+        <p><input type="text" name="userPhone" value="+12345678901" disabled /></p>
+        <p>
+            <button type="submit" formaction="content/index.html">Отправить</button>
+            <button type="reset">Отмена</button>
+        </p>
+    </form>
+    <pre>
+        Среди атрибутов текстового поля также следует отметить такой атрибут как <b>list</b>.
+        Он содержит ссылку на элемент <b>datalist</b>, который определяет набор значений,
+        появляющихся в виде подсказки при вводе в текстовое поле.
+
+        Например:
+
+        input list="phonesList" type="text" name="model" placeholder="Введите модель"
+        button type="submit">Отправить<
+
+        option value="iPhone 6S" label="54000"
+        option value="Lumia 950">35000<
+        option value="Nexus 5X"
+    </pre>
+    <form>
+        <p><input list="phonesList" type="text" name="model" placeholder="Введите модель" /></p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <datalist id="phonesList">
+        <option value="iPhone 6S" label="54000"/>
+        <option value="Lumia 950">35000</option>
+        <option value="Nexus 5X"/>
+    </datalist>
+    <pre>
+        Атрибут list текстового поля указывает на id элемента datalist. Сам элемент datalist с помощью вложенных элементов
+        option определяет элементы списка. И при вводе в текстовое поле этот список отображается в виде подсказки.
+    </pre>
+    <h4>Поле поиска</h4>
+    <pre>
+        Для создания полей поиска предназначен элемент input с атрибутом type="search".
+        Формально он представляет собой простое текстовое поле:
+
+        input type="search" name="term"
+        input type="submit" value="Поиск"
+    </pre>
+    <form>
+        <input type="search" name="term" />
+        <input type="submit" value="Поиск" />
+    </form>
+    <h4>Поле ввода пароля</h4>
+    <pre>
+        Для ввода пароля используется элемент input с атрибутом type="password".
+        Его отличительной чертой является то, что вводимые символы маскируются точками:
+
+        input type="text" name="login"
+        input type="password" name="password"
+        input type="submit" value="Авторизация"
+    </pre>
+    <form>
+        <p><input type="text" name="login" /></p>
+        <p><input type="password" name="password" /></p>
+        <input type="submit" value="Авторизация" />
+    </form>
+    <h3>Метки и автофокус</h3>
+    <pre>
+        Вместе с полями ввода нередко используются метки, которые представлены элементом <b>label</b>.
+        Метки создают аннотацию или заголовок к полю ввода, указывают, для чего это поле предназначено.
+
+        Для связи с полем ввода метка имеет атрибут <b>for</b>, который указывает на id поля ввода:
+
+        label for="login">Логин: <
+        input type="text" id="login" name="login"
+
+        label for="password">Пароль: <
+        input type="password" id="password" name="password"
+
+        button type="submit">Отправить<
+    </pre>
+    <form>
+        <p>
+            <label for="login">Логин: </label>
+            <input type="text" id="login" name="login" />
+        </p>
+        <p>
+            <label for="password">Пароль: </label>
+            <input type="password" id="password" name="password" />
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        Так, текстовое поле здесь имеет атрибут id="login". Поэтому у связанной с ним метки устанавливается атрибут
+        for="login". Нажатие на эту метку позволяет перевести фокус на текстовое поле для ввода логина.
+
+        Также мы можем установить автофокус по умолчанию на какое-либо поле ввода. Для этого применяется атрибут <b>autofocus</b>:
+
+        label for="login2">Логин: <
+        input type="text" autofocus id="login2" name="login"
+    </pre>
+    <form>
+        <p>
+            <label for="login2">Логин: </label>
+            <input type="text" autofocus id="login2" name="login" />
+        </p>
+        <p>
+            <label for="password2">Пароль: </label>
+            <input type="password" id="password2" name="password" />
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+    <pre>
+        Здесь при запуске страницы фокус сразу же переходит на текстовое поле.
+    </pre>
+</body>
+</html>
