@@ -51,8 +51,18 @@
       <file leaf-file-name="12.HTML5 Кнопки.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/12.HTML5 Кнопки.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="219">
+              <caret line="60" column="74" lean-forward="false" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/app JavaScript/Hello/add/title.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -81,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My26.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/testJFrameJava/My25.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25Java/My25.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/my25java/My25.java" />
@@ -132,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/11.HTML5 Элементы форм.html" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/content/index.html" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/12.HTML5 Кнопки.html" />
+        <option value="$USER_HOME$/app JavaScript/Hello/add/title.html" />
       </list>
     </option>
   </component>
@@ -464,13 +474,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Генератор фраз 2">
-      <created>1526473746742</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1526473746742</updated>
     </task>
     <task id="LOCAL-00128" summary="Генератор фраз два">
       <created>1526473812013</created>
@@ -808,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529168903789</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Кнопки">
+      <created>1529216791732</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1529216791732</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -851,7 +861,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создаем текст строки заголовка второго окна" />
     <MESSAGE value="Запускаем второе окно в максимально возможном размере" />
     <MESSAGE value="my27java" />
     <MESSAGE value="SimpleGUI.java" />
@@ -876,7 +885,8 @@
     <MESSAGE value="Навигация внутри документа" />
     <MESSAGE value="Элемент iframe" />
     <MESSAGE value="будет отключено автодополнение" />
-    <option name="LAST_COMMIT_MESSAGE" value="будет отключено автодополнение" />
+    <MESSAGE value="Кнопки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кнопки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,13 +895,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25java/SimpleGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/my25kt/SimpleGUI.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1216,10 +1219,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/app JavaScript/Hello/add/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/html/testHTML5/12.HTML5 Кнопки.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="219">
+          <caret line="60" column="74" lean-forward="false" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
           <folding />
         </state>
       </provider>
