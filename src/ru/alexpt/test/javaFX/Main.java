@@ -5,6 +5,7 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.Group;
 import javafx.scene.text.Text;
+import ru.dvfu.mrcpk.java.proj01.MyTestSystem.Test;
 
 public class Main extends Application {
 
@@ -14,7 +15,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws Exception {   // передается объект Stage, который представляет пользовательский интерфейс
+    public void start(Stage primaryStage) throws Exception {   // передается объект Stage, который представляет пользовательский интерфейс
         // На десктопах Stage будет представлять графическое окно
         // При запуске приложения среда JavaFX будет вызывать данный метод (start) и передавать в него объект Stage
 
@@ -33,13 +34,14 @@ public class Main extends Application {
         // Затем элемент Group устанавливается в качестве корневого элемента Scene. И в конце элемент Scene устанавливается для объекта Stage.
         Group group = new Group(text);      // создание и установка группы элементов
         Scene scene = new Scene(group);     // создание сцены
-        stage.setScene(scene);              // установка сцены для объекта Stage
+        primaryStage.setScene(scene);              // установка сцены для объекта Stage
 
         // В конце метода start мы можем настроить объект Stage, например, задать заголовок окна, а также его размеры:
-        stage.setTitle("First Application");// установка заголовка окна
-        stage.setWidth(300);                // установка ширины окна
-        stage.setHeight(250);               // установка длины окна
-        stage.show();                       // отображаем окно на экране устройства
+        primaryStage.setTitle("First Application");// установка заголовка окна
+        primaryStage.setWidth(300);                // установка ширины окна
+        primaryStage.setHeight(250);               // установка длины окна
+        primaryStage.show();                       // отображаем окно на экране устройства
         // С помощью метода show объект Stage отображается на экране устройства
+        primaryStage.toBack();              // перемещает окно на задний план
     }
 }

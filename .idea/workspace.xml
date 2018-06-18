@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208bb77c-ec52-4b74-85e4-c7416bdf7477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javafx/stage/annotations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Test.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled1/META-INF/untitled1.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java" afterPath="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="296">
+              <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +60,8 @@
         <option value="Class" />
         <option value="Kotlin Script" />
         <option value="HTML File" />
-        <option value="JavaFXApplication" />
         <option value="Kotlin File" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -128,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.kt" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Test.kt" />
         <option value="$PROJECT_DIR$/src/ru/dvfu/mrcpk/java/proj01/MyTestSystem/Test.java" />
-        <option value="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/MainKt.kt" />
+        <option value="$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java" />
       </list>
     </option>
   </component>
@@ -260,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.alexpt.test.javaFX.TestKt">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -418,9 +415,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.javaFX.TestKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.javaFX.MainKtKt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.javaFX.TestKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.javaFX.MainKtKt" />
         <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.javaFX.MainKt" />
         <item index="4" class="java.lang.String" itemvalue="Kotlin.ru.alexpt.test.GUIFrameKt.TestFrameKt2Kt" />
       </list>
@@ -439,13 +436,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509153240771</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Новый подбор слов">
-      <created>1526483701271</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1526483701271</updated>
     </task>
     <task id="LOCAL-00134" summary="Новый подбор слов">
       <created>1526485328118</created>
@@ -783,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529250177777</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="приложение JavaFX">
+      <created>1529319517045</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1529319517045</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -826,7 +823,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SimpleGUI.kt - Main.kt - frame2.isVisible" />
     <MESSAGE value="SimpleGUI.kt - Output: label2" />
     <MESSAGE value="Создание и настройка окна" />
     <MESSAGE value="JFrame - file TopLevelDemo" />
@@ -851,7 +847,8 @@
     <MESSAGE value="Элементы для ввода цвета, url, email, телефона" />
     <MESSAGE value="Отправка файлов" />
     <MESSAGE value="многострочное текстовое поле" />
-    <option name="LAST_COMMIT_MESSAGE" value="многострочное текстовое поле" />
+    <MESSAGE value="приложение JavaFX" />
+    <option name="LAST_COMMIT_MESSAGE" value="приложение JavaFX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,11 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/GUIFrame/Index.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/GUIFrame/TestFrame1.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -1202,10 +1194,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/javaFX/MainFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/alexpt/test/javaFX/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="296">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
