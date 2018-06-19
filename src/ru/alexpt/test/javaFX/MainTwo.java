@@ -6,6 +6,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class MainTwo extends Application {
@@ -30,7 +31,7 @@ public class MainTwo extends Application {
         });
 
         Group root = new Group(btn);
-        Scene scene = new Scene(root);
+        Scene scene = new Scene(root, Color.AQUA);
         primaryStage.setScene(scene);
 
         primaryStage.setTitle("Hello JavaFX");
