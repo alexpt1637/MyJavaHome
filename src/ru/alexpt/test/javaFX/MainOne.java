@@ -1,13 +1,14 @@
 package ru.alexpt.test.javaFX;
 
 import javafx.application.Application;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.Group;
 import javafx.scene.text.Text;
 import ru.dvfu.mrcpk.java.proj01.MyTestSystem.Test;
 
-public class Main extends Application {
+public class MainOne extends Application {
 
     // в методе main, чтобы запустить само приложение JavaFX, представленное классом Application, вызывается метод launch():
     public static void main(String[] args) {
@@ -33,7 +34,7 @@ public class Main extends Application {
         // Таким образом, вначале элемент Text помещается в элемент Group, который представляет контейнер для группы элементов.
         // Затем элемент Group устанавливается в качестве корневого элемента Scene. И в конце элемент Scene устанавливается для объекта Stage.
         Group group = new Group(text);      // создание и установка группы элементов
-        Scene scene = new Scene(group);     // создание сцены
+        Scene scene = new Scene(group, Color.BLUE);     // создание сцены, настройка фонового цвета окна
         primaryStage.setScene(scene);              // установка сцены для объекта Stage
 
         // В конце метода start мы можем настроить объект Stage, например, задать заголовок окна, а также его размеры:
@@ -42,6 +43,6 @@ public class Main extends Application {
         primaryStage.setHeight(250);               // установка длины окна
         primaryStage.show();                       // отображаем окно на экране устройства
         // С помощью метода show объект Stage отображается на экране устройства
-        primaryStage.toBack();              // перемещает окно на задний план
+//        primaryStage.toBack();              // перемещает окно на задний план
     }
 }

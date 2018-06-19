@@ -14,7 +14,7 @@ public class My27 {
 
 class MyFrame extends JFrame{
     public MyFrame(){
-        setTitle("Main frame");
+        setTitle("MainOne frame");
         setSize(500,500);
         MyPanel panel = new MyPanel();
         Container pane = getContentPane();

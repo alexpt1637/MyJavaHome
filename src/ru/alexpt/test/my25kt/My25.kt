@@ -19,7 +19,7 @@ fun my25(){
     val frame3 = MyFrame(50,50)
     val label = JLabel("Input:")
     // создаем текст строки заголовка первого окна
-    frame.title = "Main frame"
+    frame.title = "MainOne frame"
     // делаем первое окно не изменяемым по размеру
 //    frame.isResizable = false      // false - значит что окно не изменяемое
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE // прекращение работы программы вцелом

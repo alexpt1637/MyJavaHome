@@ -12,7 +12,7 @@ public class My25 {
         MyFrame frame2 = new MyFrame(30,30);
         MyFrame frame3 = new MyFrame(60,60);
         // создаем текст строки заголовка первого окна
-        frame.setTitle("Main frame");
+        frame.setTitle("MainOne frame");
         // делаем первое окно не изменяемым по размеру
 //        frame.setResizable(false);      // false - значит что окно не изменяемое
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
