@@ -1,4 +1,4 @@
-package ru.alexpt.test.javaFX
+package ru.alexpt.test.javaFX.mainTest
 
 fun main(args: Array<String>) {
     val t = test()

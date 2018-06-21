@@ -1,4 +1,4 @@
-package ru.alexpt.test.javaFX;
+package ru.alexpt.test.javaFX.mainTest;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
