@@ -1,10 +1,5 @@
 package ru.alexpt.test.kotlin
 
-import com.sun.xml.internal.fastinfoset.util.StringArray
-import jdk.nashorn.internal.objects.Global.print
-import java.text.SimpleDateFormat
-import java.util.*
-
 // main() — точка входа в приложение
 fun main(args: Array<String>) {
     //------------------------------------------------- Переменные -----------------------------------------------------
